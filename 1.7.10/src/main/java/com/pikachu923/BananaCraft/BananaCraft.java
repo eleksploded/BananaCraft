@@ -3,6 +3,7 @@ package com.pikachu923.BananaCraft;
 import com.pikachu923.BananaCraft.Handler.ConfigurationHandler;
 import com.pikachu923.BananaCraft.proxy.IProxy;
 import com.pikachu923.BananaCraft.reference.Reference;
+import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
@@ -25,6 +26,7 @@ public class BananaCraft {
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event){
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
+        FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
     }
 
     @Mod.EventHandler

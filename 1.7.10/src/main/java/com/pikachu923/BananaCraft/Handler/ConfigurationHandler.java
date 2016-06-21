@@ -20,6 +20,7 @@ public class ConfigurationHandler {
     public static void init(File configFile) {
         if (configuration == null) {
             configuration = new Configuration(configFile);
+            loadConfig();
         }
     }
 
@@ -30,7 +31,7 @@ public class ConfigurationHandler {
             loadConfig();
         }
     }
-    public void loadConfig(){
+    private static void loadConfig(){
         testValue = configuration.getBoolean("TestValue", Configuration.CATEGORY_GENERAL, false, "Test Value");
 
         if (configuration.hasChanged()){

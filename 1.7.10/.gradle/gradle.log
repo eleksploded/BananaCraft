@@ -5,11 +5,11 @@
  R4wk, ZeuX, IngisKahn, bspkrs
  MCP Data version : unknown
 ****************************
-:ideaModule
-:ideaProject
-:ideaWorkspace
-:idea
+:eclipseClasspath
+:eclipseJdt
+:eclipseProject
+:eclipse
 
 BUILD SUCCESSFUL
 
-Total time: 1 mins 36.356 secs
+Total time: 8.509 secs
