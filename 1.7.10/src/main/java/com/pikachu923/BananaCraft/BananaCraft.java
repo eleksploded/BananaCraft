@@ -1,6 +1,6 @@
 package com.pikachu923.BananaCraft;
 
-import com.pikachu923.BananaCraft.configuration.ConfigurationHandler;
+import com.pikachu923.BananaCraft.Handler.ConfigurationHandler;
 import com.pikachu923.BananaCraft.proxy.IProxy;
 import com.pikachu923.BananaCraft.reference.Reference;
 import cpw.mods.fml.common.Mod;
@@ -13,7 +13,7 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
  * Created by pikachu on 6/20/2016.
  * Main Class
  */
-@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION)
+@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GuiFactory)
 public class BananaCraft {
 
     @Mod.Instance(Reference.MOD_ID)
