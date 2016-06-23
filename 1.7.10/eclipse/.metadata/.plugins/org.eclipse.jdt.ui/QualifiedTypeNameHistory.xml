@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.pikachu923.BananaCraft.utility.ResourceLocationHelper"/>
+<fullyQualifiedTypeName name="net.minecraft.util.ResourceLocation"/>
+<fullyQualifiedTypeName name="net.minecraft.client.renderer.texture.IIconRegister"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.relauncher.SideOnly"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.relauncher.Side"/>
+<fullyQualifiedTypeName name="com.pikachu923.BananaCraft.reference.Reference"/>
+</qualifiedTypeNameHistroy>

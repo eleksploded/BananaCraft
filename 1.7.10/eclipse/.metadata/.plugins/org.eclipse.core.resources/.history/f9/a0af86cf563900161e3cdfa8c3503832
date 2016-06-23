@@ -1,0 +1,12 @@
+item.bananacraft:ReinBanana.name=Reinforced Banana
+item.bananacraft:Banana.name=Banana
+item.bananacraft:BananaArmorCore.name=Banana Armor Plate
+item.bananacraft:GoldenBanana.name=Golden Banana
+item.bananacraft:BananaLifeCore.name=Banana Life Core
+item.bananacraft:BananaBread.name=Banana Bread 
+item.bananacraft:BananaDough.name=Banana Dough
+
+tile.bananacraft:BananaBlock.name=Banana Block
+tile.bananacraft:BananaOre.name=Banana Ore
+
+itemGroup.BananaCraft=BananaCraft

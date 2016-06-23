@@ -1,0 +1,13 @@
+package com.pikachu923.BananaCraft.init;
+
+import block.*;
+import cpw.mods.fml.common.registry.GameRegistry;
+
+public class ModBlock {
+	public static final BlockWrapper BananaBlock = new BananaBlock("BananaBlock");
+	
+
+public static void init() {
+    GameRegistry.registerBlock(BananaBlock, "BananaBlock");
+	}
+}

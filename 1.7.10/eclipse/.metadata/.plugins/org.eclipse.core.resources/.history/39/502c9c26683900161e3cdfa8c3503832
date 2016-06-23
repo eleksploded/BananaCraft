@@ -1,0 +1,13 @@
+package com.pikachu923.BananaCraft.init;
+
+import net.minecraft.item.Item.ToolMaterial;
+import net.minecraftforge.common.util.EnumHelper;
+
+public class ModTools {
+	public static ToolMaterial Banana = EnumHelper.addToolMaterial("Banana", 3, 2222, 10.0F, 9.0F, 11);
+	
+
+	public static void init(){
+		
+	}
+}

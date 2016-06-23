@@ -1,0 +1,17 @@
+package com.pikachu923.BananaCraft.init;
+
+import com.pikachu923.BananaCraft.items.ReinBanana;
+import com.pikachu923.BananaCraft.items.ItemWrapper;
+import cpw.mods.fml.common.registry.GameRegistry;
+
+/**
+ * Created by pikac on 6/21/2016.
+ */
+public class ModItems {
+    public static final ItemWrapper banana = new ReinBanana();
+
+
+    public static void init() {
+        GameRegistry.registerItem(banana, "Banana");
+    }
+}

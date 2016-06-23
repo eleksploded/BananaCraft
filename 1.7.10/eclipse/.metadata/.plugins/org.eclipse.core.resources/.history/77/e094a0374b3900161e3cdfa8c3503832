@@ -1,0 +1,41 @@
+package block;
+
+import com.pikachu923.BananaCraft.reference.Reference;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.item.ItemStack;
+
+public class BlockWrapper extends Block
+{
+
+	public BlockWrapper(Material material){
+		super(material);
+	}
+	
+	public BlockWrapper(){
+		this(Material.rock);
+	}
+	@Override
+    public String getUnlocalizedName()
+    {
+        return String.format("item.%s%s", Reference.RESOURCE_PREFIX, getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
+    }
+
+    public String getUnlocalizedName(ItemStack itemStack)
+    {
+        return String.format("tile.%s%s", Reference.RESOURCE_PREFIX, getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
+    }
+
+
+    /*@SideOnly(Side.CLIENT)
+    public void registerIcons(String textureName, IIconRegister iconRegister)
+    {
+        this.itemIcon = iconRegister.registerIcon(texturePath);
+    }
+*/
+    protected String getUnwrappedUnlocalizedName(String unlocalizedName)
+    {
+        return unlocalizedName.substring(unlocalizedName.indexOf(".") + 1);
+    }
+}
