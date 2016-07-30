@@ -26,14 +26,14 @@ public class BananaGrass extends BlockWrapper{
         //bananacraft:BananaGrass0.png
         //
         //botton
-        Side0 = icon.registerIcon(Texture + "0");
+        Side0 = icon.registerIcon(Texture + "_bottom");
         //top
-        Side1 = icon.registerIcon(Texture + "1");
+        Side1 = icon.registerIcon(Texture + "_top");
         //sides
-        Side2 = icon.registerIcon(Texture + "2");
-        Side3 = icon.registerIcon(Texture + "3");
-        Side4 = icon.registerIcon(Texture + "4");
-        Side5 = icon.registerIcon(Texture + "5");
+        Side2 = icon.registerIcon(Texture + "_side");
+        Side3 = icon.registerIcon(Texture + "_side");
+        Side4 = icon.registerIcon(Texture + "_side");
+        Side5 = icon.registerIcon(Texture + "_side");
     }
 public IIcon getIcon(int side, int meta){
         if(side == 0){
