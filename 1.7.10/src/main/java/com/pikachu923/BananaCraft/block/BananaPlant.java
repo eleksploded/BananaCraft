@@ -50,9 +50,9 @@ public class BananaPlant extends Plants {
           iIcon[2] = parIIconRegister.registerIcon(Reference.RESOURCE_PREFIX + "BananaPlant_1");
           iIcon[3] = parIIconRegister.registerIcon(Reference.RESOURCE_PREFIX + "BananaPlant_1");
           iIcon[4] = parIIconRegister.registerIcon(Reference.RESOURCE_PREFIX + "BananaPlant_2");
-          iIcon[5] = parIIconRegister.registerIcon(Reference.RESOURCE_PREFIX + "BananaPlant_3");
-          iIcon[6] = parIIconRegister.registerIcon(Reference.RESOURCE_PREFIX + "BananaPlant_3");
-          iIcon[7] = parIIconRegister.registerIcon(Reference.RESOURCE_PREFIX + "BananaPlant_4");
+          iIcon[5] = parIIconRegister.registerIcon(Reference.RESOURCE_PREFIX + "BananaPlant_2");
+          iIcon[6] = parIIconRegister.registerIcon(Reference.RESOURCE_PREFIX + "BananaPlant_2");
+          iIcon[7] = parIIconRegister.registerIcon(Reference.RESOURCE_PREFIX + "BananaPlant_3");
     }
 }
 
