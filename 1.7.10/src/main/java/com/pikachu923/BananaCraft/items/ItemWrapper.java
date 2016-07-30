@@ -1,8 +1,10 @@
 package com.pikachu923.BananaCraft.items;
 
+import java.util.List;
+
 import com.pikachu923.BananaCraft.reference.Reference;
 
-import CreativeTab.BananaTab;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
@@ -12,10 +14,16 @@ import net.minecraft.item.ItemStack;
 public class ItemWrapper extends Item {
     public ItemWrapper(){
         super();
-        this.setCreativeTab(BananaTab.BananaTab);
+        this.setCreativeTab(Reference.CreativeTab);
 
     }
 
+    @Override
+    public void addInformation(ItemStack par1ItemStack, EntityPlayer par2EntityPlayer, List par3List, boolean par4)
+    {
+    par3List.add("LORE");
+    }
+    
     @Override
     public String getUnlocalizedName()
     {

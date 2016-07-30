@@ -1,8 +1,7 @@
-package block;
+package com.pikachu923.BananaCraft.block;
 
 import com.pikachu923.BananaCraft.reference.Reference;
 
-import CreativeTab.BananaTab;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
@@ -15,12 +14,12 @@ public class BlockWrapper extends Block
 
 	public BlockWrapper(Material material){
 		super(material);
-		this.setCreativeTab(BananaTab.BananaTab);
+		this.setCreativeTab(Reference.CreativeTab);
 	}
 	
 	public BlockWrapper(){
 		this(Material.rock);
-		this.setCreativeTab(BananaTab.BananaTab);
+		this.setCreativeTab(Reference.CreativeTab);
 	}
 
 	    @Override

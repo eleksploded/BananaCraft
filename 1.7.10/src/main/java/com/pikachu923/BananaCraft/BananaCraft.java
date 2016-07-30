@@ -4,6 +4,7 @@ import com.pikachu923.BananaCraft.Handler.ConfigurationHandler;
 import com.pikachu923.BananaCraft.init.ModBlock;
 import com.pikachu923.BananaCraft.init.ModItems;
 import com.pikachu923.BananaCraft.init.ModTools;
+import com.pikachu923.BananaCraft.init.Recipes;
 import com.pikachu923.BananaCraft.proxy.IProxy;
 import com.pikachu923.BananaCraft.reference.Reference;
 import cpw.mods.fml.common.FMLCommonHandler;
@@ -39,6 +40,7 @@ public class BananaCraft {
 
     @Mod.EventHandler
     public void Init(FMLInitializationEvent event){
+    	Recipes.init();
 
     }
 
