@@ -1,32 +1,85 @@
-[10:42:06] [main/INFO]: Logging in with username & password
-[10:42:09] [main/INFO]: Setting user: pikachu923
-[10:42:10] [Client thread/INFO]: LWJGL Version: 2.9.1
-[10:42:17] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:BananaCraft
-[10:42:18] [Sound Library Loader/INFO]: Sound engine started
-[10:42:19] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
-[10:42:19] [Client thread/INFO]: Created: 16x16 textures/items-atlas
-[10:42:19] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:BananaCraft
-[10:42:19] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[10:42:20] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[10:42:20] [Sound Library Loader/INFO]: Sound engine started
-[10:42:34] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[10:42:34] [Server thread/INFO]: Generating keypair
-[10:42:34] [Server thread/INFO]: Preparing start region for level 0
-[10:42:34] [Server thread/INFO]: Changing view distance to 12, from 10
-[10:42:35] [Server thread/INFO]: pikachu923[local:E:572752ca] logged in with entity id 136 at (-829.2659127758488, 4.0, 790.5641328260059)
-[10:42:35] [Server thread/INFO]: pikachu923 joined the game
-[10:42:41] [Client thread/INFO]: [CHAT] minecraft:record_13, minecraft:cauldron, minecraft:heavy_weighted_pressure_plate, minecraft:wooden_pickaxe, minecraft:cooked_porkchop, minecraft:chainmail_leggings, minecraft:bread, BananaCraft:BananaSword, minecraft:emerald_block, minecraft:birch_stairs, minecraft:melon_block, minecraft:iron_block, minecraft:item_frame, minecraft:comparator, minecraft:coal, minecraft:sapling, minecraft:compass, minecraft:diamond_shovel, minecraft:stone, minecraft:flowing_lava, minecraft:wheat_seeds, minecraft:diamond_horse_armor, minecraft:jukebox, minecraft:carrot_on_a_stick, minecraft:record_ward, minecraft:diamond_leggings, minecraft:gold_ingot, minecraft:cake, minecraft:record_mall, minecraft:diamond_boots, minecraft:cooked_beef, minecraft:writable_book, minecraft:flowing_water, minecraft:brick, minecraft:feather, minecraft:wool, BananaCraft:BananaArmorCore, minecraft:porkchop, BananaCraft:BananaDough, minecraft:iron_horse_armor, minecraft:netherrack, minecraft:log2, minecraft:name_tag, minecraft:torch, minecraft:redstone_ore, minecraft:furnace, minecraft:fire_charge, minecraft:spruce_stairs, minecraft:stone_stairs, minecraft:ice, minecraft:reeds, minecraft:gunpowder, BananaCraft:BananaBread, minecraft:double_plant, minecraft:carrot, minecraft:bucket, minecraft:golden_sword, minecraft:minecart, minecraft:brick_block, BananaCraft:ReinBanana, minecraft:nether_brick, minecraft:iron_helmet, minecraft:enchanting_table, minecraft:diamond, BananaCraft:BananaStone, minecraft:stonebrick, minecraft:vine, minecraft:log, minecraft:repeater, minecraft:coal_block, minecraft:stone_button, minecraft:gold_block, minecraft:golden_horse_armor, minecraft:glass_bottle, minecraft:quartz_block, minecraft:end_portal, minecraft:fish, minecraft:quartz_ore, minecraft:stained_hardened_clay, minecraft:command_block, minecraft:bowl, minecraft:waterlily, minecraft:dark_oak_stairs, minecraft:oak_stairs, minecraft:grass, minecraft:mycelium, minecraft:cobblestone, minecraft:arrow, minecraft:quartz_stairs, minecraft:ender_chest, minecraft:quartz, minecraft:dirt, BananaCraft:BananaLifeCore, minecraft:bow, minecraft:anvil, minecraft:lava, minecraft:diamond_hoe, minecraft:lit_furnace, minecraft:diamond_block, minecraft:filled_map, minecraft:jungle_stairs, minecraft:melon, minecraft:chest_minecart, minecraft:stone_pressure_plate, minecraft:gold_ore, minecraft:golden_boots, minecraft:wooden_shovel, minecraft:hopper, minecraft:enchanted_book, minecraft:spider_eye, minecraft:baked_potato, minecraft:melon_seeds, minecraft:brown_mushroom, minecraft:yellow_flower, minecraft:redstone_torch, minecraft:hopper_minecart, minecraft:double_wooden_slab, minecraft:flint_and_steel, minecraft:string, minecraft:leaves2, minecraft:farmland, minecraft:nether_star, minecraft:brewing_stand, minecraft:glowstone, minecraft:apple, BananaCraft:GoldenBanana, minecraft:boat, minecraft:record_wait, minecraft:potato, minecraft:pumpkin, BananaCraft:BananaBlock, minecraft:dragon_egg, minecraft:blaze_rod, minecraft:sandstone, minecraft:detector_rail, minecraft:light_weighted_pressure_plate, minecraft:golden_hoe, BananaCraft:BananaNugger, minecraft:painting, minecraft:stone_hoe, minecraft:golden_shovel, minecraft:iron_chestplate, minecraft:record_stal, minecraft:skull, minecraft:lava_bucket, minecraft:leather_chestplate, minecraft:stone_pickaxe, BananaCraft:BananaPickaxe, minecraft:record_mellohi, minecraft:cookie, minecraft:diamond_pickaxe, minecraft:cactus, minecraft:lapis_ore, minecraft:cooked_fished, minecraft:redstone_block, minecraft:sandstone_stairs, minecraft:blaze_powder, minecraft:diamond_helmet, minecraft:command_block_minecart, minecraft:clock, minecraft:iron_leggings, minecraft:wooden_hoe, minecraft:slime_ball, minecraft:rotten_flesh, minecraft:saddle, minecraft:acacia_stairs, minecraft:record_blocks, minecraft:potion, minecraft:experience_bottle, BananaCraft:Banana, minecraft:redstone, minecraft:netherbrick, minecraft:brick_stairs, minecraft:mushroom_stew, minecraft:map, BananaCraft:BananaOre, minecraft:daylight_detector, minecraft:water_bucket, minecraft:lead, minecraft:chicken, minecraft:piston, minecraft:snow_layer, minecraft:firework_charge, minecraft:nether_wart, minecraft:red_mushroom, minecraft:chest, minecraft:fishing_rod, minecraft:iron_sword, minecraft:sticky_piston, minecraft:coal_ore, minecraft:golden_pickaxe, minecraft:bedrock, minecraft:pumpkin_pie, minecraft:iron_hoe, minecraft:record_11, minecraft:gravel, minecraft:crafting_table, minecraft:wheat, minecraft:wooden_pressure_plate, minecraft:pumpkin_seeds, minecraft:snowball, minecraft:iron_ingot, minecraft:lapis_block, minecraft:lever, minecraft:bone, minecraft:paper, minecraft:chainmail_chestplate, minecraft:leather, minecraft:end_portal_frame, minecraft:diamond_axe, minecraft:sign, minecraft:chainmail_helmet, minecraft:carrots, minecraft:noteblock, minecraft:glass, minecraft:fence, minecraft:clay_ball, minecraft:tallgrass, minecraft:milk_bucket, minecraft:packed_ice, minecraft:trapped_chest, minecraft:red_mushroom_block, minecraft:diamond_sword, minecraft:tnt_minecart, minecraft:flower_pot, minecraft:brown_mushroom_block, minecraft:emerald, minecraft:beacon, minecraft:gold_nugget, minecraft:red_flower, minecraft:golden_helmet, minecraft:dropper, minecraft:glass_pane, minecraft:leather_leggings, minecraft:iron_shovel, minecraft:book, minecraft:fire, minecraft:golden_apple, minecraft:dye, minecraft:leather_boots, minecraft:wooden_sword, minecraft:soul_sand, minecraft:diamond_ore, minecraft:deadbush, minecraft:fireworks, minecraft:speckled_melon, minecraft:bookshelf, minecraft:magma_cream, minecraft:redstone_lamp, minecraft:sand, minecraft:ender_pearl, minecraft:furnace_minecart, minecraft:iron_door, minecraft:snow, minecraft:wooden_door, minecraft:stone_brick_stairs, minecraft:portal, minecraft:chainmail_boots, minecraft:iron_boots, minecraft:golden_axe, minecraft:fence_gate, minecraft:ghast_tear, minecraft:obsidian, minecraft:diamond_chestplate, minecraft:ender_eye, minecraft:iron_pickaxe, minecraft:clay, minecraft:mossy_cobblestone, minecraft:stone_axe, minecraft:golden_carrot, minecraft:lit_pumpkin, minecraft:stick, minecraft:spawn_egg, minecraft:iron_ore, minecraft:web, minecraft:sugar, minecraft:golden_chestplate, minecraft:hay_block, minecraft:poisonous_potato, minecraft:nether_brick_stairs, minecraft:cooked_chicken, minecraft:wooden_button, minecraft:egg, minecraft:double_stone_slab, minecraft:wooden_axe, minecraft:tnt, minecraft:stone_slab, minecraft:potatoes, minecraft:emerald_ore, minecraft:beef, minecraft:record_cat, minecraft:leaves, minecraft:tripwire_hook, minecraft:fermented_spider_eye, minecraft:activator_rail, minecraft:trapdoor, minecraft:record_far, minecraft:leather_helmet, minecraft:written_book, minecraft:water, minecraft:golden_rail, minecraft:shears, minecraft:golden_leggings, minecraft:carpet, minecraft:flint, minecraft:nether_brick_fence, minecraft:record_strad, minecraft:planks, minecraft:glowstone_dust, minecraft:dispenser, minecraft:record_chirp, minecraft:hardened_clay, minecraft:bed, minecraft:stained_glass_pane, minecraft:sponge, minecraft:cocoa, minecraft:iron_bars, minecraft:stained_glass, minecraft:stone_sword, minecraft:rail, minecraft:monster_egg, minecraft:mob_spawner, minecraft:iron_axe, minecraft:wooden_slab, minecraft:stone_shovel, minecraft:cobblestone_wall, minecraft:ladder, minecraft:end_stone
-[10:42:59] [Client thread/INFO]: [CHAT] BananaCraft:BananaSword, BananaCraft:BananaArmorCore, BananaCraft:BananaDough, BananaCraft:BananaBread, BananaCraft:BananaStone, BananaCraft:BananaLifeCore, BananaCraft:BananaBlock, BananaCraft:BananaNugger, BananaCraft:BananaPickaxe, BananaCraft:Banana, BananaCraft:BananaOre
-[10:43:00] [Server thread/INFO]: [pikachu923: Given [Banana Sword] * 1 to pikachu923]
-[10:43:00] [Client thread/INFO]: [CHAT] Given [Banana Sword] * 1 to pikachu923
-[10:43:33] [Server thread/INFO]: Saving and pausing game...
-[10:43:33] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
-[10:43:33] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
-[10:43:33] [Server thread/INFO]: Saving chunks for level 'Test'/The End
-[10:43:34] [Server thread/INFO]: Stopping server
-[10:43:34] [Server thread/INFO]: Saving players
-[10:43:34] [Server thread/INFO]: Saving worlds
-[10:43:34] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
-[10:43:34] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
-[10:43:34] [Server thread/INFO]: Saving chunks for level 'Test'/The End
-[10:43:35] [Client thread/INFO]: Stopping!
+[12:13:39] [main/INFO]: Setting user: Player368
+[12:13:41] [Client thread/INFO]: LWJGL Version: 2.9.1
+[12:13:48] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:BananaCraft
+[12:13:49] [Sound Library Loader/INFO]: Sound engine started
+[12:13:49] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[12:13:49] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[12:13:49] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:BananaCraft
+[12:13:50] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[12:13:50] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[12:13:51] [Sound Library Loader/INFO]: Sound engine started
+[12:13:57] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[12:13:57] [Server thread/INFO]: Generating keypair
+[12:13:57] [Server thread/INFO]: Preparing start region for level 0
+[12:13:58] [Server thread/INFO]: Changing view distance to 12, from 10
+[12:13:58] [Server thread/INFO]: Player368[local:E:335a9b5a] logged in with entity id 135 at (-824.352826716082, 4.0, 790.2498681669089)
+[12:13:58] [Server thread/INFO]: Player368 joined the game
+[12:13:59] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@fd09ccb[id=1c0e06f3-9808-3189-8407-cec21f7f6640,name=Player368,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationUnavailableException: Cannot contact authentication server
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:71) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:158) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:53) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:50) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3524) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2317) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3934) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3938) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827) [guava-17.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:148) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:133) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_101]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_101]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_101]
+Caused by: java.net.UnknownHostException: sessionserver.mojang.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_101]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_101]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[?:1.8.0_101]
+	at java.net.Socket.connect(Unknown Source) ~[?:1.8.0_101]
+	at sun.security.ssl.SSLSocketImpl.connect(Unknown Source) ~[?:1.8.0_101]
+	at sun.net.NetworkClient.doConnect(Unknown Source) ~[?:1.8.0_101]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[?:1.8.0_101]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[?:1.8.0_101]
+	at sun.net.www.protocol.https.HttpsClient.<init>(Unknown Source) ~[?:1.8.0_101]
+	at sun.net.www.protocol.https.HttpsClient.New(Unknown Source) ~[?:1.8.0_101]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(Unknown Source) ~[?:1.8.0_101]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[?:1.8.0_101]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(Unknown Source) ~[?:1.8.0_101]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(Unknown Source) ~[?:1.8.0_101]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_101]
+	at java.security.AccessController.doPrivilegedWithCombiner(Unknown Source) ~[?:1.8.0_101]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[?:1.8.0_101]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source) ~[?:1.8.0_101]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_101]
+	at sun.net.www.protocol.http.HttpURLConnection.access$200(Unknown Source) ~[?:1.8.0_101]
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source) ~[?:1.8.0_101]
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source) ~[?:1.8.0_101]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_101]
+	at java.security.AccessController.doPrivilegedWithCombiner(Unknown Source) ~[?:1.8.0_101]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_101]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source) ~[?:1.8.0_101]
+	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:126) ~[HttpAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:54) ~[YggdrasilAuthenticationService.class:?]
+	... 18 more
+[12:14:04] [Server thread/INFO]: Player368 has just earned the achievement [Taking Inventory]
+[12:14:04] [Client thread/INFO]: [CHAT] Player368 has just earned the achievement [Taking Inventory]
+[12:14:11] [Client thread/INFO]: [CHAT] peaceful, easy, normal, hard
+[12:14:11] [Client thread/INFO]: [CHAT] peaceful, easy, normal, hard
+[12:14:11] [Client thread/INFO]: [CHAT] peaceful, easy, normal, hard
+[12:14:11] [Server thread/INFO]: [Player368: Set game difficulty to Normal]
+[12:14:11] [Client thread/INFO]: [CHAT] Set game difficulty to Normal
+[12:14:47] [Server thread/INFO]: Saving and pausing game...
+[12:14:47] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[12:14:47] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[12:14:47] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[12:14:47] [Server thread/INFO]: Stopping server
+[12:14:47] [Server thread/INFO]: Saving players
+[12:14:47] [Server thread/INFO]: Saving worlds
+[12:14:47] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[12:14:47] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[12:14:47] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[12:14:51] [Client thread/INFO]: Stopping!

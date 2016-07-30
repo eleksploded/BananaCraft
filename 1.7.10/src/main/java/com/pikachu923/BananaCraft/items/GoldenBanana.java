@@ -1,16 +1,19 @@
 package com.pikachu923.BananaCraft.items;
 
+import net.minecraft.client.renderer.texture.IIconRegister;
+import net.minecraft.item.ItemFood;
+
 import com.pikachu923.BananaCraft.reference.Reference;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
-import net.minecraft.client.renderer.texture.IIconRegister;
 
-public class GoldenBanana extends ItemWrapper {
+public class GoldenBanana extends ItemFood {
 	String Texture;
-    public GoldenBanana(String unlocalName){
-        super();
-        this.setUnlocalizedName(unlocalName);
+    public GoldenBanana(String unlocalName, int healAmount, Boolean alwaysEdible, int potionId, int potionAmplifier, int potionDuration, float potionEffectProbability){
+        super(healAmount, alwaysEdible);
+        setPotionEffect(potionId, potionDuration, potionAmplifier, potionEffectProbability);
+        this.setUnlocalizedName(Reference.RESOURCE_PREFIX + unlocalName);
         Texture = Reference.RESOURCE_PREFIX + unlocalName;
     }
 

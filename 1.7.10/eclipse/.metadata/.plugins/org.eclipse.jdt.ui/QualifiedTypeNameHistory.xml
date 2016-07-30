@@ -6,4 +6,5 @@
 <fullyQualifiedTypeName name="cpw.mods.fml.relauncher.SideOnly"/>
 <fullyQualifiedTypeName name="cpw.mods.fml.relauncher.Side"/>
 <fullyQualifiedTypeName name="com.pikachu923.BananaCraft.reference.Reference"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemFood"/>
 </qualifiedTypeNameHistroy>

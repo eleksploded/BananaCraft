@@ -15,8 +15,8 @@ import com.pikachu923.BananaCraft.reference.Reference;
 public class ModItems {
     public static final ItemWrapper Reinbanana = new ReinBanana("ReinBanana");
     public static final ItemWrapper BananaArmorCore = new BananaArmorCore("BananaArmorCore");
-    public static final ItemWrapper GoldenBanana = new GoldenBanana("GoldenBanana");
-    public static final ItemWrapper BananaBread = new BananaBread("BananaBread");
+    public static final GoldenBanana GoldenBanana = new GoldenBanana("GoldenBanana", 4, true, 10, 1, 10, 100F);
+    public static final BananaBread BananaBread = new BananaBread("BananaBread", 5, 2.5F);
     public static final ItemWrapper BananaLifeCore = new BananaLifeCore("BananaLifeCore");
     public static final ItemWrapper BananaNugget = new BananaNugget("BananaNugget");
     public static final ItemWrapper BananaDough = new BananaDough("BananaDough");
