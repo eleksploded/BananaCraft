@@ -1,5 +1,5 @@
 item.bananacraft:ReinBanana.name=Reinforced Banana
-item.bananacraft:BananaPlant.name=Banana
+item.bananacraft:Banana.name=Banana
 item.bananacraft:BananaArmorCore.name=Banana Armor Plate
 item.bananacraft:GoldenBanana.name=Golden Banana
 item.bananacraft:BananaLifeCore.name=Banana Life Core
@@ -12,7 +12,5 @@ item.bananacraft:BananaSword.name=Banana Sword
 tile.bananacraft:BananaBlock.name=Banana Block
 tile.bananacraft:BananaOre.name=Banana Ore
 tile.bananacraft:BananaStone.name=Banana Stone
-tile.bananacraft:BananaGrass.name=Banana Grass
-tile.bananacraft:bananaplant.name=Banana Crop
 
 itemGroup.BananaCraft=BananaCraft

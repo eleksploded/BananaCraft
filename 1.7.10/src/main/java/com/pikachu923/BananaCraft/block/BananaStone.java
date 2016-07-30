@@ -1,4 +1,4 @@
-package com.pikachu923.BananaCraft.block;
+package block;
 
 import java.util.Random;
 

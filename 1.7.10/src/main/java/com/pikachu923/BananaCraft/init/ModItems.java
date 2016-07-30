@@ -1,10 +1,6 @@
 package com.pikachu923.BananaCraft.init;
 
 import cpw.mods.fml.common.registry.GameRegistry;
-import net.minecraft.block.Block;
-import net.minecraft.init.Blocks;
-import net.minecraft.item.ItemStack;
-
 import com.pikachu923.BananaCraft.items.*;
 import com.pikachu923.BananaCraft.reference.Reference;
 
@@ -14,6 +10,7 @@ import com.pikachu923.BananaCraft.reference.Reference;
 @GameRegistry.ObjectHolder(Reference.MOD_ID)
 public class ModItems {
     public static final ItemWrapper Reinbanana = new ReinBanana("ReinBanana");
+    public static final ItemWrapper Banana = new Banana("Banana");
     public static final ItemWrapper BananaArmorCore = new BananaArmorCore("BananaArmorCore");
     public static final ItemWrapper GoldenBanana = new GoldenBanana("GoldenBanana");
     public static final ItemWrapper BananaBread = new BananaBread("BananaBread");
@@ -21,7 +18,6 @@ public class ModItems {
     public static final ItemWrapper BananaNugget = new BananaNugget("BananaNugget");
     public static final ItemWrapper BananaDough = new BananaDough("BananaDough");
 
-    public static final Banana Banana = new Banana(2, 2, ModBlock.BananaPlant, Blocks.farmland, "BananaPlant");
 
     public static void init() {
         GameRegistry.registerItem(Reinbanana, "ReinBanana");
