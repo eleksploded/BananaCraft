@@ -34,6 +34,7 @@ public class Banana extends ItemFood implements IPlantable {
         soilId = parSoilBlock;
         this.setUnlocalizedName(Reference.RESOURCE_PREFIX + unlocalName);
         Texture = Reference.RESOURCE_PREFIX + unlocalName;
+        setCreativeTab(Reference.CreativeTab);
     }
 
     @Override

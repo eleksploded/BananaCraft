@@ -18,12 +18,12 @@ public class ItemWrapper extends Item {
 
     }
 
-    @Override
+   /* @Override
     public void addInformation(ItemStack par1ItemStack, EntityPlayer par2EntityPlayer, List par3List, boolean par4)
     {
-    par3List.add("LORE");
+    par3List.add(null);
     }
-    
+    */
     @Override
     public String getUnlocalizedName()
     {
