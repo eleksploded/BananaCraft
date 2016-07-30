@@ -22,6 +22,7 @@ public class BananaPickaxe extends ItemPickaxe {
 		super(ModTools.Banana);
 		this.setUnlocalizedName(Reference.RESOURCE_PREFIX + unlocalName);
         Texture = Reference.RESOURCE_PREFIX + unlocalName;
+        this.setCreativeTab(Reference.CreativeTab);
     }
 
     @Override

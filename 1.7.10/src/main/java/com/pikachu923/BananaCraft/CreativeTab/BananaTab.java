@@ -1,4 +1,4 @@
-package CreativeTab;
+package com.pikachu923.BananaCraft.CreativeTab;
 
 import com.pikachu923.BananaCraft.init.ModItems;
 import com.pikachu923.BananaCraft.reference.Reference;
