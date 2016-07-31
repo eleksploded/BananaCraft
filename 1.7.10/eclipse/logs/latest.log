@@ -1,29 +1,48 @@
-[16:26:26] [main/INFO]: Setting user: Player848
-[16:26:27] [Client thread/INFO]: LWJGL Version: 2.9.1
-[16:26:36] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:BananaCraft
-[16:26:37] [Sound Library Loader/INFO]: Sound engine started
-[16:26:38] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
-[16:26:38] [Client thread/INFO]: Created: 16x16 textures/items-atlas
-[16:26:38] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:BananaCraft
-[16:26:38] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[16:26:38] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[16:26:39] [Sound Library Loader/INFO]: Sound engine started
-[16:26:44] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[16:26:44] [Server thread/INFO]: Generating keypair
-[16:26:44] [Server thread/INFO]: Preparing start region for level 0
-[16:26:44] [Server thread/INFO]: Changing view distance to 12, from 10
-[16:26:45] [Server thread/INFO]: Player848[local:E:2d6e3cf1] logged in with entity id 135 at (-831.02263075383, 9.865128299702596, 790.2171225797542)
-[16:26:45] [Server thread/INFO]: Player848 joined the game
-[16:26:46] [Server thread/INFO]: Player848 has just earned the achievement [Taking Inventory]
-[16:26:46] [Client thread/INFO]: [CHAT] Player848 has just earned the achievement [Taking Inventory]
-[16:26:53] [Server thread/INFO]: Saving and pausing game...
-[16:26:53] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
-[16:26:53] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
-[16:26:53] [Server thread/INFO]: Saving chunks for level 'Test'/The End
-[16:26:54] [Client thread/INFO]: Stopping!
-[16:26:54] [Server thread/INFO]: Stopping server
-[16:26:54] [Server thread/INFO]: Saving players
-[16:26:54] [Server thread/INFO]: Saving worlds
-[16:26:54] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
-[16:26:54] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
-[16:26:54] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[10:30:47] [main/INFO]: Setting user: Player403
+[10:30:49] [Client thread/INFO]: LWJGL Version: 2.9.1
+[10:31:01] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:BananaCraft
+[10:31:02] [Sound Library Loader/INFO]: Sound engine started
+[10:31:23] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[10:31:23] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[10:31:23] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:BananaCraft
+[10:31:23] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[10:31:24] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[10:31:24] [Sound Library Loader/INFO]: Sound engine started
+[10:31:32] [Client thread/INFO]: Deleting level world Gen test
+[10:31:32] [Client thread/INFO]: Attempt 1...
+[10:31:43] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[10:31:43] [Server thread/INFO]: Generating keypair
+[10:31:43] [Server thread/INFO]: Converting map!
+[10:31:43] [Server thread/INFO]: Scanning folders...
+[10:31:43] [Server thread/INFO]: Total conversion count is 0
+[10:31:43] [Server thread/INFO]: Preparing start region for level 0
+[10:31:44] [Server thread/INFO]: Preparing spawn area: 10%
+[10:31:45] [Server thread/INFO]: Preparing spawn area: 22%
+[10:31:46] [Server thread/INFO]: Preparing spawn area: 36%
+[10:31:47] [Server thread/INFO]: Preparing spawn area: 52%
+[10:31:48] [Server thread/INFO]: Preparing spawn area: 65%
+[10:31:49] [Server thread/INFO]: Preparing spawn area: 83%
+[10:31:50] [Server thread/INFO]: Changing view distance to 12, from 10
+[10:31:52] [Server thread/INFO]: Player403[local:E:4d039188] logged in with entity id 40 at (213.5, 84.0, 263.5)
+[10:31:52] [Server thread/INFO]: Player403 joined the game
+[10:31:54] [Client thread/INFO]: Warning: Clientside chunk ticking took 143 ms
+[10:31:55] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2013ms behind, skipping 40 tick(s)
+[10:31:59] [Client thread/INFO]: Warning: Clientside chunk ticking took 102 ms
+[10:32:00] [Client thread/INFO]: Warning: Clientside chunk ticking took 103 ms
+[10:32:00] [Client thread/INFO]: Warning: Clientside chunk ticking took 111 ms
+[10:32:00] [Client thread/INFO]: Warning: Clientside chunk ticking took 154 ms
+[10:32:00] [Client thread/INFO]: Warning: Clientside chunk ticking took 164 ms
+[10:32:04] [Client thread/INFO]: Warning: Clientside chunk ticking took 125 ms
+[10:32:12] [Server thread/INFO]: Player403 has just earned the achievement [Taking Inventory]
+[10:32:12] [Client thread/INFO]: [CHAT] Player403 has just earned the achievement [Taking Inventory]
+[10:32:56] [Server thread/INFO]: Saving and pausing game...
+[10:32:56] [Server thread/INFO]: Saving chunks for level 'World gen test'/Overworld
+[10:32:56] [Server thread/INFO]: Saving chunks for level 'World gen test'/Nether
+[10:32:56] [Server thread/INFO]: Saving chunks for level 'World gen test'/The End
+[10:32:57] [Server thread/INFO]: Stopping server
+[10:32:57] [Server thread/INFO]: Saving players
+[10:32:57] [Server thread/INFO]: Saving worlds
+[10:32:57] [Server thread/INFO]: Saving chunks for level 'World gen test'/Overworld
+[10:32:57] [Server thread/INFO]: Saving chunks for level 'World gen test'/Nether
+[10:32:57] [Server thread/INFO]: Saving chunks for level 'World gen test'/The End
+[10:32:59] [Client thread/INFO]: Stopping!

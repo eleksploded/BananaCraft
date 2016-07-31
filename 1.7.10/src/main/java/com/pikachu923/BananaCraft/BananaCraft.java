@@ -5,14 +5,17 @@ import com.pikachu923.BananaCraft.init.ModBlock;
 import com.pikachu923.BananaCraft.init.ModItems;
 import com.pikachu923.BananaCraft.init.ModTools;
 import com.pikachu923.BananaCraft.init.Recipes;
+import com.pikachu923.BananaCraft.init.WorldGen;
 import com.pikachu923.BananaCraft.proxy.IProxy;
 import com.pikachu923.BananaCraft.reference.Reference;
+
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
 
 /**
  * Created by pikachu on 6/20/2016.
@@ -35,6 +38,7 @@ public class BananaCraft {
         ModItems.init();
         ModBlock.init();
         ModTools.init();
+        GameRegistry.registerWorldGenerator(new WorldGen(), 0);
         
     }
 

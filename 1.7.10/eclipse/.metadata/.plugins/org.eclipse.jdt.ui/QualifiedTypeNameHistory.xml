@@ -7,4 +7,7 @@
 <fullyQualifiedTypeName name="cpw.mods.fml.relauncher.Side"/>
 <fullyQualifiedTypeName name="com.pikachu923.BananaCraft.reference.Reference"/>
 <fullyQualifiedTypeName name="net.minecraft.item.ItemFood"/>
+<fullyQualifiedTypeName name="net.minecraft.world.gen.feature.WorldGenerator"/>
+<fullyQualifiedTypeName name="net.minecraft.world.gen.feature.WorldGenMinable"/>
+<fullyQualifiedTypeName name="com.pikachu923.BananaCraft.init.ModBlock"/>
 </qualifiedTypeNameHistroy>
