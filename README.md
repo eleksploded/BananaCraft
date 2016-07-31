@@ -5,6 +5,8 @@ This is the Open source repo for my mod: BananaCraft.
   
   I am new to modding so any help will be greatly appreciated. 
   
+  Download: https://minecraft.curseforge.com/projects/bananacraft
+  
 pikachu923,
   pikachu9234@gmail.com
   
