@@ -1,48 +1,78 @@
-[10:30:47] [main/INFO]: Setting user: Player403
-[10:30:49] [Client thread/INFO]: LWJGL Version: 2.9.1
-[10:31:01] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:BananaCraft
-[10:31:02] [Sound Library Loader/INFO]: Sound engine started
-[10:31:23] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
-[10:31:23] [Client thread/INFO]: Created: 16x16 textures/items-atlas
-[10:31:23] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:BananaCraft
-[10:31:23] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[10:31:24] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[10:31:24] [Sound Library Loader/INFO]: Sound engine started
-[10:31:32] [Client thread/INFO]: Deleting level world Gen test
-[10:31:32] [Client thread/INFO]: Attempt 1...
-[10:31:43] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[10:31:43] [Server thread/INFO]: Generating keypair
-[10:31:43] [Server thread/INFO]: Converting map!
-[10:31:43] [Server thread/INFO]: Scanning folders...
-[10:31:43] [Server thread/INFO]: Total conversion count is 0
-[10:31:43] [Server thread/INFO]: Preparing start region for level 0
-[10:31:44] [Server thread/INFO]: Preparing spawn area: 10%
-[10:31:45] [Server thread/INFO]: Preparing spawn area: 22%
-[10:31:46] [Server thread/INFO]: Preparing spawn area: 36%
-[10:31:47] [Server thread/INFO]: Preparing spawn area: 52%
-[10:31:48] [Server thread/INFO]: Preparing spawn area: 65%
-[10:31:49] [Server thread/INFO]: Preparing spawn area: 83%
-[10:31:50] [Server thread/INFO]: Changing view distance to 12, from 10
-[10:31:52] [Server thread/INFO]: Player403[local:E:4d039188] logged in with entity id 40 at (213.5, 84.0, 263.5)
-[10:31:52] [Server thread/INFO]: Player403 joined the game
-[10:31:54] [Client thread/INFO]: Warning: Clientside chunk ticking took 143 ms
-[10:31:55] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2013ms behind, skipping 40 tick(s)
-[10:31:59] [Client thread/INFO]: Warning: Clientside chunk ticking took 102 ms
-[10:32:00] [Client thread/INFO]: Warning: Clientside chunk ticking took 103 ms
-[10:32:00] [Client thread/INFO]: Warning: Clientside chunk ticking took 111 ms
-[10:32:00] [Client thread/INFO]: Warning: Clientside chunk ticking took 154 ms
-[10:32:00] [Client thread/INFO]: Warning: Clientside chunk ticking took 164 ms
-[10:32:04] [Client thread/INFO]: Warning: Clientside chunk ticking took 125 ms
-[10:32:12] [Server thread/INFO]: Player403 has just earned the achievement [Taking Inventory]
-[10:32:12] [Client thread/INFO]: [CHAT] Player403 has just earned the achievement [Taking Inventory]
-[10:32:56] [Server thread/INFO]: Saving and pausing game...
-[10:32:56] [Server thread/INFO]: Saving chunks for level 'World gen test'/Overworld
-[10:32:56] [Server thread/INFO]: Saving chunks for level 'World gen test'/Nether
-[10:32:56] [Server thread/INFO]: Saving chunks for level 'World gen test'/The End
-[10:32:57] [Server thread/INFO]: Stopping server
-[10:32:57] [Server thread/INFO]: Saving players
-[10:32:57] [Server thread/INFO]: Saving worlds
-[10:32:57] [Server thread/INFO]: Saving chunks for level 'World gen test'/Overworld
-[10:32:57] [Server thread/INFO]: Saving chunks for level 'World gen test'/Nether
-[10:32:57] [Server thread/INFO]: Saving chunks for level 'World gen test'/The End
-[10:32:59] [Client thread/INFO]: Stopping!
+[11:56:46] [main/INFO]: Setting user: Player247
+[11:56:48] [Client thread/INFO]: LWJGL Version: 2.9.1
+[11:56:56] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Banana Craft
+[11:56:57] [Sound Library Loader/INFO]: Sound engine started
+[11:57:06] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[11:57:06] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[11:57:06] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Banana Craft
+[11:57:07] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[11:57:07] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[11:57:08] [Sound Library Loader/INFO]: Sound engine started
+[11:57:11] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[11:57:11] [Server thread/INFO]: Generating keypair
+[11:57:11] [Server thread/INFO]: Preparing start region for level 0
+[11:57:12] [Server thread/INFO]: Changing view distance to 12, from 10
+[11:57:12] [Server thread/INFO]: Player247[local:E:3b7f731e] logged in with entity id 146 at (-833.0682962436362, 9.0, 786.8802673894385)
+[11:57:12] [Server thread/INFO]: Player247 joined the game
+[11:57:13] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@21c7e637[id=8900053b-f4fc-363a-959f-93166c198461,name=Player247,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationUnavailableException: Cannot contact authentication server
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:71) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:158) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:53) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:50) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3524) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2317) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3934) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3938) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827) [guava-17.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:148) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:133) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_101]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_101]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_101]
+Caused by: java.net.UnknownHostException: sessionserver.mojang.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_101]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_101]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[?:1.8.0_101]
+	at java.net.Socket.connect(Unknown Source) ~[?:1.8.0_101]
+	at sun.security.ssl.SSLSocketImpl.connect(Unknown Source) ~[?:1.8.0_101]
+	at sun.net.NetworkClient.doConnect(Unknown Source) ~[?:1.8.0_101]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[?:1.8.0_101]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[?:1.8.0_101]
+	at sun.net.www.protocol.https.HttpsClient.<init>(Unknown Source) ~[?:1.8.0_101]
+	at sun.net.www.protocol.https.HttpsClient.New(Unknown Source) ~[?:1.8.0_101]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(Unknown Source) ~[?:1.8.0_101]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[?:1.8.0_101]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(Unknown Source) ~[?:1.8.0_101]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(Unknown Source) ~[?:1.8.0_101]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_101]
+	at java.security.AccessController.doPrivilegedWithCombiner(Unknown Source) ~[?:1.8.0_101]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[?:1.8.0_101]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source) ~[?:1.8.0_101]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_101]
+	at sun.net.www.protocol.http.HttpURLConnection.access$200(Unknown Source) ~[?:1.8.0_101]
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source) ~[?:1.8.0_101]
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source) ~[?:1.8.0_101]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_101]
+	at java.security.AccessController.doPrivilegedWithCombiner(Unknown Source) ~[?:1.8.0_101]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_101]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source) ~[?:1.8.0_101]
+	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:126) ~[HttpAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:54) ~[YggdrasilAuthenticationService.class:?]
+	... 18 more
+[11:58:07] [Server thread/INFO]: Saving and pausing game...
+[11:58:07] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[11:58:07] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[11:58:07] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[11:58:30] [Server thread/INFO]: Stopping server
+[11:58:30] [Server thread/INFO]: Saving players
+[11:58:30] [Server thread/INFO]: Saving worlds
+[11:58:30] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[11:58:30] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[11:58:30] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[11:58:33] [Client thread/INFO]: Stopping!

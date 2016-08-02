@@ -15,11 +15,15 @@ public class BlockWrapper extends Block
 	public BlockWrapper(Material material){
 		super(material);
 		this.setCreativeTab(Reference.CreativeTab);
+		setHardness(3.0F);
+		setResistance(5.0F);
 	}
 	
 	public BlockWrapper(){
 		this(Material.rock);
 		this.setCreativeTab(Reference.CreativeTab);
+		setHardness(3.0F);
+		setResistance(5.0F);
 	}
 
 	    @Override

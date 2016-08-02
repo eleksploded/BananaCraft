@@ -8,9 +8,9 @@
 :compileApiJava UP-TO-DATE
 :processApiResources UP-TO-DATE
 :apiClasses UP-TO-DATE
-:sourceMainJava
+:sourceMainJava UP-TO-DATE
 :compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
-Note: Some input files use unchecked or unsafe operations.
+Note: C:\Users\pikac\Desktop\Minecraft\Projects\BananaCraft\1.7.10\build\sources\java\com\pikachu923\BananaCraft\client\gui\ConfigGui.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 1 warning
 
@@ -32,4 +32,4 @@ Note: Recompile with -Xlint:unchecked for details.
 
 BUILD SUCCESSFUL
 
-Total time: 31.791 secs
+Total time: 22.897 secs

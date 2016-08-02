@@ -8,6 +8,15 @@ item.bananacraft:BananaDough.name=Banana Dough
 item.bananacraft:BananaNugget.name=Banana Nugget
 item.bananacraft:BananaPickaxe.name=Banana Pickaxe
 item.bananacraft:BananaSword.name=Banana Sword
+item.bananacraft:BananaAxe.name=Banana Axe
+item.bananacraft:BananaHoe.name=Banana Hoe
+item.bananacraft:BananaShovel.name=Banana Shovel
+
+item.bananacraft:BananaHelmet.name=Banana Helmet
+item.bananacraft:BananaChestplate.name=Banana Chestplate
+item.bananacraft:BananaLeggings.name=Banana Leggings
+item.bananacraft:BananaBoots.name=Banana Boots
+
 
 tile.bananacraft:BananaBlock.name=Banana Block
 tile.bananacraft:BananaOre.name=Banana Ore
