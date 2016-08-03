@@ -1,0 +1,19 @@
+[
+ {
+ "modid": "BananaCraft",
+ "name": "Banana Craft",
+ "description": "Adding Bananas, Banana related things, and other non-banana related things",
+ "version": "1.7.10-Dev5B",
+ "credits": "Created by Pikachu923",
+ "logoFile": "",
+ "mcversion": "1.7.10",
+ "url": "",
+ "updateUrl": "",
+ "authors": [ "Pikachu923" ],
+ "parent":"",
+ "screenshots": [],
+ "dependencies": [
+ "mod_MinecraftForge"
+ ]
+ }
+ ]

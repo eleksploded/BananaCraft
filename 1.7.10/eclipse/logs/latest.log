@@ -1,78 +1,27 @@
-[11:56:46] [main/INFO]: Setting user: Player247
-[11:56:48] [Client thread/INFO]: LWJGL Version: 2.9.1
-[11:56:56] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Banana Craft
-[11:56:57] [Sound Library Loader/INFO]: Sound engine started
-[11:57:06] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
-[11:57:06] [Client thread/INFO]: Created: 16x16 textures/items-atlas
-[11:57:06] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Banana Craft
-[11:57:07] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[11:57:07] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[11:57:08] [Sound Library Loader/INFO]: Sound engine started
-[11:57:11] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[11:57:11] [Server thread/INFO]: Generating keypair
-[11:57:11] [Server thread/INFO]: Preparing start region for level 0
-[11:57:12] [Server thread/INFO]: Changing view distance to 12, from 10
-[11:57:12] [Server thread/INFO]: Player247[local:E:3b7f731e] logged in with entity id 146 at (-833.0682962436362, 9.0, 786.8802673894385)
-[11:57:12] [Server thread/INFO]: Player247 joined the game
-[11:57:13] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@21c7e637[id=8900053b-f4fc-363a-959f-93166c198461,name=Player247,properties={},legacy=false]
-com.mojang.authlib.exceptions.AuthenticationUnavailableException: Cannot contact authentication server
-	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:71) ~[YggdrasilAuthenticationService.class:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:158) [YggdrasilMinecraftSessionService.class:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:53) [YggdrasilMinecraftSessionService$1.class:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:50) [YggdrasilMinecraftSessionService$1.class:?]
-	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3524) [guava-17.0.jar:?]
-	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2317) [guava-17.0.jar:?]
-	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280) [guava-17.0.jar:?]
-	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195) [guava-17.0.jar:?]
-	at com.google.common.cache.LocalCache.get(LocalCache.java:3934) [guava-17.0.jar:?]
-	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3938) [guava-17.0.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821) [guava-17.0.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827) [guava-17.0.jar:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:148) [YggdrasilMinecraftSessionService.class:?]
-	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:133) [SkinManager$3.class:?]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_101]
-	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_101]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_101]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_101]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_101]
-Caused by: java.net.UnknownHostException: sessionserver.mojang.com
-	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_101]
-	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_101]
-	at java.net.SocksSocketImpl.connect(Unknown Source) ~[?:1.8.0_101]
-	at java.net.Socket.connect(Unknown Source) ~[?:1.8.0_101]
-	at sun.security.ssl.SSLSocketImpl.connect(Unknown Source) ~[?:1.8.0_101]
-	at sun.net.NetworkClient.doConnect(Unknown Source) ~[?:1.8.0_101]
-	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[?:1.8.0_101]
-	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[?:1.8.0_101]
-	at sun.net.www.protocol.https.HttpsClient.<init>(Unknown Source) ~[?:1.8.0_101]
-	at sun.net.www.protocol.https.HttpsClient.New(Unknown Source) ~[?:1.8.0_101]
-	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(Unknown Source) ~[?:1.8.0_101]
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[?:1.8.0_101]
-	at sun.net.www.protocol.http.HttpURLConnection$6.run(Unknown Source) ~[?:1.8.0_101]
-	at sun.net.www.protocol.http.HttpURLConnection$6.run(Unknown Source) ~[?:1.8.0_101]
-	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_101]
-	at java.security.AccessController.doPrivilegedWithCombiner(Unknown Source) ~[?:1.8.0_101]
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[?:1.8.0_101]
-	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source) ~[?:1.8.0_101]
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_101]
-	at sun.net.www.protocol.http.HttpURLConnection.access$200(Unknown Source) ~[?:1.8.0_101]
-	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source) ~[?:1.8.0_101]
-	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source) ~[?:1.8.0_101]
-	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_101]
-	at java.security.AccessController.doPrivilegedWithCombiner(Unknown Source) ~[?:1.8.0_101]
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_101]
-	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source) ~[?:1.8.0_101]
-	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:126) ~[HttpAuthenticationService.class:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:54) ~[YggdrasilAuthenticationService.class:?]
-	... 18 more
-[11:58:07] [Server thread/INFO]: Saving and pausing game...
-[11:58:07] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
-[11:58:07] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
-[11:58:07] [Server thread/INFO]: Saving chunks for level 'Test'/The End
-[11:58:30] [Server thread/INFO]: Stopping server
-[11:58:30] [Server thread/INFO]: Saving players
-[11:58:30] [Server thread/INFO]: Saving worlds
-[11:58:30] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
-[11:58:30] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
-[11:58:30] [Server thread/INFO]: Saving chunks for level 'Test'/The End
-[11:58:33] [Client thread/INFO]: Stopping!
+[18:42:34] [main/INFO]: Setting user: Player959
+[18:42:36] [Client thread/INFO]: LWJGL Version: 2.9.1
+[18:42:45] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Banana Craft
+[18:42:46] [Sound Library Loader/INFO]: Sound engine started
+[18:42:47] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[18:42:47] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[18:42:47] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Banana Craft
+[18:42:47] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[18:42:47] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[18:42:48] [Sound Library Loader/INFO]: Sound engine started
+[18:42:53] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[18:42:53] [Server thread/INFO]: Generating keypair
+[18:42:53] [Server thread/INFO]: Preparing start region for level 0
+[18:42:54] [Server thread/INFO]: Changing view distance to 12, from 10
+[18:42:54] [Server thread/INFO]: Player959[local:E:c3eeebcd] logged in with entity id 144 at (-824.8915356787696, 6.490643189201405, 780.2308026381028)
+[18:42:54] [Server thread/INFO]: Player959 joined the game
+[18:44:02] [Server thread/INFO]: Saving and pausing game...
+[18:44:02] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[18:44:02] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[18:44:02] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[18:44:02] [Server thread/INFO]: Stopping server
+[18:44:02] [Server thread/INFO]: Saving players
+[18:44:02] [Server thread/INFO]: Saving worlds
+[18:44:02] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[18:44:02] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[18:44:02] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[18:44:03] [Client thread/INFO]: Stopping!

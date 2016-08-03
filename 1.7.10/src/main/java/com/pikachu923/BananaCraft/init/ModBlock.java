@@ -17,6 +17,7 @@ public class ModBlock {
 	public static final BlockWrapper BananaStone = new BananaStone("BananaStone");
 	public static final BlockWrapper BananaGrass = new BananaGrass("BananaGrass");
 	public static final Plants BananaPlant = new BananaPlant();
+	public static final BlockWrapper BananaPillar = new BananaPillar("BananaPillar");
 	
 
 public static void init() {
@@ -25,5 +26,6 @@ public static void init() {
     GameRegistry.registerBlock(BananaStone, "BananaStone");
     GameRegistry.registerBlock(BananaGrass, "BananaGrass");
     GameRegistry.registerBlock(BananaPlant, "BananaPlant");
+    GameRegistry.registerBlock(BananaPillar, "BananaPillar");
 	}
 }

@@ -23,6 +23,12 @@ public static void init(){
 	
 	//blocks
 	GameRegistry.addRecipe(new ItemStack(ModBlock.BananaBlock), "BBB", "BBB", "BBB", 'B', new ItemStack(ModItems.Banana));
+	GameRegistry.addRecipe(new ItemStack(ModBlock.BananaPillar), "B B", "B B", "B B", 'B', new ItemStack(ModItems.Banana));
 	
+	//armor
+	GameRegistry.addRecipe(new ItemStack(ModTools.BananaHelmet), "BBB", "B B", 'B', new ItemStack(ModItems.BananaArmorCore));
+	GameRegistry.addRecipe(new ItemStack(ModTools.BananaChestplate), "B B", "BBB", "BBB", 'B', new ItemStack(ModItems.BananaArmorCore));
+	GameRegistry.addRecipe(new ItemStack(ModTools.BananaLeggings), "BBB", "B B", "B B", 'B', new ItemStack(ModItems.BananaArmorCore));
+	GameRegistry.addRecipe(new ItemStack(ModTools.BananaBoots), "B B", "B B", 'B', new ItemStack(ModItems.BananaArmorCore));
 	}
 }
