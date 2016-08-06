@@ -17,6 +17,7 @@ public class BlockWrapper extends Block
 		this.setCreativeTab(Reference.CreativeTab);
 		setHardness(3.0F);
 		setResistance(5.0F);
+		setStepSound(soundTypeStone);
 	}
 	
 	public BlockWrapper(){
@@ -24,6 +25,7 @@ public class BlockWrapper extends Block
 		this.setCreativeTab(Reference.CreativeTab);
 		setHardness(3.0F);
 		setResistance(5.0F);
+		setStepSound(soundTypeStone);
 	}
 
 	    @Override

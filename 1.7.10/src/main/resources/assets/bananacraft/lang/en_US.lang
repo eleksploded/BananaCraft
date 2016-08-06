@@ -24,5 +24,8 @@ tile.bananacraft:BananaStone.name=Banana Stone
 tile.bananacraft:BananaGrass.name=Banana Grass
 tile.bananacraft:BananaPlant.name=Banana Crop
 tile.bananacraft:BananaPillar.name=Banana Pillar
+tile.bananacraft:BananaSlab.name=Banana Slab
+tile.bananacraft:BananaDoubleSlab.name=Double Banana Slab
+tile.bananacraft:BananaStairs.name=Banana Stairs
 
 itemGroup.BananaCraft=BananaCraft

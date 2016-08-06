@@ -1,0 +1,14 @@
+package com.pikachu923.BananaCraft.block;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+
+public class BananaSlab extends Block {
+	public BananaSlab(Material p_i45410_2_)
+    {
+        super(p_i45410_2_);
+        this.opaque = true;
+        this.setBlockBounds(0.0F, 0.0F, 0.0F, 1.0F, 0.5F, 1.0F);
+        this.setLightOpacity(255);
+    }
+}

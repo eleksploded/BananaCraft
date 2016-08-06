@@ -28,6 +28,7 @@ public class BananaGrass extends BlockWrapper{
         Texture = Reference.RESOURCE_PREFIX + unlocalName;
         setHardness(0.6F);
         setResistance(0.1F);
+        setStepSound(soundTypeGrass);
     }
     @Override
     @SideOnly(Side.CLIENT)
