@@ -1,0 +1,55 @@
+package com.pikachu923.BananaCraft.utility;
+
+package com.pikachu923.BananaCraft.utility;
+import java.util.EnumSet;
+import net.minecraft.client.Minecraft;
+public class UpdateTickHandler implements ITickHandler {
+
+public void tickStart(EnumSet<TickType> type, Object... tickData)
+{
+}
+
+public void tickEnd(EnumSet<TickType> type, Object... tickData)
+{
+if(type.equals(EnumSet.of(TickType.RENDER)))
+{
+onRenderTick();
+}
+else
+if(type.equals(EnumSet.of(TickType.CLIENT)))
+{
+Minecraft mc = Minecraft.getMinecraft();
+GuiScreen gui = mc.currentScreen;
+if(gui != null)
+{
+onTickInGui(mc, gui);
+}
+else
+{
+onTickInGame(mc);
+}
+}
+}
+private void onTickInGame(Minecraft mc)
+{
+//CODE HERE!!
+}
+private void onTickInGui(Minecraft mc, GuiScreen gui)
+{
+//OR HERE!!
+}
+private void onRenderTick()
+{
+//OR HERE!!
+}
+
+public EnumSet<TickType> ticks()
+{
+return EnumSet.of(TickType.CLIENT, TickType.RENDER);
+}
+
+public String getLabel()
+{
+return "TickHandler.CLIENT";
+}
+}

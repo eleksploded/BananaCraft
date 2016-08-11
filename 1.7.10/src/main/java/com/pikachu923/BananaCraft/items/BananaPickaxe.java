@@ -3,7 +3,7 @@ package com.pikachu923.BananaCraft.items;
 import java.util.Set;
 
 import com.google.common.collect.Sets;
-import com.pikachu923.BananaCraft.init.ModTools;
+import com.pikachu923.BananaCraft.init.Tier1Tools;
 import com.pikachu923.BananaCraft.reference.Reference;
 
 import cpw.mods.fml.relauncher.Side;
@@ -19,7 +19,7 @@ import net.minecraft.item.ItemStack;
 public class BananaPickaxe extends ItemPickaxe {
 	String Texture;
 	public BananaPickaxe(String unlocalName){
-		super(ModTools.Banana);
+		super(Tier1Tools.Banana);
 		this.setUnlocalizedName(Reference.RESOURCE_PREFIX + unlocalName);
         Texture = Reference.RESOURCE_PREFIX + unlocalName;
         this.setCreativeTab(Reference.CreativeTab);

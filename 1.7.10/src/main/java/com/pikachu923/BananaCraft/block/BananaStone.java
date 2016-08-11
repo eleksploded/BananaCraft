@@ -2,7 +2,7 @@ package com.pikachu923.BananaCraft.block;
 
 import java.util.Random;
 
-import com.pikachu923.BananaCraft.init.ModItems;
+import com.pikachu923.BananaCraft.init.Tier1Items;
 import com.pikachu923.BananaCraft.reference.Reference;
 
 import cpw.mods.fml.relauncher.Side;
@@ -27,7 +27,7 @@ public BananaStone(String unlocalName){
 
 @Override
 public Item getItemDropped(int metadata, Random random, int fortune) {
-    return ModItems.BananaNugget;
+    return Tier1Items.BananaNugget;
 }
 
 }

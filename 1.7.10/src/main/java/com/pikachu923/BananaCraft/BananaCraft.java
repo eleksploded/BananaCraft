@@ -1,10 +1,15 @@
 package com.pikachu923.BananaCraft;
 
 import com.pikachu923.BananaCraft.Handler.ConfigurationHandler;
-import com.pikachu923.BananaCraft.init.ModBlock;
-import com.pikachu923.BananaCraft.init.ModItems;
-import com.pikachu923.BananaCraft.init.ModTools;
-import com.pikachu923.BananaCraft.init.Recipes;
+import com.pikachu923.BananaCraft.Recipes.Tier1Recipes;
+import com.pikachu923.BananaCraft.Recipes.Tier2Recipes;
+import com.pikachu923.BananaCraft.armor.ArmorInit;
+import com.pikachu923.BananaCraft.init.Other;
+import com.pikachu923.BananaCraft.init.Tier1Blocks;
+import com.pikachu923.BananaCraft.init.Tier1Items;
+import com.pikachu923.BananaCraft.init.Tier1Tools;
+import com.pikachu923.BananaCraft.init.Tier2Blocks;
+import com.pikachu923.BananaCraft.init.Tier2Items;
 import com.pikachu923.BananaCraft.init.WorldGen;
 import com.pikachu923.BananaCraft.proxy.IProxy;
 import com.pikachu923.BananaCraft.reference.Reference;
@@ -35,16 +40,27 @@ public class BananaCraft {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
 
-        ModItems.init();
-        ModBlock.init();
-        ModTools.init();
-        GameRegistry.registerWorldGenerator(new WorldGen(), 0);
+        //Init
+        Tier1Items.init();
+        Tier1Blocks.init();
+        Tier1Tools.init();
         
+        Tier2Items.Init();
+        Tier2Blocks.Init();       
+        
+        ArmorInit.init();
+        
+        Tier1Recipes.init();
+        Tier2Recipes.Init();
+        
+        Other.init();
+        
+    
     }
 
     @Mod.EventHandler
     public void Init(FMLInitializationEvent event){
-    	Recipes.init();
+    	//Recipes.init();
 
     }
 

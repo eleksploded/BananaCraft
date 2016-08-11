@@ -14,7 +14,7 @@ Note: C:\Users\pikac\Desktop\Minecraft\Projects\BananaCraft\1.7.10\build\sources
 Note: Recompile with -Xlint:unchecked for details.
 1 warning
 
-:processResources UP-TO-DATE
+:processResources
 :classes
 :jar
 :compileTestJava UP-TO-DATE
@@ -32,4 +32,4 @@ Note: Recompile with -Xlint:unchecked for details.
 
 BUILD SUCCESSFUL
 
-Total time: 11.764 secs
+Total time: 1 mins 13.157 secs

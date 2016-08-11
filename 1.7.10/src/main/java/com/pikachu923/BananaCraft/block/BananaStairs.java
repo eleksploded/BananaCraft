@@ -3,7 +3,7 @@ package com.pikachu923.BananaCraft.block;
 import java.util.List;
 import java.util.Random;
 
-import com.pikachu923.BananaCraft.init.ModBlock;
+import com.pikachu923.BananaCraft.init.Tier1Blocks;
 import com.pikachu923.BananaCraft.reference.Reference;
 
 import net.minecraft.block.Block;

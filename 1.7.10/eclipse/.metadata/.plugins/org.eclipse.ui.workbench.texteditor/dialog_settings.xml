@@ -2,22 +2,23 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="block" key="selection"/>
+		<item value="onA" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="onA"/>
+			<item value="on"/>
+			<item value="onArmor"/>
+			<item value="step"/>
+			<item value="stepped"/>
+			<item value="Star"/>
+			<item value="BananaArmor"/>
 			<item value="p_i45428_1_"/>
-			<item value="steveTextures"/>
-			<item value="Steve"/>
-			<item value="p_77615_2_"/>
-			<item value="p_77615_3_"/>
-			<item value="ItemModArmor"/>
-			<item value="tutorial"/>
-			<item value="obsidian"/>
 		</list>
 		<list key="replacehistory">
+			<item value="ReinBananaArmor"/>
 			<item value="block"/>
 			<item value="World"/>
 			<item value="EntityPlayer"/>
@@ -29,7 +30,7 @@
 		<item value="305" key="DIALOG_WIDTH"/>
 		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
 		<item value="444" key="DIALOG_HEIGHT"/>
-		<item value="776" key="DIALOG_X_ORIGIN"/>
-		<item value="216" key="DIALOG_Y_ORIGIN"/>
+		<item value="1395" key="DIALOG_X_ORIGIN"/>
+		<item value="106" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

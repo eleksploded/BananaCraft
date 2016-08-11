@@ -1,0 +1,14 @@
+package com.pikachu923.BananaCraft.init;
+
+import com.pikachu923.BananaCraft.Recipes.CraftingHandler;
+
+import net.minecraft.item.Item;
+
+public class Other extends Item {
+public static void init() {
+	//Banana Life Core
+	ModItems.BananaLifeCore.setContainerItem(ModItems.BananaLifeCore);
+	ModItems.BananaLifeCore.setMaxStackSize(1);
+	
+}
+}

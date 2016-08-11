@@ -2,7 +2,7 @@ item.bananacraft:ReinBanana.name=Reinforced Banana
 item.bananacraft:BananaPlant.name=Banana
 item.bananacraft:BananaArmorCore.name=Banana Armor Plate
 item.bananacraft:GoldenBanana.name=Golden Banana
-item.bananacraft:BananaLifeCore.name=Banana Life Core (WIP)
+item.bananacraft:BananaLifeCore.name=Banana Life Core
 item.bananacraft:BananaBread.name=Banana Bread 
 item.bananacraft:BananaDough.name=Banana Dough
 item.bananacraft:BananaNugget.name=Banana Nugget
@@ -12,12 +12,19 @@ item.bananacraft:BananaAxe.name=Banana Axe
 item.bananacraft:BananaHoe.name=Banana Hoe
 item.bananacraft:BananaShovel.name=Banana Shovel
 
+item.bananacraft:AwakenedBanana.name=Awakened Banana
+item.bananacraft:AwakenedBananaHelmet.name=Awakened Banana Helmet
+item.bananacraft:AwakenedBananaChestplate.name=Awakened Banana Chestplate
+item.bananacraft:AwakenedBananaLeggings.name=Awakened Banana Leggings
+item.bananacraft:AwakenedBananaBoots.name=Awakened Banana Boots
+item.bananacraft:AwakenedArmorCore.name=Awakened Banana Armor Core
+
 item.bananacraft:BananaHelmet.name=Banana Helmet
 item.bananacraft:BananaChestplate.name=Banana Chestplate
 item.bananacraft:BananaLeggings.name=Banana Leggings
 item.bananacraft:BananaBoots.name=Banana Boots
 
-
+tile.bananacraft:AwakenedBlock.name=Awakened Banana Block
 tile.bananacraft:BananaBlock.name=Banana Block
 tile.bananacraft:BananaOre.name=Banana Ore
 tile.bananacraft:BananaStone.name=Banana Stone

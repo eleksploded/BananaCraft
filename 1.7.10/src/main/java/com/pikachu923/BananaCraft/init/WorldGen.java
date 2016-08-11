@@ -15,8 +15,8 @@ public class WorldGen implements IWorldGenerator {
 	public void generate(Random random, int chunkX, int chunkZ, World world, IChunkProvider chunkGenerator, IChunkProvider chunkProvider) {
 	    switch (world.provider.dimensionId) {
 	    case 0: //Overworld
-	    	    this.gen_BananaOre = new WorldGenMinable(ModBlock.BananaOre, 8);
-	    	    this.gen_BananaStone = new WorldGenMinable(ModBlock.BananaStone, 24);
+	    	    this.gen_BananaOre = new WorldGenMinable(Tier1Blocks.BananaOre, 8);
+	    	    this.gen_BananaStone = new WorldGenMinable(Tier1Blocks.BananaStone, 24);
 	    	    this.runGenerator(this.gen_BananaOre, world, random, chunkX, chunkZ, 20, 0, 64);
 	    	    this.runGenerator(this.gen_BananaStone, world, random, chunkX, chunkZ, 20, 0, 64);
 	        break;
