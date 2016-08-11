@@ -7,6 +7,8 @@ This is the Open source repo for my mod: BananaCraft.
   
   Download: https://minecraft.curseforge.com/projects/bananacraft
   
+  Wiki: http://www.bananacraft.wikia.com
+  
 pikachu923,
   pikachu9234@gmail.com
   
