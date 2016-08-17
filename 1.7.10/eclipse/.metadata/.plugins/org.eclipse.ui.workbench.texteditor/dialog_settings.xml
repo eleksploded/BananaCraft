@@ -2,12 +2,13 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="onA" key="selection"/>
+		<item value="EntityAbe" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="EntityWolf"/>
 			<item value="onA"/>
 			<item value="on"/>
 			<item value="onArmor"/>
@@ -15,9 +16,9 @@
 			<item value="stepped"/>
 			<item value="Star"/>
 			<item value="BananaArmor"/>
-			<item value="p_i45428_1_"/>
 		</list>
 		<list key="replacehistory">
+			<item value="EntityAbe"/>
 			<item value="ReinBananaArmor"/>
 			<item value="block"/>
 			<item value="World"/>

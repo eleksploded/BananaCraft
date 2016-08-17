@@ -5,6 +5,7 @@ import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;
 
+import com.pikachu923.BananaCraft.Entity.Kuala.EntityAbe;
 import com.pikachu923.BananaCraft.items.*;
 import com.pikachu923.BananaCraft.reference.Reference;
 
@@ -22,7 +23,8 @@ public class Tier1Items {
     public static final ItemWrapper BananaDough = new BananaDough("BananaDough");
 
     public static final Banana Banana = new Banana(2, 2, Tier1Blocks.BananaPlant, Blocks.farmland, "BananaPlant");
-
+	//private static final Class EntityAbe = com.pikachu923.BananaCraft.Entity.Kuala.EntityAbe;
+    
     public static void init() {
         GameRegistry.registerItem(ReinBanana, "ReinBanana");
         GameRegistry.registerItem(Banana, "Banana");
@@ -31,7 +33,8 @@ public class Tier1Items {
         GameRegistry.registerItem(BananaBread, "BananaBread");
         GameRegistry.registerItem(BananaLifeCore, "BananaLifeCore");
         GameRegistry.registerItem(BananaNugget, "BananaNugger");
-        GameRegistry.registerItem(BananaDough, "BananaDough");  
+        GameRegistry.registerItem(BananaDough, "BananaDough"); 
+        Other.registerEntity(EntityAbe.class, "Kuala");
     }
 }
 

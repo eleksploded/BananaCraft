@@ -20,10 +20,8 @@
 <fullyQualifiedTypeName name="cpw.mods.fml.client.registry.RenderingRegistry"/>
 <fullyQualifiedTypeName name="com.pikachu923.BananaCraft.Entity.BananaBoss.BossRender"/>
 <fullyQualifiedTypeName name="net.minecraft.util.IIcon"/>
-<fullyQualifiedTypeName name="java.util.Random"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="net.minecraft.block.BlockSlab"/>
-<fullyQualifiedTypeName name="com.pikachu923.BananaCraft.reference.Reference"/>
 <fullyQualifiedTypeName name="com.pikachu923.BananaCraft.init.ModBlock"/>
 <fullyQualifiedTypeName name="net.minecraft.block.BlockStairs"/>
 <fullyQualifiedTypeName name="com.pikachu923.BananaCraft.armor.ArmorInit"/>
@@ -34,14 +32,21 @@
 <fullyQualifiedTypeName name="com.pikachu923.BananaCraft.init.Other"/>
 <fullyQualifiedTypeName name="com.pikachu923.BananaCraft.Recipes.CraftingHandler"/>
 <fullyQualifiedTypeName name="com.pikachu923.BananaCraft.items.BananaLifeCore"/>
-<fullyQualifiedTypeName name="net.minecraft.item.Item"/>
 <fullyQualifiedTypeName name="com.pikachu923.BananaCraft.init.Tier2Items"/>
-<fullyQualifiedTypeName name="net.minecraft.entity.Entity"/>
 <fullyQualifiedTypeName name="cpw.mods.fml.common.registry.GameRegistry"/>
 <fullyQualifiedTypeName name="com.pikachu923.BananaCraft.init.Tier2Blocks"/>
 <fullyQualifiedTypeName name="com.pikachu923.BananaCraft.Recipes.Tier2Recipes"/>
-<fullyQualifiedTypeName name="net.minecraft.block.Block"/>
 <fullyQualifiedTypeName name="net.minecraft.block.material.Material"/>
 <fullyQualifiedTypeName name="net.minecraft.client.Minecraft"/>
 <fullyQualifiedTypeName name="com.pikachu923.BananaCraft.init.Tier1Tools"/>
+<fullyQualifiedTypeName name="net.minecraft.entity.passive.EntityTameable"/>
+<fullyQualifiedTypeName name="net.minecraft.entity.Entity"/>
+<fullyQualifiedTypeName name="net.minecraft.item.Item"/>
+<fullyQualifiedTypeName name="net.minecraft.block.Block"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.registry.EntityRegistry"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="net.minecraft.entity.EntityList"/>
+<fullyQualifiedTypeName name="com.pikachu923.BananaCraft.reference.Reference"/>
+<fullyQualifiedTypeName name="com.pikachu923.BananaCraft.Entity.Kuala.EntityAbe"/>
+<fullyQualifiedTypeName name="com.pikachu923.BananaCraft.init.Tier1Items"/>
 </qualifiedTypeNameHistroy>
