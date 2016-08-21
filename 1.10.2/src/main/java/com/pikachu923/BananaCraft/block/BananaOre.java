@@ -7,6 +7,7 @@ import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
 
 public class BananaOre extends BlockWrapper {
+	
 	String unlocalName;
 	String Texture;
 public BananaOre(String unlocalName){

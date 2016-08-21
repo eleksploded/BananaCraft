@@ -1,0 +1,7 @@
+package com.pikachu923.BananaCraft.items;
+
+import net.minecraft.item.ItemBow;
+
+public class BananaBow extends ItemBow {
+
+}

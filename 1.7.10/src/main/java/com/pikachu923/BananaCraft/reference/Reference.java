@@ -9,7 +9,7 @@ public class Reference {
     public static final String MOD_ID = "BananaCraft";
     public static final String LOWERCASE_MOD_ID = MOD_ID.toLowerCase();
     public static final String MOD_NAME = "BananaCraft";
-    public static final String VERSION = "1.7.10-Dev9B";
+    public static final String VERSION = "1.7.10-Dev11";
     public static final String PROXYCLIENT = "com.pikachu923.BananaCraft.proxy.ClientProxy";
     public static final String PROXYSERVER = "com.pikachu923.BananaCraft.proxy.ServerProxy";
     public static final String GuiFactory = "com.pikachu923.BananaCraft.client.gui.GuiFactory";

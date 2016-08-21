@@ -15,6 +15,7 @@ public class BananaArmor extends ItemArmor {
 	    this.textureName = textureName;
 	    this.setUnlocalizedName(Reference.RESOURCE_PREFIX + unlocalizedName);
 	    this.setTextureName(Reference.RESOURCE_PREFIX + unlocalizedName);
+	    this.setCreativeTab(Reference.CreativeTab);
 	}
 	@Override
 	public String getArmorTexture(ItemStack stack, Entity entity, int slot, String type)

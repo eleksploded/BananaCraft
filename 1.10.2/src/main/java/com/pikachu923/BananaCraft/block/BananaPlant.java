@@ -2,7 +2,7 @@ package com.pikachu923.BananaCraft.block;
 
 import java.util.Random;
 
-import com.pikachu923.BananaCraft.init.ModItems;
+import com.pikachu923.BananaCraft.init.Tier1Items;
 import com.pikachu923.BananaCraft.reference.Reference;
 import com.pikachu923.BananaCraft.utility.Plants;
 
@@ -35,7 +35,7 @@ public class BananaPlant extends Plants {
     {
      // DEBUG
      System.out.println("BananaPlant getItemDropped()");
-        return (ModItems.Banana);
+        return (Tier1Items.Banana);
     }
     
     @Override

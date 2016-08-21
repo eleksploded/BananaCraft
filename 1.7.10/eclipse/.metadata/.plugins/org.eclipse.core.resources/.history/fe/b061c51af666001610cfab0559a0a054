@@ -1,0 +1,15 @@
+{
+	"mob.Kuala.Hurt": {
+		"category": "neutral",
+		"sounds": [
+			"mob/Kuala/Hurt"
+		]
+	},
+	"mob.Kuala.Living": {
+		"category": "neutral",
+		"sounds": [
+			"mob/Kuala/Living"
+
+		]
+	}
+}

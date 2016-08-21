@@ -1,9 +1,16 @@
 package com.pikachu923.BananaCraft.block;
 
+import java.util.Random;
+
+import com.pikachu923.BananaCraft.init.Tier1Items;
 import com.pikachu923.BananaCraft.reference.Reference;
+
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
+import net.minecraft.block.Block;
 import net.minecraft.client.renderer.texture.IIconRegister;
+import net.minecraft.init.Blocks;
+import net.minecraft.item.Item;
 import net.minecraft.util.IIcon;
 
 public class BananaGrass extends BlockWrapper{
@@ -21,6 +28,7 @@ public class BananaGrass extends BlockWrapper{
         Texture = Reference.RESOURCE_PREFIX + unlocalName;
         setHardness(0.6F);
         setResistance(0.1F);
+        setStepSound(soundTypeGrass);
     }
     @Override
     @SideOnly(Side.CLIENT)
@@ -51,4 +59,11 @@ public IIcon getIcon(int side, int meta){
         }
     return null;
     }
+	protected boolean canSilkHarvest()
+	{
+		return true;
+	}
+	public Block getBlockDropped(int metadata, Random random, int fortune) {
+	    return Blocks.dirt;
+	}
 }

@@ -1,0 +1,33 @@
+package com.pikachu923.BananaCraft.items;
+
+import com.pikachu923.BananaCraft.init.Tier2Tools;
+import com.pikachu923.BananaCraft.reference.Reference;
+
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
+import net.minecraft.client.renderer.texture.IIconRegister;
+import net.minecraft.item.ItemBow;
+import net.minecraft.item.ItemStack;
+
+public class BananaBow extends ItemBow {
+	
+	String Texture;
+	
+	public BananaBow(String unlocalName) {
+        super();
+        this.setUnlocalizedName(Reference.RESOURCE_PREFIX + unlocalName);
+        this.Texture = Reference.RESOURCE_PREFIX + unlocalName;
+        this.setCreativeTab(Reference.CreativeTab);
+    }
+	
+	@SideOnly(value=Side.CLIENT)
+    public void registerIcons(IIconRegister iconRegister) {
+        this.itemIcon = iconRegister.registerIcon(this.Texture);
+    }
+	
+	public int getMaxItemUseDuration(ItemStack p_77626_1_)
+    {
+        return 72000;
+    }
+
+}
