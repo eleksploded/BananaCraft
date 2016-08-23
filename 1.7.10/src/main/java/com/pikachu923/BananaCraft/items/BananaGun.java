@@ -96,7 +96,7 @@ public class BananaGun extends ItemBow {
 	                entityarrow.setIsCritical(true);
 	            }
 
-	            int k = 3;
+	            int k = EnchantmentHelper.getEnchantmentLevel(Enchantment.power.effectId, p_77615_1_) + 3;
 
 	            if (k > 0)
 	            {

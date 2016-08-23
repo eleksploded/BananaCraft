@@ -9,8 +9,8 @@
 		<item value="GIMP brush" key="EditorSelectionDialog.STORE_ID_DESCR"/>
 	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
-		<item value="747" key="dialogHeight"/>
-		<item value="1440" key="dialogWidth"/>
+		<item value="480" key="dialogHeight"/>
+		<item value="854" key="dialogWidth"/>
 		<list key="textEntries">
 		</list>
 		<list key="orderedElements">
@@ -19,6 +19,8 @@
 		</list>
 		<list key="textArray">
 		</list>
+	</section>
+	<section name="NewWizardAction">
 	</section>
 	<section name="ImportExportAction">
 	</section>

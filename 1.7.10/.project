@@ -14,11 +14,4 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>src/main/resources/assets/bananacraft/textures/entity/MyAbe.png</name>
-			<type>1</type>
-			<locationURI>PARENT-4-PROJECT_LOC/textures/entity/MyAbe.png</locationURI>
-		</link>
-	</linkedResources>
 </projectDescription>
