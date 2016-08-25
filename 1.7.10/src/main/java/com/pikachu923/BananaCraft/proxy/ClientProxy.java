@@ -1,8 +1,8 @@
 package com.pikachu923.BananaCraft.proxy;
 
-import com.pikachu923.BananaCraft.Entity.Kuala.EntityAbe;
-import com.pikachu923.BananaCraft.Entity.Kuala.ModelAbe;
-import com.pikachu923.BananaCraft.Entity.Kuala.RenderAbe;
+import com.pikachu923.BananaCraft.Entity.EntityAbe;
+import com.pikachu923.BananaCraft.Entity.ModelAbe;
+import com.pikachu923.BananaCraft.Entity.RenderAbe;
 
 import cpw.mods.fml.client.registry.RenderingRegistry;
 

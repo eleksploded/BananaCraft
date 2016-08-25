@@ -5,7 +5,7 @@ import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;
 
-import com.pikachu923.BananaCraft.Entity.Kuala.EntityAbe;
+import com.pikachu923.BananaCraft.Entity.EntityAbe;
 import com.pikachu923.BananaCraft.items.*;
 import com.pikachu923.BananaCraft.reference.Reference;
 

@@ -2,8 +2,6 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="com.pikachu923.BananaCraft.utility.ResourceLocationHelper"/>
 <fullyQualifiedTypeName name="net.minecraft.util.ResourceLocation"/>
-<fullyQualifiedTypeName name="net.minecraft.client.renderer.texture.IIconRegister"/>
-<fullyQualifiedTypeName name="cpw.mods.fml.relauncher.SideOnly"/>
 <fullyQualifiedTypeName name="net.minecraft.item.ItemFood"/>
 <fullyQualifiedTypeName name="net.minecraft.world.gen.feature.WorldGenerator"/>
 <fullyQualifiedTypeName name="net.minecraft.world.gen.feature.WorldGenMinable"/>
@@ -13,9 +11,7 @@
 <fullyQualifiedTypeName name="net.minecraft.item.ItemArmor"/>
 <fullyQualifiedTypeName name="net.minecraft.item.ItemStack"/>
 <fullyQualifiedTypeName name="com.pikachu923.BananaCraft.armor.BananaArmor"/>
-<fullyQualifiedTypeName name="cpw.mods.fml.client.registry.RenderingRegistry"/>
 <fullyQualifiedTypeName name="com.pikachu923.BananaCraft.Entity.BananaBoss.BossRender"/>
-<fullyQualifiedTypeName name="net.minecraft.util.IIcon"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="net.minecraft.block.BlockSlab"/>
 <fullyQualifiedTypeName name="com.pikachu923.BananaCraft.init.ModBlock"/>
@@ -42,8 +38,6 @@
 <fullyQualifiedTypeName name="com.pikachu923.BananaCraft.init.Tier1Items"/>
 <fullyQualifiedTypeName name="com.pikachu923.BananaCraft.Entity.Kuala.EntityAbe"/>
 <fullyQualifiedTypeName name="com.pikachu923.BananaCraft.proxy.ClientProxy"/>
-<fullyQualifiedTypeName name="cpw.mods.fml.relauncher.Side"/>
-<fullyQualifiedTypeName name="com.pikachu923.BananaCraft.reference.Reference"/>
 <fullyQualifiedTypeName name="com.pikachu923.BananaCraft.utility.LogHelper"/>
 <fullyQualifiedTypeName name="org.apache.logging.log4j.Level"/>
 <fullyQualifiedTypeName name="net.minecraft.item.Item"/>
@@ -54,4 +48,15 @@
 <fullyQualifiedTypeName name="com.pikachu923.BananaCraft.init.Tier2Items"/>
 <fullyQualifiedTypeName name="net.minecraft.init.Blocks"/>
 <fullyQualifiedTypeName name="net.minecraft.init.Items"/>
+<fullyQualifiedTypeName name="net.minecraft.client.renderer.texture.IIconRegister"/>
+<fullyQualifiedTypeName name="net.minecraft.util.IIcon"/>
+<fullyQualifiedTypeName name="com.pikachu923.BananaCraft.Projectiles.EntityProjectile"/>
+<fullyQualifiedTypeName name="com.pikachu923.BananaCraft.Projectiles.RenderProjectile"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.client.registry.RenderingRegistry"/>
+<fullyQualifiedTypeName name="com.pikachu923.BananaCraft.Projectiles.Projectile"/>
+<fullyQualifiedTypeName name="net.minecraft.util.WeightedRandom.Item"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.registry.LanguageRegistry"/>
+<fullyQualifiedTypeName name="com.pikachu923.BananaCraft.reference.Reference"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.relauncher.Side"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.relauncher.SideOnly"/>
 </qualifiedTypeNameHistroy>

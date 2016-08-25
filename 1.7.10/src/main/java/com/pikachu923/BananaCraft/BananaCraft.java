@@ -1,8 +1,8 @@
 package com.pikachu923.BananaCraft;
 
-import com.pikachu923.BananaCraft.Entity.Kuala.EntityAbe;
-import com.pikachu923.BananaCraft.Entity.Kuala.ModelAbe;
-import com.pikachu923.BananaCraft.Entity.Kuala.RenderAbe;
+import com.pikachu923.BananaCraft.Entity.EntityAbe;
+import com.pikachu923.BananaCraft.Entity.ModelAbe;
+import com.pikachu923.BananaCraft.Entity.RenderAbe;
 import com.pikachu923.BananaCraft.Handler.ConfigurationHandler;
 import com.pikachu923.BananaCraft.Recipes.Tier1Recipes;
 import com.pikachu923.BananaCraft.Recipes.Tier2Recipes;
@@ -62,7 +62,7 @@ public class BananaCraft {
         Tier1Recipes.init();
         Tier2Recipes.Init();
         
-        EntityInit.Init();
+      
         
         Other.init();
         
@@ -74,7 +74,8 @@ public class BananaCraft {
     	//Recipes.init();
     	
     	//@SideOnly(Side.CLIENT)
-    	registerRendering();
+    	//registerRendering();
+    	//EntityInit.Init();
     	
     }
 
