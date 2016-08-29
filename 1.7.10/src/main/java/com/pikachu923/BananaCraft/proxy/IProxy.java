@@ -5,4 +5,8 @@ package com.pikachu923.BananaCraft.proxy;
  */
 public interface IProxy {
 
+	void registerTile();
+
+	void registerRendering();
+
 }

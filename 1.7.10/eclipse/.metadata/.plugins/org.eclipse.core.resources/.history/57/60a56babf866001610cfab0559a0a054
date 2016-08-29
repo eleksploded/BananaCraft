@@ -1,9 +1,0 @@
-package com.pikachu923.BananaCraft.init;
-
-import com.pikachu923.BananaCraft.Entity.Kuala.EntityAbe;
-
-public class EntityInit {
-public static void Init () {
-	Other.registerEntity(EntityAbe.class, "Kuala");
-	}
-}

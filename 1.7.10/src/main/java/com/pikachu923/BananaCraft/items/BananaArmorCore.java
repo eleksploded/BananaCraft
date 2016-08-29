@@ -12,13 +12,11 @@ import com.pikachu923.BananaCraft.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
-public class BananaArmorCore extends Item {
+public class BananaArmorCore extends ItemWrapper {
 	String Texture;
-	private ItemStack emptyItem = null;
-	private static int maxDamage = 256;
     public BananaArmorCore(String unlocalName){
         super();
-        this.setUnlocalizedName(unlocalName);
+        this.setUnlocalizedName(Reference.RESOURCE_PREFIX + unlocalName);
         Texture = Reference.RESOURCE_PREFIX + unlocalName;
     }
 

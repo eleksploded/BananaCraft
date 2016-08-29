@@ -10,11 +10,13 @@ import cpw.mods.fml.relauncher.SideOnly;
 
 public class GoldenBanana extends ItemFood {
 	String Texture;
-    public GoldenBanana(String unlocalName, int healAmount, Boolean alwaysEdible, int potionId, int potionAmplifier, int potionDuration, float potionEffectProbability){
-        super(healAmount, alwaysEdible);
+    public GoldenBanana(String unlocalName, int healAmount, int potionId, int potionAmplifier, int potionDuration, float potionEffectProbability){
+        super(healAmount, false);
         setPotionEffect(potionId, potionDuration, potionAmplifier, potionEffectProbability);
         this.setUnlocalizedName(Reference.RESOURCE_PREFIX + unlocalName);
         Texture = Reference.RESOURCE_PREFIX + unlocalName;
+        setAlwaysEdible();
+        setCreativeTab(Reference.CreativeTab);
     }
 
     @Override

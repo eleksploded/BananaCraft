@@ -1,0 +1,15 @@
+package com.pikachu923.BananaCraft.init;
+
+import net.minecraft.item.Item;
+import com.pikachu923.BananaCraft.items.BananaLifeCore;
+
+import cpw.mods.fml.common.registry.GameRegistry;
+
+public class Tier3Items {
+
+	public static Item CorruptCore = new BananaLifeCore("CurruptCore");
+	
+	public static void Init() {
+		GameRegistry.registerItem(CorruptCore, "CorruptCore");
+	}
+}

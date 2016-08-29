@@ -25,6 +25,7 @@ item.bananacraft:AwakenedAxe.name=Awakened Banana Axe
 item.bananacraft:AwakenedShovel.name=Awakened Banana Shovel
 item.bananacraft:AwakenedHoe.name=Awakened Banana Hoe
 item.bananacraft:BananaGun.name=Banana Gun
+item.bananacraft:DebugSword.name=Debugger of DOOM!
 
 item.bananacraft:BananaHelmet.name=Banana Helmet
 item.bananacraft:BananaChestplate.name=Banana Chestplate
@@ -41,6 +42,7 @@ tile.bananacraft:BananaPillar.name=Banana Pillar
 tile.bananacraft:BananaSlab.name=Banana Slab
 tile.bananacraft:BananaDoubleSlab.name=Double Banana Slab
 tile.bananacraft:BananaStairs.name=Banana Stairs
+tile.bananacraft:BananaIngotizer.name=Banana Ingotizer
 
 itemGroup.BananaCraft=BananaCraft
 

@@ -1,11 +1,29 @@
-[19:29:21] [main/INFO]: Setting user: Player920
-[19:29:23] [Client thread/INFO]: LWJGL Version: 2.9.1
-[19:29:31] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Banana Craft
-[19:29:32] [Sound Library Loader/INFO]: Sound engine started
-[19:29:41] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
-[19:29:41] [Client thread/INFO]: Created: 16x16 textures/items-atlas
-[19:29:41] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Banana Craft
-[19:29:41] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[19:29:41] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[19:29:42] [Sound Library Loader/INFO]: Sound engine started
-[19:30:59] [Client thread/INFO]: Stopping!
+[18:37:32] [main/INFO]: Setting user: Player43
+[18:37:34] [Client thread/INFO]: LWJGL Version: 2.9.1
+[18:37:41] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Banana Craft
+[18:37:42] [Sound Library Loader/INFO]: Sound engine started
+[18:37:43] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[18:37:43] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[18:37:43] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Banana Craft
+[18:37:44] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[18:37:44] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[18:37:45] [Sound Library Loader/INFO]: Sound engine started
+[18:39:43] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[18:39:43] [Server thread/INFO]: Generating keypair
+[18:39:44] [Server thread/INFO]: Preparing start region for level 0
+[18:39:44] [Server thread/INFO]: Changing view distance to 12, from 10
+[18:39:45] [Server thread/INFO]: Player43[local:E:54529079] logged in with entity id 125 at (-839.1923783820765, 4.0, 797.9963160519138)
+[18:39:45] [Server thread/INFO]: Player43 joined the game
+[18:39:53] [Server thread/INFO]: Player43 has just earned the achievement [Taking Inventory]
+[18:39:53] [Client thread/INFO]: [CHAT] Player43 has just earned the achievement [Taking Inventory]
+[18:39:59] [Server thread/INFO]: Saving and pausing game...
+[18:39:59] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[18:39:59] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[18:39:59] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[18:40:00] [Server thread/INFO]: Stopping server
+[18:40:00] [Server thread/INFO]: Saving players
+[18:40:00] [Server thread/INFO]: Saving worlds
+[18:40:00] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[18:40:00] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[18:40:00] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[18:40:01] [Client thread/INFO]: Stopping!

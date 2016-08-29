@@ -2,10 +2,6 @@ package com.pikachu923.BananaCraft.init;
 
 import net.minecraft.block.material.Material;
 
-import com.pikachu923.BananaCraft.block.BananaBlock;
-import com.pikachu923.BananaCraft.block.BananaOre;
-import com.pikachu923.BananaCraft.block.BananaStone;
-import com.pikachu923.BananaCraft.block.BlockWrapper;
 import com.pikachu923.BananaCraft.reference.Reference;
 import com.pikachu923.BananaCraft.utility.Plants;
 import com.pikachu923.BananaCraft.block.*;
@@ -24,6 +20,10 @@ public class Tier1Blocks {
 	public static final BananaSlab BananaDoubleSlab = new BananaSlab(Material.rock, "BananaDoubleSlab", true);
 	public static final BananaStairs BananaStairs = new BananaStairs(BananaBlock, 0, "BananaStairs");
 	
+	public static final BananaIngotizer BananaIngotizer = new BananaIngotizer(false, "BananaIngotizer");
+	public static final BananaIngotizer BananaIngotizerActive = new BananaIngotizer(true, "BananaIngotizer");
+	
+	
 
 public static void init() {
     GameRegistry.registerBlock(BananaBlock, "BananaBlock");
@@ -35,5 +35,7 @@ public static void init() {
     GameRegistry.registerBlock(BananaSlab, "BananaSlab");
     GameRegistry.registerBlock(BananaDoubleSlab, "BananaDoubleSlab");
     GameRegistry.registerBlock(BananaStairs, "BananaStairs");
+    GameRegistry.registerBlock(BananaIngotizer, "BananaIngotizer");
+    GameRegistry.registerBlock(BananaIngotizerActive, "BananaIngotizerActive");
 	}
 }

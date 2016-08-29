@@ -1,0 +1,8 @@
+package assets.bananacraft.textures.gui.container;
+
+public class Snippet {
+	public static void main(String[] args) {
+		container
+	}
+}
+

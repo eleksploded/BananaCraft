@@ -13,7 +13,7 @@ public class BananaSword extends ItemSword{
 	public BananaSword(String unlocalName){
 		super(Tier1Tools.Banana);
 		this.setUnlocalizedName(Reference.RESOURCE_PREFIX + unlocalName);
-        Texture = Reference.RESOURCE_PREFIX + unlocalName;
+        Texture = Reference.RESOURCE_PREFIX + "BananaSword";
         this.setCreativeTab(Reference.CreativeTab);
     }
 
