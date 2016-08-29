@@ -13,7 +13,5 @@ This is the Open source repo for my mod: BananaCraft.
 pikachu923,
   pikachu9234@gmail.com
   
-  
-  
 p.s. use "BananaCraft" (without the quotes) as the subject for a quicker responce :)
   
