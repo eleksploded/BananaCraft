@@ -9,7 +9,7 @@ This is the Open source repo for my mod: BananaCraft.
   
   Wiki: http://www.bananacraft.wikia.com
   
-    Thanks to SpringTreep for Maintain the wiki!
+  Thanks to SpringTreep for Maintain the wiki!
   
 pikachu923,
   pikachu9234@gmail.com
