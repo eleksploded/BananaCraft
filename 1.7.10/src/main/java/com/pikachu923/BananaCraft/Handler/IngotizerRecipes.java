@@ -5,6 +5,10 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Map.Entry;
 
+import com.pikachu923.BananaCraft.init.Tier1Items;
+import com.pikachu923.BananaCraft.init.Tier2Items;
+import com.pikachu923.BananaCraft.init.Tier3Items;
+
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.oredict.OreDictionary;
@@ -20,12 +24,18 @@ public class IngotizerRecipes {
 		return SMELTING_BASE;
 	}
 	
-	public void addRecipe(ItemStack item, ItemStack itemstack, float experience){
+	private IngotizerRecipes() {
+		this.addRecipe(Tier3Items.CorroptFragment, new ItemStack(Tier3Items.CorruptIngot), 2.0F);
+		this.addRecipe(Tier1Items.ReinBanana, new ItemStack(Tier1Items.BananaIngot, 2), 1.0F);
+		this.addRecipe(Tier2Items.AwakenedBanana, new ItemStack(Tier2Items.AwakenedIngot, 2), 1.5F);
+	}
+	
+	public void addRecipe(Item item, ItemStack itemstack, float experience){
 		this.addLists(item, itemstack, experience);
 	}
 	
-	public void addLists(ItemStack itemstack2, ItemStack itemstack, float experience){
-		this.putLists(itemstack2, itemstack, experience);
+	public void addLists(Item itemstack2, ItemStack itemstack, float experience){
+		this.putLists(new ItemStack(itemstack2, 1, OreDictionary.WILDCARD_VALUE), itemstack, experience);
 	}
 	
 	public void putLists(ItemStack itemstack, ItemStack itemstack2, float experience){

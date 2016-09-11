@@ -54,26 +54,10 @@ public class EntityAbe extends EntityTameable implements IEntityOwnable {
 
 	    private static final String __OBFID = "CL_00001654";
 
-	    public EntityAbe(World p_i1696_1_)
+	    public EntityAbe(World par1World)
 	    {
-	        super(p_i1696_1_);
+	        super(par1World);
 	        this.setSize(0.6F, 0.8F);
-	        this.getNavigator().setAvoidsWater(true);
-	        this.tasks.addTask(1, new EntityAISwimming(this));
-	        this.tasks.addTask(2, this.aiSit);
-	        this.tasks.addTask(3, new EntityAILeapAtTarget(this, 0.4F));
-	        this.tasks.addTask(4, new EntityAIAttackOnCollide(this, 1.0D, true));
-	        this.tasks.addTask(5, new EntityAIFollowOwner(this, 1.0D, 10.0F, 2.0F));
-	        this.tasks.addTask(6, new EntityAIMate(this, 1.0D));
-	        this.tasks.addTask(7, new EntityAIWander(this, 1.0D));
-	        //this.tasks.addTask(8, new EntityAIBeg(this, 8.0F));
-	        this.tasks.addTask(9, new EntityAIWatchClosest(this, EntityPlayer.class, 8.0F));
-	        this.tasks.addTask(9, new EntityAILookIdle(this));
-	        this.targetTasks.addTask(1, new EntityAIOwnerHurtByTarget(this));
-	        this.targetTasks.addTask(2, new EntityAIOwnerHurtTarget(this));
-	        this.targetTasks.addTask(3, new EntityAIHurtByTarget(this, true));
-	        this.targetTasks.addTask(4, new EntityAITargetNonTamed(this, EntitySheep.class, 200, false));
-	        this.setTamed(false);
 	    }
 
 	    protected void applyEntityAttributes()
@@ -130,6 +114,23 @@ public class EntityAbe extends EntityTameable implements IEntityOwnable {
 	        this.dataWatcher.addObject(18, new Float(this.getHealth()));
 	        this.dataWatcher.addObject(19, new Byte((byte)0));
 	        this.dataWatcher.addObject(20, new Byte((byte)BlockColored.func_150032_b(1)));
+	        this.getNavigator().setAvoidsWater(true);
+	        this.tasks.addTask(1, new EntityAISwimming(this));
+	        this.tasks.addTask(2, this.aiSit);
+	        this.tasks.addTask(3, new EntityAILeapAtTarget(this, 0.4F));
+	        this.tasks.addTask(4, new EntityAIAttackOnCollide(this, 1.0D, true));
+	        this.tasks.addTask(5, new EntityAIFollowOwner(this, 1.0D, 10.0F, 2.0F));
+	        this.tasks.addTask(6, new EntityAIMate(this, 1.0D));
+	        this.tasks.addTask(7, new EntityAIWander(this, 1.0D));
+	        //this.tasks.addTask(8, new EntityAIBeg(this, 8.0F));
+	        this.tasks.addTask(9, new EntityAIWatchClosest(this, EntityPlayer.class, 8.0F));
+	        this.tasks.addTask(9, new EntityAILookIdle(this));
+	        this.targetTasks.addTask(1, new EntityAIOwnerHurtByTarget(this));
+	        this.targetTasks.addTask(2, new EntityAIOwnerHurtTarget(this));
+	        this.targetTasks.addTask(3, new EntityAIHurtByTarget(this, true));
+	        this.targetTasks.addTask(4, new EntityAITargetNonTamed(this, EntitySheep.class, 200, false));
+	        this.setTamed(false);
+	        
 	    }
 
 	    protected void func_145780_a(int p_145780_1_, int p_145780_2_, int p_145780_3_, Block p_145780_4_)

@@ -49,21 +49,18 @@ public class BananaIngotizer extends BlockContainer {
 	public BananaIngotizer(boolean isActive, String unlocalname) {
 		super(Material.rock);
 		isBurning2 = isActive;
-		this.setBlockName(unlocalname);
+		this.setBlockName(Reference.RESOURCE_PREFIX + unlocalname);
 	}
 
 	@SideOnly(Side.CLIENT)
 	public void registerBlockIcons(IIconRegister iconregister) {
-		this.blockIcon = iconregister.registerIcon(Reference.MOD_NAME + ":TutFurnaceSide");
-		this.front = iconregister.registerIcon(this.isBurning2 ? Reference.MOD_NAME + ":TutFurnaceActive" : Reference.MOD_NAME + ":TutFurnaceInactive");
-		this.top = iconregister.registerIcon(Reference.MOD_NAME + ":TutFurnaceTop");
+		this.blockIcon = iconregister.registerIcon(Reference.MOD_NAME + ":Ingotizer");
+		this.top = iconregister.registerIcon(this.isBurning2 ? Reference.MOD_NAME + ":IngotizerActive" : Reference.MOD_NAME + ":IngotizerInactive");
 	}
 
 	public IIcon getIcon(int side, int meta) {
 		if (side == 1) {
 			return top;
-		} else if (side == 3) {
-			return front;
 		} else {
 			return this.blockIcon;
 		}
@@ -212,52 +209,4 @@ public class BananaIngotizer extends BlockContainer {
 		}
 		super.breakBlock(world, x, y, z, block, meta);
 	}
-
-	@SideOnly(Side.CLIENT)
-	public void randomDisplayTick(World world, int x, int y, int z, Random random) {
-		if (this.isBurning2) {
-			int direction = world.getBlockMetadata(x, y, z);
-
-			float xx = (float) x + 0.5F, yy = (float) y + random.nextFloat() * 6.0F / 16.0F, zz = (float) z + 0.5F, xx2 = random.nextFloat() * 0.3F - 0.2F, zz2 = 0.5F;
-
-			if (direction == 4) {
-				world.spawnParticle("smoke", (double) (xx - zz2), (double) yy, (double) (zz + xx2), 0.0F, 0.0F, 0.0F);
-				world.spawnParticle("flame", (double) (xx - zz2), (double) yy, (double) (zz + xx2), 0.0F, 0.0F, 0.0F);
-			} else if (direction == 5) {
-				world.spawnParticle("smoke", (double) (xx - zz2), (double) yy, (double) (zz + xx2), 0.0F, 0.0F, 0.0F);
-				world.spawnParticle("flame", (double) (xx - zz2), (double) yy, (double) (zz + xx2), 0.0F, 0.0F, 0.0F);
-			} else if (direction == 3) {
-				world.spawnParticle("smoke", (double) (xx - zz2), (double) yy, (double) (zz + xx2), 0.0F, 0.0F, 0.0F);
-				world.spawnParticle("flame", (double) (xx - zz2), (double) yy, (double) (zz + xx2), 0.0F, 0.0F, 0.0F);
-			} else if (direction == 2) {
-				world.spawnParticle("smoke", (double) (xx - zz2), (double) yy, (double) (zz + xx2), 0.0F, 0.0F, 0.0F);
-				world.spawnParticle("flame", (double) (xx - zz2), (double) yy, (double) (zz + xx2), 0.0F, 0.0F, 0.0F);
-			}
-		}
-	}
-	/*
-	public static void openGui(EntityPlayer entityPlayer, Object mod, int modGuiId, World world, int x, int y, int z)
-    {
-        ModContainer mc = FMLCommonHandler.instance().findContainerFor(mod);
-        if (entityPlayer instanceof EntityPlayerMP)
-        {
-            EntityPlayerMP entityPlayerMP = (EntityPlayerMP) entityPlayer;
-            Container remoteGuiContainer = NetworkRegistry.INSTANCE.getRemoteGuiContainer(mc, entityPlayerMP, modGuiId, world, x, y, z);
-            if (remoteGuiContainer != null)
-            {
-                entityPlayerMP.getNextWindowId();
-                entityPlayerMP.closeContainer();
-                int windowId = entityPlayerMP.currentWindowId;
-                FMLMessage.OpenGui openGui = new FMLMessage.OpenGui(windowId, mc.getModId(), modGuiId, x, y, z);
-                EmbeddedChannel embeddedChannel = channelPair.get(Side.SERVER);
-                embeddedChannel.attr(FMLOutboundHandler.FML_MESSAGETARGET).set(OutboundTarget.PLAYER);
-                embeddedChannel.attr(FMLOutboundHandler.FML_MESSAGETARGETARGS).set(entityPlayerMP);
-                embeddedChannel.writeOutbound(openGui);
-                entityPlayerMP.openContainer = remoteGuiContainer;
-                entityPlayerMP.openContainer.windowId = windowId;
-                entityPlayerMP.openContainer.addCraftingToCrafters(entityPlayerMP);
-            }
-        }
-        */
-
 }

@@ -29,6 +29,9 @@ public BananaStone(String unlocalName){
 public Item getItemDropped(int metadata, Random random, int fortune) {
     return Tier1Items.BananaNugget;
 }
+public boolean canSilkHarvest() {
+	return true;
+}
 
 }
 

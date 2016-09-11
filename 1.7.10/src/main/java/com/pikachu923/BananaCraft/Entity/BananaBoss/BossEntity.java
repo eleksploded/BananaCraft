@@ -4,12 +4,14 @@ import com.pikachu923.BananaCraft.init.Tier3Items;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
+import net.minecraft.entity.Entity;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.boss.BossStatus;
 import net.minecraft.entity.boss.IBossDisplayData;
 import net.minecraft.entity.monster.EntityMob;
 import net.minecraft.entity.monster.IMob;
 import net.minecraft.item.Item;
+import net.minecraft.util.DamageSource;
 import net.minecraft.world.World;
 
 public class BossEntity extends EntityMob implements IBossDisplayData, IMob
@@ -101,6 +103,24 @@ public class BossEntity extends EntityMob implements IBossDisplayData, IMob
             }
         }
     }
-
 	
+	protected void updateAITick() {
+		super.updateAITick();
+	}
+	
+	public boolean attackEntityFrom(DamageSource p_70097_1_, float p_70097_2_) {
+		return super.attackEntityFrom(p_70097_1_, p_70097_2_);
+	}
+	
+	public boolean attackEntityAsMob(Entity p_70652_1_) {
+		return super.attackEntityAsMob(p_70652_1_);
+	}
+	
+	public void handleHealthUpdate(byte p_70103_1_){
+		super.handleHealthUpdate(p_70103_1_);
+	}
+	
+	protected boolean canDespawn(){
+		return super.canDespawn();
+	}
 }

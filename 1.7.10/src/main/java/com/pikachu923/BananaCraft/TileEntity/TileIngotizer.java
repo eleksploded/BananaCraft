@@ -89,7 +89,7 @@ public class TileIngotizer extends TileEntity implements ISidedInventory {
 
 		@Override
 		public String getInventoryName() {
-			return this.hasCustomInventoryName() ? this.furnaceName : "Tut Furnace";
+			return this.hasCustomInventoryName() ? this.furnaceName : "Ingotizer";
 		}
 
 		@Override
@@ -256,7 +256,7 @@ public class TileIngotizer extends TileEntity implements ISidedInventory {
 					}
 				}
 				
-				if(item == Items.iron_ingot) return 1600;
+				if(item == Items.iron_ingot) return 200;
 				return 0;
 			}
 		}

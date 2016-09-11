@@ -1,8 +1,6 @@
 package com.pikachu923.BananaCraft;
 
-import com.pikachu923.BananaCraft.Entity.EntityAbe;
-import com.pikachu923.BananaCraft.Entity.ModelAbe;
-import com.pikachu923.BananaCraft.Entity.RenderAbe;
+import com.pikachu923.BananaCraft.Entity.Kuala.*;
 import com.pikachu923.BananaCraft.Entity.BananaBoss.BossEntity;
 import com.pikachu923.BananaCraft.Entity.BananaBoss.BossModel;
 import com.pikachu923.BananaCraft.Entity.BananaBoss.BossRender;
@@ -12,7 +10,7 @@ import com.pikachu923.BananaCraft.Recipes.Tier2Recipes;
 import com.pikachu923.BananaCraft.Recipes.Tier3Recipes;
 import com.pikachu923.BananaCraft.armor.ArmorInit;
 import com.pikachu923.BananaCraft.client.gui.GuiFactory;
-import com.pikachu923.BananaCraft.init.Debug;
+import com.pikachu923.BananaCraft.init.DebugItems;
 import com.pikachu923.BananaCraft.init.EntityInit;
 import com.pikachu923.BananaCraft.init.Other;
 import com.pikachu923.BananaCraft.init.Tier1Blocks;
@@ -22,7 +20,9 @@ import com.pikachu923.BananaCraft.init.Tier2Blocks;
 import com.pikachu923.BananaCraft.init.Tier2Items;
 import com.pikachu923.BananaCraft.init.Tier2Tools;
 import com.pikachu923.BananaCraft.init.Tier3Items;
+import com.pikachu923.BananaCraft.proxy.ClientProxy;
 import com.pikachu923.BananaCraft.proxy.IProxy;
+import com.pikachu923.BananaCraft.proxy.ServerProxy;
 import com.pikachu923.BananaCraft.reference.Reference;
 
 import cpw.mods.fml.client.registry.RenderingRegistry;
@@ -72,16 +72,17 @@ public class BananaCraft {
         Tier2Recipes.Init();
         Tier3Recipes.Init();
         
-        Debug.Init();
+        DebugItems.Init();
         
         Other.init();
+        
         
         proxy.registerTile();
         
         
     
     }
-
+ 
     @Mod.EventHandler
     public void Init(FMLInitializationEvent event){
     	//Recipes.init();

@@ -1,6 +1,6 @@
 package com.pikachu923.BananaCraft.items;
 
-import com.pikachu923.BananaCraft.init.Debug;
+import com.pikachu923.BananaCraft.init.DebugItems;
 import com.pikachu923.BananaCraft.reference.Reference;
 
 import cpw.mods.fml.relauncher.Side;
@@ -21,6 +21,7 @@ public class CorruptFragment extends Item {
         super();
         this.setUnlocalizedName(Reference.RESOURCE_PREFIX + unlocalName);
         Texture = Reference.RESOURCE_PREFIX + unlocalName;
+        setCreativeTab(Reference.CreativeTab);
     }
 
     @Override
@@ -30,9 +31,10 @@ public class CorruptFragment extends Item {
     }
     
     public void onUpdate(ItemStack p_77663_1_, World p_77663_2_, Entity player, int p_77663_4_, boolean p_77663_5_) {
-    	boolean contain = ((EntityPlayer) player).inventory.hasItem(Debug.DebugGem);
+    	boolean contain = ((EntityPlayer) player).inventory.hasItem(DebugItems.DebugGem);
     	if(!contain){
     	((EntityLivingBase) player).addPotionEffect(new PotionEffect(Potion.confusion.getId(), 100, 4));
+    	((EntityLivingBase) player).addPotionEffect(new PotionEffect(Potion.moveSlowdown.getId(), 1, 1));
     	}
     }
 }

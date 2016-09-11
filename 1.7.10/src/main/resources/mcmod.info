@@ -1,19 +1,17 @@
-[
- {
- "modid": "BananaCraft",
- "name": "Banana Craft",
- "description": "Adding Bananas, Banana related things, and other non-banana related things",
- "version": "%version%",
- "credits": "Created by Pikachu923",
- "logoFile": "",
- "mcversion": "%mcversion%",
- "url": "",
- "updateUrl": "",
- "authors": [ "Pikachu923" ],
- "parent":"",
- "screenshots": [],
- "dependencies": [
- "mod_MinecraftForge"
- ]
- }
- ]
+[{
+	"modid": "BananaCraft",
+	"name": "BananaCraft",
+	"description": "Adding Bananas, Banana related things, and other Non-Banana Related things",
+	"version": "",
+	"credits": "Created by Pikachu923",
+	"logoFile": "",
+	"mcversion": "",
+	"url": "http://goo.gl/QP4kaq",
+	"updateUrl": "",
+	"authors": ["Pikachu923"],
+	"parent": "",
+	"screenshots": [],
+	"dependencies": [
+		"mod_MinecraftForge"
+	]
+}]

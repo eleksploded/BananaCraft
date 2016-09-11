@@ -13,7 +13,7 @@ import com.pikachu923.BananaCraft.Inventory.ContainerIngotizer;
 
 public class IngotizerGui extends GuiContainer{
 	
-	private static final ResourceLocation furnaceGuiTextures = new ResourceLocation(Reference.RESOURCE_PREFIX + "textures/gui/container/ingotizer.png");
+	private static final ResourceLocation furnaceGuiTextures = new ResourceLocation(Reference.MOD_ID.toLowerCase() + ":textures/gui/container/Ingotizer.png");
 	private TileIngotizer tileFurnace;
 
 	public IngotizerGui(InventoryPlayer invPlayer, TileIngotizer tile) {
