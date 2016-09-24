@@ -9,7 +9,8 @@ This is the Open source repo for my mod: BananaCraft.
   
   Go to the wiki by clicking [Here](https://github.com/pikachu923/BananaCraft/wiki/Welcome-to-the-BananaCraft-Wiki)     
   
-  Thanks to SpringTreep for Maintain the wiki!
+  Thanks to SpringTreep for Maintain the wiki     
+  Thanks to Chiefsam for making textures
   
 pikachu923,      
   pikachu9234@gmail.com      
