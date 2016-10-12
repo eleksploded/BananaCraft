@@ -6,12 +6,7 @@
 <body>
 
 <div id="container">
-	<div id="header">
-	<h1>BananaCraft</h1>
-	</div>
-	<div id="content">
-		<div id="main">
-		<h2>Contact</h2>
+	<?php include("header.php") ?>
 		<ul>
 			<p>The BananaCraft team; </p>
 			<li>&nbsp; Pikachu923: Auther: pikachu9234@gmail.com </li>
@@ -19,17 +14,6 @@
 			<li>&nbsp; SpringTreep: <a href="http://github.com/pikachu923/BananaCraft/wiki">Wiki:<a/> <font> SpringTreep@gmail.com </font> </li>
 			
 		</ul>
-		
-		</div>
-		<div id="nav">
-		<h3>Navigation</h3>
-			<ul>
-				<li><a href="index.html"><b>Home</b></a></li>
-				<li></li>
-				<li></li>
-				<li><a href="contact.html"><b>Contact</b></a></li>
-			</ul>
-		</div>
 	</div>
 	
 </div>
