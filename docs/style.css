@@ -32,8 +32,8 @@ body {
 	background-color: #000;
 	margin-left: left;
 	margin-right: right;
-	width: 800px;
 	opacity: 1;
+	padding: 10px;
 }
 
 #content {
