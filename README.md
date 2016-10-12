@@ -3,7 +3,7 @@
 This is the Open source repo for my mod: BananaCraft.      
   If you have ideas, help with the code, fixes, or anything else, please email them to me at pikachu9234@gmail.com      
   
-  We am new to modding so any help will be greatly appreciated.      
+  I am new to modding so any help will be greatly appreciated.      
   
   Download: [Click Me](http://goo.gl/QP4kaq)     
   
