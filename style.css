@@ -11,6 +11,10 @@
 	color: #C60202;
 }
 
+li {
+	color: white;
+}
+
 #main a {
 	text-decoration: none;
 	color: #1509FF;
@@ -28,6 +32,7 @@ h1 {
 body {
 	background-color: #000;
 }
+
 
 #container {
 	background-color: #000;
