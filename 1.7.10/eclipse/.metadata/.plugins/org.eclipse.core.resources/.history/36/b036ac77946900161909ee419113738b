@@ -1,8 +1,0 @@
-package com.pikachu923.BananaCraft.Projectiles;
-
-public class Snippet {
-	public static void main(String[] args) {
-		projectiles
-	}
-}
-

@@ -11,11 +11,10 @@ item.bananacraft:BananaSword.name=Banana Sword
 item.bananacraft:BananaAxe.name=Banana Axe
 item.bananacraft:BananaHoe.name=Banana Hoe
 item.bananacraft:BananaShovel.name=Banana Shovel
-
-item.bananacraft:BananaBomb.name=Banana Bomb Tier 0
-item.bananacraft:BananaBomb1.name=Banana Bomb Tier 1
-item.bananacraft:BananaBomb2.name=Banana Bomb Tier 2
-item.bananacraft:BananaBomb3.name=Banana Bomb Tier 3
+item.bananacraft:BananaHelmet.name=Banana Helmet
+item.bananacraft:BananaChestplate.name=Banana Chestplate
+item.bananacraft:BananaLeggings.name=Banana Leggings
+item.bananacraft:BananaBoots.name=Banana Boots
 
 item.bananacraft:AwakenedBanana.name=Awakened Banana
 item.bananacraft:AwakenedBananaHelmet.name=Awakened Banana Helmet
@@ -29,17 +28,23 @@ item.bananacraft:AwakenedAxe.name=Awakened Banana Axe
 item.bananacraft:AwakenedShovel.name=Awakened Banana Shovel
 item.bananacraft:AwakenedHoe.name=Awakened Banana Hoe
 item.bananacraft:BananaGun.name=Banana Gun
-item.bananacraft:DebugSword.name=Debugger of DOOM!
+
 item.bananacraft:CorruptCore.name=Corrupt Core
 item.bananacraft:CorruptFragment.name=Corrupt Fragment
 item.bananacraft:CorruptIngot.name=Corrupt Ingot
-item.bananacraft:SamItem.name-Sam's Item
-item.bananacraft:DebugGem.name=Debug Gem
+item.bananacraft:Purifier.name=Purifing Gel
+item.bananacraft:CorruptBanana.name=Corrput Banana
+item.bananacraft:PurifiedBanana.name=Purified Banana
+item.bananacraft:Spawner.name=Banana Boss Spawner
 
-item.bananacraft:BananaHelmet.name=Banana Helmet
-item.bananacraft:BananaChestplate.name=Banana Chestplate
-item.bananacraft:BananaLeggings.name=Banana Leggings
-item.bananacraft:BananaBoots.name=Banana Boots
+item.bananacraft:RegenOrb.name=Regeneration Orb
+item.bananacraft:RegenOrb1.name=Regeneration Orb
+item.bananacraft:RegenOrb2.name=Regeneration Orb
+
+item.bananacraft:BananaBomb.name=Banana Bomb Tier 0
+item.bananacraft:BananaBomb1.name=Banana Bomb Tier 1
+item.bananacraft:BananaBomb2.name=Banana Bomb Tier 2
+item.bananacraft:BananaBomb3.name=Banana Bomb Tier 3
 
 tile.bananacraft:AwakenedBlock.name=Awakened Banana Block
 tile.bananacraft:BananaBlock.name=Banana Block
@@ -52,7 +57,16 @@ tile.bananacraft:BananaSlab.name=Banana Slab
 tile.bananacraft:BananaDoubleSlab.name=Double Banana Slab
 tile.bananacraft:BananaStairs.name=Banana Stairs
 tile.bananacraft:BananaIngotizer.name=Banana Ingotizer
+tile.bananacraft:BananaTnt.name=Banana TNT
 
 itemGroup.BananaCraft=BananaCraft
 
+entity.BananaBoss.name=Banana Boss
 entity.Kuala.name=Kuala
+entity.BananaCreeper.name=Banana Creeper
+
+death.attack.Boss=%1$s was turned to dust by the Banana Boss
+
+item.bananacraft:SamItem.name-Sam's Item
+item.bananacraft:DebugGem.name=Debug Gem
+item.bananacraft:DebugSword.name=Debugger of DOOM!

@@ -18,7 +18,7 @@ import cpw.mods.fml.common.registry.GameRegistry;
 public class Tier2Recipes {
 public static void Init() {
 	//Items
-	GameRegistry.addRecipe(new ItemStack(Tier2Items.AwakenedBanana, 2)," c ", "cic", " c ", 'c' , new ItemStack(Tier1Items.ReinBanana), 'i', new ItemStack(Tier1Items.BananaLifeCore , 1, OreDictionary.WILDCARD_VALUE));
+	//GameRegistry.addShapelessRecipe(new ItemStack(Tier2Items.AwakenedBanana), new ItemStack(Tier1Items.ReinBanana), new ItemStack(Tier1Items.ReinBanana));
 	GameRegistry.addRecipe(new ItemStack(Tier2Tools.BananaGun), "AA ", " LA", " AG", 'A', new ItemStack(Tier2Items.AwakenedBanana), 'L', new ItemStack(Blocks.lever), 'G', new ItemStack(Items.gunpowder));
 	GameRegistry.addRecipe(new ItemStack(Tier2Tools.AwakenedPickaxe), "AAA", " S ", " S ", 'S', new ItemStack(Items.stick), 'A', new ItemStack(Tier2Items.AwakenedBanana));
 	GameRegistry.addRecipe(new ItemStack(Tier2Tools.AwakenedAxe), "AA", "AS", " S", 'S', new ItemStack(Items.stick), 'A', new ItemStack(Tier2Items.AwakenedBanana));

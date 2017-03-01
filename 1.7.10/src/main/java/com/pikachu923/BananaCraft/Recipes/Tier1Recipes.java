@@ -6,6 +6,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraftforge.oredict.OreDictionary;
 
 import com.pikachu923.BananaCraft.armor.ArmorInit;
+import com.pikachu923.BananaCraft.init.Gems;
 import com.pikachu923.BananaCraft.init.Other;
 import com.pikachu923.BananaCraft.init.Tier1Blocks;
 import com.pikachu923.BananaCraft.init.Tier1Tools;
@@ -39,6 +40,10 @@ public static void init(){
 	GameRegistry.addRecipe(new ItemStack(Tier1Items.ReinBanana, 4), "OIO", "IBI", "OIO", 'O', new ItemStack(Blocks.stone), 'I', new ItemStack(Tier1Items.Banana), 'B', new ItemStack(Items.iron_ingot));
 	GameRegistry.addRecipe(new ItemStack(Tier1Items.BananaLifeCore), "BDB", "DSD", "BDB", 'D', new ItemStack(Items.diamond), 'B', new ItemStack(Tier1Blocks.BananaBlock), 'S', new ItemStack(Items.nether_star));
 	GameRegistry.addRecipe(new ItemStack(Tier1Items.Banana, 9), "B", 'B', new ItemStack(Tier1Blocks.BananaBlock));
+	
+	GameRegistry.addRecipe(new ItemStack(Gems.RegenOrb), " S ", "SPS", " S ", 'S', new ItemStack(Blocks.stone), 'P', new ItemStack(Items.potionitem,1,8225));
+	GameRegistry.addRecipe(new ItemStack(Gems.RegenOrb1), " S ", "SPS", " S ", 'S', new ItemStack(Blocks.obsidian), 'P', new ItemStack(Items.potionitem,1,8225));
+	GameRegistry.addRecipe(new ItemStack(Gems.RegenOrb2), "SPS", "DSD", "SPS", 'S', new ItemStack(Blocks.obsidian), 'P', new ItemStack(Items.potionitem,1,8225), 'D', new ItemStack(Items.diamond));
 	
 	//blocks
 	GameRegistry.addRecipe(new ItemStack(Tier1Blocks.BananaBlock), "BBB", "BBB", "BBB", 'B', new ItemStack(Tier1Items.Banana));

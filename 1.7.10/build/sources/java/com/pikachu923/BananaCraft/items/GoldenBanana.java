@@ -16,6 +16,7 @@ public class GoldenBanana extends ItemFood {
         this.setUnlocalizedName(Reference.RESOURCE_PREFIX + unlocalName);
         Texture = Reference.RESOURCE_PREFIX + unlocalName;
         setAlwaysEdible();
+        setCreativeTab(Reference.CreativeTab);
     }
 
     @Override

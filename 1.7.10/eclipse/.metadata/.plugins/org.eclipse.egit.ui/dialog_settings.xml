@@ -11,4 +11,11 @@
 			<item value="400"/>
 		</list>
 	</section>
+	<section name="org.eclipse.egit.ui.COMMIT_DIALOG_SECTION">
+		<item value="790" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="678" key="DIALOG_HEIGHT"/>
+		<item value="574" key="DIALOG_X_ORIGIN"/>
+		<item value="72" key="DIALOG_Y_ORIGIN"/>
+	</section>
 </section>

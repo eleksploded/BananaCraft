@@ -1,29 +1,54 @@
-[18:37:32] [main/INFO]: Setting user: Player43
-[18:37:34] [Client thread/INFO]: LWJGL Version: 2.9.1
-[18:37:41] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Banana Craft
-[18:37:42] [Sound Library Loader/INFO]: Sound engine started
-[18:37:43] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
-[18:37:43] [Client thread/INFO]: Created: 16x16 textures/items-atlas
-[18:37:43] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Banana Craft
-[18:37:44] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[18:37:44] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[18:37:45] [Sound Library Loader/INFO]: Sound engine started
-[18:39:43] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[18:39:43] [Server thread/INFO]: Generating keypair
-[18:39:44] [Server thread/INFO]: Preparing start region for level 0
-[18:39:44] [Server thread/INFO]: Changing view distance to 12, from 10
-[18:39:45] [Server thread/INFO]: Player43[local:E:54529079] logged in with entity id 125 at (-839.1923783820765, 4.0, 797.9963160519138)
-[18:39:45] [Server thread/INFO]: Player43 joined the game
-[18:39:53] [Server thread/INFO]: Player43 has just earned the achievement [Taking Inventory]
-[18:39:53] [Client thread/INFO]: [CHAT] Player43 has just earned the achievement [Taking Inventory]
-[18:39:59] [Server thread/INFO]: Saving and pausing game...
-[18:39:59] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
-[18:39:59] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
-[18:39:59] [Server thread/INFO]: Saving chunks for level 'Test'/The End
-[18:40:00] [Server thread/INFO]: Stopping server
-[18:40:00] [Server thread/INFO]: Saving players
-[18:40:00] [Server thread/INFO]: Saving worlds
-[18:40:00] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
-[18:40:00] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
-[18:40:00] [Server thread/INFO]: Saving chunks for level 'Test'/The End
-[18:40:01] [Client thread/INFO]: Stopping!
+[21:25:36] [main/INFO]: Setting user: Player945
+[21:25:37] [Client thread/INFO]: LWJGL Version: 2.9.1
+[21:25:46] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:BananaCraft
+[21:25:47] [Sound Library Loader/INFO]: Sound engine started
+[21:25:48] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[21:25:48] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[21:25:48] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:BananaCraft
+[21:25:49] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[21:25:49] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[21:25:50] [Sound Library Loader/INFO]: Sound engine started
+[21:25:54] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[21:25:54] [Server thread/INFO]: Generating keypair
+[21:25:54] [Server thread/INFO]: Preparing start region for level 0
+[21:25:55] [Server thread/INFO]: Changing view distance to 12, from 10
+[21:25:55] [Server thread/INFO]: Player945[local:E:8df0b328] logged in with entity id 275 at (-1319.8656047034342, 6.0, -386.91882822654577)
+[21:25:55] [Server thread/INFO]: Player945 joined the game
+[21:26:05] [Server thread/INFO]: Player945 has just earned the achievement [Taking Inventory]
+[21:26:05] [Client thread/INFO]: [CHAT] Player945 has just earned the achievement [Taking Inventory]
+[21:26:16] [Client thread/INFO]: [CHAT] You do not have permission to use this command
+[21:26:17] [Server thread/INFO]: Saving and pausing game...
+[21:26:17] [Server thread/INFO]: Saving chunks for level 'Test2'/Overworld
+[21:26:17] [Server thread/INFO]: Saving chunks for level 'Test2'/Nether
+[21:26:17] [Server thread/INFO]: Saving chunks for level 'Test2'/The End
+[21:26:19] [Client thread/INFO]: Started on 61547
+[21:26:19] [Client thread/INFO]: [CHAT] Local game hosted on port 61547
+[21:26:21] [Server thread/INFO]: [Player945: Given [item.bananacraft:Spawner.name] * 1 to Player945]
+[21:26:21] [Client thread/INFO]: [CHAT] Given [item.bananacraft:Spawner.name] * 1 to Player945
+[21:26:27] [Client thread/INFO]: [CHAT] BananaCraft:AwakenedBlock, BananaCraft:AwakenedBanana
+[21:26:27] [Server thread/INFO]: [Player945: Given [Awakened Banana Block] * 1 to Player945]
+[21:26:28] [Client thread/INFO]: [CHAT] Given [Awakened Banana Block] * 1 to Player945
+[21:26:50] [Client thread/INFO]: [CHAT] BananaCraft:BananaBomb3, BananaCraft:BananaBomb, BananaCraft:BananaBomb2, BananaCraft:BananaBread, BananaCraft:BananaBlock, BananaCraft:BananaBomb1
+[21:26:50] [Client thread/INFO]: [CHAT] BananaCraft:BananaBomb3, BananaCraft:BananaBomb, BananaCraft:BananaBomb2, BananaCraft:BananaBread, BananaCraft:BananaBlock, BananaCraft:BananaBomb1
+[21:26:51] [Client thread/INFO]: [CHAT] BananaCraft:BananaBomb3, BananaCraft:BananaBomb, BananaCraft:BananaBomb2, BananaCraft:BananaBread, BananaCraft:BananaBlock, BananaCraft:BananaBomb1
+[21:26:51] [Client thread/INFO]: [CHAT] BananaCraft:BananaBomb3, BananaCraft:BananaBomb, BananaCraft:BananaBomb2, BananaCraft:BananaBread, BananaCraft:BananaBlock, BananaCraft:BananaBomb1
+[21:26:52] [Client thread/INFO]: [CHAT] BananaCraft:BananaBomb3, BananaCraft:BananaBomb, BananaCraft:BananaBomb2, BananaCraft:BananaBread, BananaCraft:BananaBlock, BananaCraft:BananaBomb1
+[21:26:54] [Server thread/INFO]: [Player945: Given [Banana Block] * 63 to Player945]
+[21:26:54] [Client thread/INFO]: [CHAT] Given [Banana Block] * 63 to Player945
+[21:28:09] [Server thread/INFO]: [Player945: Given [Banana Block] * 32 to Player945]
+[21:28:09] [Client thread/INFO]: [CHAT] Given [Banana Block] * 32 to Player945
+[21:28:37] [Server thread/INFO]: [Player945: Given [Banana Block] * 32 to Player945]
+[21:28:37] [Client thread/INFO]: [CHAT] Given [Banana Block] * 32 to Player945
+[21:29:02] [Server thread/INFO]: [Player945: Given [Banana Block] * 32 to Player945]
+[21:29:02] [Client thread/INFO]: [CHAT] Given [Banana Block] * 32 to Player945
+[21:29:29] [Server thread/INFO]: [Player945: Given [Banana Block] * 31 to Player945]
+[21:29:29] [Client thread/INFO]: [CHAT] Given [Banana Block] * 31 to Player945
+[21:30:20] [Server thread/INFO]: [Player945: Given [Banana Block] * 2 to Player945]
+[21:30:20] [Client thread/INFO]: [CHAT] Given [Banana Block] * 2 to Player945
+[21:30:40] [Server thread/INFO]: Stopping server
+[21:30:40] [Server thread/INFO]: Saving players
+[21:30:40] [Server thread/INFO]: Saving worlds
+[21:30:40] [Server thread/INFO]: Saving chunks for level 'Test2'/Overworld
+[21:30:40] [Server thread/INFO]: Saving chunks for level 'Test2'/Nether
+[21:30:40] [Server thread/INFO]: Saving chunks for level 'Test2'/The End
+[21:30:41] [Client thread/INFO]: Stopping!

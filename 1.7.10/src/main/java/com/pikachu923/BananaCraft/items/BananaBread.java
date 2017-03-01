@@ -13,6 +13,7 @@ public class BananaBread extends ItemFood {
         super(parHealAmount, parSaturationModifier, false);
         this.setUnlocalizedName(Reference.RESOURCE_PREFIX + unlocalName);
         Texture = Reference.RESOURCE_PREFIX + unlocalName;
+        setCreativeTab(Reference.CreativeTab);
     }
 
     @Override

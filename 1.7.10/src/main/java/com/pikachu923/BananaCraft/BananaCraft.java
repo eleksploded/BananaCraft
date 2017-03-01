@@ -5,6 +5,7 @@ import com.pikachu923.BananaCraft.Entity.BananaBoss.BossEntity;
 import com.pikachu923.BananaCraft.Entity.BananaBoss.BossModel;
 import com.pikachu923.BananaCraft.Entity.BananaBoss.BossRender;
 import com.pikachu923.BananaCraft.Handler.ConfigurationHandler;
+import com.pikachu923.BananaCraft.Handler.CraftingHandler;
 import com.pikachu923.BananaCraft.Recipes.Tier1Recipes;
 import com.pikachu923.BananaCraft.Recipes.Tier2Recipes;
 import com.pikachu923.BananaCraft.Recipes.Tier3Recipes;
@@ -12,6 +13,7 @@ import com.pikachu923.BananaCraft.armor.ArmorInit;
 import com.pikachu923.BananaCraft.client.gui.GuiFactory;
 import com.pikachu923.BananaCraft.init.DebugItems;
 import com.pikachu923.BananaCraft.init.EntityInit;
+import com.pikachu923.BananaCraft.init.Gems;
 import com.pikachu923.BananaCraft.init.Other;
 import com.pikachu923.BananaCraft.init.Tier1Blocks;
 import com.pikachu923.BananaCraft.init.Tier1Items;
@@ -36,6 +38,7 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.network.NetworkRegistry;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
+import net.minecraftforge.common.MinecraftForge;
 
 /**
  * Created by pikachu on 6/20/2016.
@@ -54,6 +57,7 @@ public class BananaCraft {
     public void preInit(FMLPreInitializationEvent event){
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+        FMLCommonHandler.instance().bus().register(new CraftingHandler());
 
         //Init
         Tier1Items.init();
@@ -75,6 +79,8 @@ public class BananaCraft {
         DebugItems.Init();
         
         Other.init();
+        
+        Gems.Init();
         
         
         proxy.registerTile();

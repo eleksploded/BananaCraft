@@ -12,10 +12,6 @@ import cpw.mods.fml.relauncher.SideOnly;
  */
 @SideOnly(Side.SERVER)
 public class ServerProxy extends CommonProxy {
-	
-	public void registerTile() {
-		GameRegistry.registerTileEntity(TileIngotizer.class, "BananaIngotizer");
-	}
 
 	@Override
 	public void registerRendering() {
@@ -25,6 +21,12 @@ public class ServerProxy extends CommonProxy {
 	
 	public ServerProxy getServerProxy() {
 		return this;
+	}
+
+	@Override
+	public void registerTile() {
+		// TODO Auto-generated method stub
+		
 	}
 	
 	

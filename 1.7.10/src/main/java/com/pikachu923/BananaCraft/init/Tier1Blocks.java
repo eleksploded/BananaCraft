@@ -1,18 +1,26 @@
 package com.pikachu923.BananaCraft.init;
 
+import com.pikachu923.BananaCraft.TileEntity.TileIngotizer;
+import com.pikachu923.BananaCraft.block.BananaBlock;
+import com.pikachu923.BananaCraft.block.BananaGrass;
+import com.pikachu923.BananaCraft.block.BananaIngotizer;
+import com.pikachu923.BananaCraft.block.BananaOre;
+import com.pikachu923.BananaCraft.block.BananaPillar;
+import com.pikachu923.BananaCraft.block.BananaPlant;
+import com.pikachu923.BananaCraft.block.BananaSlab;
+import com.pikachu923.BananaCraft.block.BananaStairs;
+import com.pikachu923.BananaCraft.block.BananaStone;
+import com.pikachu923.BananaCraft.block.BlockWrapper;
+import com.pikachu923.BananaCraft.reference.Reference;
+import com.pikachu923.BananaCraft.utility.Plants;
+
+import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 
-import com.pikachu923.BananaCraft.reference.Reference;
-import com.pikachu923.BananaCraft.utility.Plants;
-import com.pikachu923.BananaCraft.TileEntity.TileIngotizer;
-import com.pikachu923.BananaCraft.block.*;
-
-import cpw.mods.fml.common.registry.GameRegistry;
-
 @GameRegistry.ObjectHolder(Reference.MOD_ID)
 public class Tier1Blocks {
-	public static final BlockWrapper BananaBlock = new BananaBlock("BananaBlock");
+	public static final Block BananaBlock = new BananaBlock("BananaBlock");
 	public static final BlockWrapper BananaOre = new BananaOre("BananaOre");
 	public static final BlockWrapper BananaStone = new BananaStone("BananaStone");
 	public static final BlockWrapper BananaGrass = new BananaGrass("BananaGrass");

@@ -2,16 +2,20 @@ package com.pikachu923.BananaCraft.block;
 
 import java.util.Random;
 
+import com.pikachu923.BananaCraft.init.Tier1Blocks;
 import com.pikachu923.BananaCraft.init.Tier1Items;
 import com.pikachu923.BananaCraft.reference.Reference;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockGrass;
+import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.util.IIcon;
+import net.minecraft.world.World;
 
 public class BananaGrass extends BlockWrapper{
     String unlocalName;
@@ -20,7 +24,7 @@ public class BananaGrass extends BlockWrapper{
     public IIcon Side1;
     public IIcon Side2;
     public BananaGrass(String unlocalName){
-        super();
+        super(Material.grass);
         this.setBlockName(unlocalName);
         Texture = Reference.RESOURCE_PREFIX + unlocalName;
         setHardness(0.6F);
@@ -57,7 +61,9 @@ public IIcon getIcon(int side, int meta){
 	{
 		return true;
 	}
-	public Block getBlockDropped(int metadata, Random random, int fortune) {
-	    return Blocks.dirt;
+	public Item getItemDropped(int metadata, Random random, int fortune) {
+	    return Blocks.dirt.getItemDropped(0, random, fortune);
 	}
+	
+	
 }

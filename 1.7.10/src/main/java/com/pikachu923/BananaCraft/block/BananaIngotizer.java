@@ -50,6 +50,7 @@ public class BananaIngotizer extends BlockContainer {
 		super(Material.rock);
 		isBurning2 = isActive;
 		this.setBlockName(Reference.RESOURCE_PREFIX + unlocalname);
+		setHardness(3.0F);
 	}
 
 	@SideOnly(Side.CLIENT)

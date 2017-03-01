@@ -3,6 +3,9 @@ package com.pikachu923.BananaCraft.proxy;
 import com.pikachu923.BananaCraft.Entity.BananaBoss.BossEntity;
 import com.pikachu923.BananaCraft.Entity.BananaBoss.BossModel;
 import com.pikachu923.BananaCraft.Entity.BananaBoss.BossRender;
+import com.pikachu923.BananaCraft.Entity.BananaCreeper.EntityBananaCreeper;
+import com.pikachu923.BananaCraft.Entity.BananaCreeper.ModelCreeper;
+import com.pikachu923.BananaCraft.Entity.BananaCreeper.RenderCreeper;
 import com.pikachu923.BananaCraft.Projectiles.BananaBomb0.EntityBananaBomb;
 import com.pikachu923.BananaCraft.Projectiles.BananaBomb0.RenderBananaBomb;
 import com.pikachu923.BananaCraft.Projectiles.BananaBomb1.EntityBananaBomb1;
@@ -35,6 +38,7 @@ public class ClientProxy extends CommonProxy {
 		//RenderingRegistry.registerEntityRenderingHandler(EntityAbe.class, new RenderAbe(new  ModelAbe(), 0.5F));
 		//@SideOnly(Side.CLIENT)
 		RenderingRegistry.registerEntityRenderingHandler(BossEntity.class, new BossRender(new BossModel(), 0.5F));
+		RenderingRegistry.registerEntityRenderingHandler(EntityBananaCreeper.class, new RenderCreeper());
 		RenderingRegistry.registerEntityRenderingHandler(EntityBananaBomb.class, new RenderBananaBomb(Other.BananaBomb0));
 		RenderingRegistry.registerEntityRenderingHandler(EntityBananaBomb1.class, new RenderBananaBomb1(Other.BananaBomb1));
 		RenderingRegistry.registerEntityRenderingHandler(EntityBananaBomb2.class, new RenderBananaBomb2(Other.BananaBomb2));

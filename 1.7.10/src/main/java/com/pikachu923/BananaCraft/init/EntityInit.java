@@ -1,18 +1,16 @@
 package com.pikachu923.BananaCraft.init;
 
-import com.pikachu923.BananaCraft.Entity.Kuala.*;
-import com.pikachu923.BananaCraft.Entity.BananaBoss.*;
-
-import cpw.mods.fml.common.registry.EntityRegistry;
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
-import net.minecraft.entity.EnumCreatureType;
+import com.pikachu923.BananaCraft.Entity.BananaBoss.BossEntity;
+import com.pikachu923.BananaCraft.Entity.BananaCreeper.EntityBananaCreeper;
+import com.pikachu923.BananaCraft.utility.func;
 
 public class EntityInit {
 public static void Init() {
 	//Other.registerEntity(EntityAbe.class, "Kuala", 8421504, 0, true);
 	//EntityRegistry.addSpawn(EntityAbe.class, 10, 1, 5, EnumCreatureType.creature);
 	
-	Other.registerEntity(BossEntity.class, "BananaBoss", false);
+	func.registerEntityNoEgg(BossEntity.class, "BananaBoss", false);
+	func.registerEntity(EntityBananaCreeper.class, "BananaCreeper", 16776960, 0,  true);
+	
 	}
 }

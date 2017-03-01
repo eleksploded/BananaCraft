@@ -11,12 +11,21 @@ import com.pikachu923.BananaCraft.Projectiles.BananaBomb3.*;
 import com.pikachu923.BananaCraft.items.ItemWrapper;
 import com.pikachu923.BananaCraft.reference.Reference;
 import com.pikachu923.BananaCraft.utility.LogHelper;
+import com.pikachu923.BananaCraft.Gen.*;
 
 import cpw.mods.fml.client.registry.RenderingRegistry;
 import cpw.mods.fml.common.registry.EntityRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.entity.EntityList;
 import net.minecraft.entity.EnumCreatureType;
+import net.minecraft.util.DamageSource;
+import net.minecraft.world.biome.BiomeGenBase;
+import net.minecraftforge.common.BiomeDictionary;
+import net.minecraftforge.common.BiomeManager;
+import net.minecraftforge.common.BiomeManager.BiomeEntry;
+import net.minecraftforge.common.BiomeManager.BiomeType;
+
+
 import com.pikachu923.BananaCraft.items.ItemWrapper;
 
 public class Other{
@@ -24,13 +33,16 @@ public class Other{
 	public static final BananaBomb1 BananaBomb1 = new BananaBomb1("BananaBomb1", 7.5F); 
 	public static final BananaBomb2 BananaBomb2 = new BananaBomb2("BananaBomb2", 10F); 
 	public static final BananaBomb3 BananaBomb3 = new BananaBomb3("BananaBomb3", 12.5F); 
+	public static final DamageSource Boss = (new DamageSource("Boss"));
+	public static final BiomeGenBase BananaBiome = new BananaBiomeGen(30);
 	
 public static void init() {
-	//Banana Life Core
 		Tier1Items.BananaLifeCore.setContainerItem(Tier1Items.BananaLifeCore);
 		Tier1Items.BananaLifeCore.setMaxStackSize(1);
+		Tier3Items.Purifier.setContainerItem(Tier3Items.Purifier).setMaxStackSize(1);
 		
-		GameRegistry.registerWorldGenerator(new WorldGen(), 0);
+		GameRegistry.registerWorldGenerator(new OreGen(), 0);
+		
 		
 		GameRegistry.registerItem(BananaBomb0, "BananaBomb");
 		GameRegistry.registerItem(BananaBomb1, "BananaBomb1");
@@ -49,46 +61,11 @@ public static void init() {
 	    EntityRegistry.registerGlobalEntityID(EntityBananaBomb3.class, "BananaBomb3", EntityRegistry.findGlobalUniqueEntityId());
 	    EntityRegistry.registerModEntity(EntityBananaBomb3.class, "BananaBomb3", 5, Reference.MOD_ID, 256, 1, true);
 	    
-	}
-	
-
-	//Functions
-
-	public static void registerEntity(Class entityClass, String name, boolean Spawns)
-	{
-		int entityID = EntityRegistry.findGlobalUniqueEntityId();
-		long seed = name.hashCode();
-		Random rand = new Random(seed);
-		int primaryColor = rand.nextInt() * 16777215;
-		int secondaryColor = rand.nextInt() * 16777215;
-
-		EntityRegistry.registerGlobalEntityID(entityClass, name, entityID);
-		EntityRegistry.registerModEntity(entityClass, name, entityID, Reference.MOD_ID, 64, 1, true);
-		EntityList.entityEggs.put(Integer.valueOf(entityID), new EntityList.EntityEggInfo(entityID, primaryColor, secondaryColor));
-		if(Spawns == true) {
-			EntityRegistry.addSpawn(entityClass, 6, 1, 5, EnumCreatureType.creature);
-			LogHelper.Log(Level.DEBUG, "Spawn for " + name + "On");
-		} else {
-			LogHelper.Log(Level.DEBUG, "Spawn for " + name + "Off");
-		}
-	}
-	
-	public static void registerEntity(Class entityClass, String name, int primaryColor, int secondaryColor, boolean Spawns)
-	{
-		int entityID = EntityRegistry.findGlobalUniqueEntityId();
-		long seed = name.hashCode();
-		Random rand = new Random(seed);
-		
-
-		EntityRegistry.registerGlobalEntityID(entityClass, name, entityID);
-		EntityRegistry.registerModEntity(entityClass, name, entityID, Reference.MOD_ID, 64, 1, true);
-		EntityList.entityEggs.put(Integer.valueOf(entityID), new EntityList.EntityEggInfo(entityID, primaryColor, secondaryColor));
-		
-		if(Spawns == true) {
-			EntityRegistry.addSpawn(entityClass, 6, 1, 5, EnumCreatureType.creature);
-			LogHelper.Log(Level.DEBUG, "Spawn for " + name + "On");
-		} else {
-			LogHelper.Log(Level.DEBUG, "Spawn for " + name + "Off");
-		}
+	    
+	    
+	    //BiomeManager.addSpawnBiome(BananaBiome);
+	    //BiomeDictionary.registerBiomeType(BananaBiome, BiomeDictionary.Type.PLAINS);
+	    //LogHelper.Log(BiomeManager.getBiomes(BiomeType.WARM).toString());
+	    BiomeManager.addBiome((BiomeManager.BiomeType)BiomeManager.BiomeType.WARM, (BiomeManager.BiomeEntry)new BiomeManager.BiomeEntry(BananaBiome, 289715));
 	}
 }
