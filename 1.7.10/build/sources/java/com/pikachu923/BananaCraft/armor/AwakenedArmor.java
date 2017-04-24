@@ -40,8 +40,6 @@ public class AwakenedArmor extends ItemArmor {
 		ItemStack pants = ((EntityPlayer)player).inventory.armorInventory[1];
 		ItemStack chest = ((EntityPlayer)player).inventory.armorInventory[2];
 		ItemStack head = ((EntityPlayer)player).inventory.armorInventory[3];
-		//@SuppressWarnings("null"
-		//LogHelper.log(Level.DEBUG, hand);
 		if(boots != null && pants != null && chest != null && head != null/* && hand != null*/)
 		{
 			((EntityLivingBase) player).addPotionEffect(new PotionEffect(Potion.regeneration.getId(), 1, 1, true));

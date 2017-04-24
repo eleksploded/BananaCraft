@@ -1,8 +1,8 @@
 package com.pikachu923.BananaCraft.block;
 
-        import com.pikachu923.BananaCraft.init.Tier1Items;
+        import com.pikachu923.BananaCraft.Items1.BananaLifeCore;
+import com.pikachu923.BananaCraft.init.Tier1Items;
 import com.pikachu923.BananaCraft.init.Tier2Blocks;
-import com.pikachu923.BananaCraft.items.BananaLifeCore;
 import com.pikachu923.BananaCraft.reference.Reference;
 import com.pikachu923.BananaCraft.utility.LogHelper;
 import com.pikachu923.BananaCraft.utility.func;

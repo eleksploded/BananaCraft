@@ -22,11 +22,11 @@ public static void Init() {
 	GameRegistry.addRecipe(new ItemStack(Tier2Tools.BananaGun), "AA ", " LA", " AG", 'A', new ItemStack(Tier2Items.AwakenedBanana), 'L', new ItemStack(Blocks.lever), 'G', new ItemStack(Items.gunpowder));
 	GameRegistry.addRecipe(new ItemStack(Tier2Tools.AwakenedPickaxe), "AAA", " S ", " S ", 'S', new ItemStack(Items.stick), 'A', new ItemStack(Tier2Items.AwakenedBanana));
 	GameRegistry.addRecipe(new ItemStack(Tier2Tools.AwakenedAxe), "AA", "AS", " S", 'S', new ItemStack(Items.stick), 'A', new ItemStack(Tier2Items.AwakenedBanana));
-	GameRegistry.addRecipe(new ItemStack(Tier2Tools.AwakenedAxe), "AA", "SA", "S ", 'S', new ItemStack(Items.stick), 'A', new ItemStack(Tier2Items.AwakenedBanana));
 	GameRegistry.addRecipe(new ItemStack(Tier2Tools.AwakenedHoe), "AA ", " S ", " S ", 'S', new ItemStack(Items.stick), 'A', new ItemStack(Tier2Items.AwakenedBanana));
 	GameRegistry.addRecipe(new ItemStack(Tier2Tools.AwakenedShovel), "A", "S", "S", 'S', new ItemStack(Items.stick), 'A', new ItemStack(Tier2Items.AwakenedBanana));
 	GameRegistry.addRecipe(new ItemStack(Tier2Tools.AwakenedSword), "A", "A", "S", 'S', new ItemStack(Items.stick), 'A', new ItemStack(Tier2Items.AwakenedBanana));
 	GameRegistry.addRecipe(new ItemStack(Tier2Items.AwakenedBanana, 9), "A" , 'A', new ItemStack(Tier2Blocks.AwakenedBlock));
+	GameRegistry.addRecipe(new ItemStack(Tier2Items.Spawner), " A ", "ABA", " A ", 'A', new ItemStack(Tier2Items.AwakenedBanana), 'B', new ItemStack(Items.diamond));
 	
 	//Blocks
 	GameRegistry.addRecipe(new ItemStack(Tier2Blocks.AwakenedBlock), "BBB", "BBB", "BBB", 'B', new ItemStack(Tier2Items.AwakenedBanana));

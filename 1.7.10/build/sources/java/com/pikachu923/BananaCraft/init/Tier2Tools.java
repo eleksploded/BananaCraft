@@ -11,12 +11,12 @@
  */
 package com.pikachu923.BananaCraft.init;
 
-import com.pikachu923.BananaCraft.items.AwakenedAxe;
-import com.pikachu923.BananaCraft.items.AwakenedHoe;
-import com.pikachu923.BananaCraft.items.AwakenedPickaxe;
-import com.pikachu923.BananaCraft.items.AwakenedShovel;
-import com.pikachu923.BananaCraft.items.AwakenedSword;
-import com.pikachu923.BananaCraft.items.BananaGun;
+import com.pikachu923.BananaCraft.Items2.AwakenedAxe;
+import com.pikachu923.BananaCraft.Items2.AwakenedHoe;
+import com.pikachu923.BananaCraft.Items2.AwakenedPickaxe;
+import com.pikachu923.BananaCraft.Items2.AwakenedShovel;
+import com.pikachu923.BananaCraft.Items2.AwakenedSword;
+import com.pikachu923.BananaCraft.Items2.BananaGun;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.item.Item;

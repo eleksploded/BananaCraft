@@ -66,6 +66,6 @@ public static void init() {
 	    //BiomeManager.addSpawnBiome(BananaBiome);
 	    //BiomeDictionary.registerBiomeType(BananaBiome, BiomeDictionary.Type.PLAINS);
 	    //LogHelper.Log(BiomeManager.getBiomes(BiomeType.WARM).toString());
-	    BiomeManager.addBiome((BiomeManager.BiomeType)BiomeManager.BiomeType.WARM, (BiomeManager.BiomeEntry)new BiomeManager.BiomeEntry(BananaBiome, 289715));
+	    BiomeManager.addBiome((BiomeManager.BiomeType)BiomeManager.BiomeType.WARM, (BiomeManager.BiomeEntry)new BiomeManager.BiomeEntry(BananaBiome, 100));
 	}
 }

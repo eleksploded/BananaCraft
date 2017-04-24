@@ -1,0 +1,37 @@
+package com.pikachu923.BananaCraft.Recipes;
+
+import com.pikachu923.BananaCraft.init.Gems;
+
+import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
+import net.minecraft.item.ItemStack;
+
+public class GemRecipes {
+	public static void Init() {
+		GameRegistry.addRecipe(new ItemStack(Gems.RegenOrb), " S ", "SPS", " S ", 'S', new ItemStack(Blocks.stone), 'P', new ItemStack(Items.potionitem,1,8225));
+		GameRegistry.addRecipe(new ItemStack(Gems.RegenOrb1), " S ", "SPS", " S ", 'S', new ItemStack(Blocks.obsidian), 'P', new ItemStack(Items.potionitem,1,8225));
+		GameRegistry.addRecipe(new ItemStack(Gems.RegenOrb2), "SPS", "DSD", "SPS", 'S', new ItemStack(Blocks.obsidian), 'P', new ItemStack(Items.potionitem,1,8225), 'D', new ItemStack(Items.diamond));
+	
+		GameRegistry.addRecipe(new ItemStack(Gems.FireGem), " S ", "SPS", " S ", 'S', new ItemStack(Blocks.stone), 'P', new ItemStack(Items.potionitem,1,8195));
+		GameRegistry.addRecipe(new ItemStack(Gems.FireGem1), " S ", "SPS", " S ", 'S', new ItemStack(Blocks.obsidian), 'P', new ItemStack(Items.potionitem,1,8195));
+		GameRegistry.addRecipe(new ItemStack(Gems.FireGem2), "SPS", "DSD", "SPS", 'S', new ItemStack(Blocks.obsidian), 'P', new ItemStack(Items.potionitem,1,8195), 'D', new ItemStack(Items.diamond));
+		
+		GameRegistry.addRecipe(new ItemStack(Gems.JumpGem), " S ", "SPS", " S ", 'S', new ItemStack(Blocks.stone), 'P', new ItemStack(Items.potionitem,1,8225));
+		GameRegistry.addRecipe(new ItemStack(Gems.JumpGem1), " S ", "SPS", " S ", 'S', new ItemStack(Blocks.obsidian), 'P', new ItemStack(Items.potionitem,1,8225));
+		GameRegistry.addRecipe(new ItemStack(Gems.JumpGem2), "SPS", "DSD", "SPS", 'S', new ItemStack(Blocks.obsidian), 'P', new ItemStack(Items.potionitem,1,8225), 'D', new ItemStack(Items.diamond));
+		
+		GameRegistry.addRecipe(new ItemStack(Gems.RegenOrb), " S ", "SPS", " S ", 'S', new ItemStack(Blocks.stone), 'P', new ItemStack(Items.potionitem,1,8225));
+		GameRegistry.addRecipe(new ItemStack(Gems.RegenOrb1), " S ", "SPS", " S ", 'S', new ItemStack(Blocks.obsidian), 'P', new ItemStack(Items.potionitem,1,8225));
+		GameRegistry.addRecipe(new ItemStack(Gems.RegenOrb2), "SPS", "DSD", "SPS", 'S', new ItemStack(Blocks.obsidian), 'P', new ItemStack(Items.potionitem,1,8225), 'D', new ItemStack(Items.diamond));
+		
+		GameRegistry.addRecipe(new ItemStack(Gems.RegenOrb), " S ", "SPS", " S ", 'S', new ItemStack(Blocks.stone), 'P', new ItemStack(Items.potionitem,1,8225));
+		GameRegistry.addRecipe(new ItemStack(Gems.RegenOrb1), " S ", "SPS", " S ", 'S', new ItemStack(Blocks.obsidian), 'P', new ItemStack(Items.potionitem,1,8225));
+		GameRegistry.addRecipe(new ItemStack(Gems.RegenOrb2), "SPS", "DSD", "SPS", 'S', new ItemStack(Blocks.obsidian), 'P', new ItemStack(Items.potionitem,1,8225), 'D', new ItemStack(Items.diamond));
+		
+		GameRegistry.addRecipe(new ItemStack(Gems.RegenOrb), " S ", "SPS", " S ", 'S', new ItemStack(Blocks.stone), 'P', new ItemStack(Items.potionitem,1,8225));
+		GameRegistry.addRecipe(new ItemStack(Gems.RegenOrb1), " S ", "SPS", " S ", 'S', new ItemStack(Blocks.obsidian), 'P', new ItemStack(Items.potionitem,1,8225));
+		GameRegistry.addRecipe(new ItemStack(Gems.RegenOrb2), "SPS", "DSD", "SPS", 'S', new ItemStack(Blocks.obsidian), 'P', new ItemStack(Items.potionitem,1,8225), 'D', new ItemStack(Items.diamond));
+		
+	}
+}	

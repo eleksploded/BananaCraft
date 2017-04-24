@@ -15,6 +15,8 @@ item.bananacraft:BananaHelmet.name=Banana Helmet
 item.bananacraft:BananaChestplate.name=Banana Chestplate
 item.bananacraft:BananaLeggings.name=Banana Leggings
 item.bananacraft:BananaBoots.name=Banana Boots
+item.bananacraft:BananaPowder.name=Banana Powder
+item.bananacraft:BananaBullet.name=Banana Arrow
 
 item.bananacraft:AwakenedBanana.name=Awakened Banana
 item.bananacraft:AwakenedBananaHelmet.name=Awakened Banana Helmet
@@ -29,6 +31,16 @@ item.bananacraft:AwakenedShovel.name=Awakened Banana Shovel
 item.bananacraft:AwakenedHoe.name=Awakened Banana Hoe
 item.bananacraft:BananaGun.name=Banana Gun
 
+item.bananacraft:CorruptSword.name=Corrupt Sword
+item.bananacraft:CorruptPickaxe.name=Corrupt Pickaxe
+item.bananacraft:CorruptAxe.name=Corrupt Axe
+item.bananacraft:CorruptShovel.name=Corrupt Shovel
+item.bananacraft:CorruptHoe.name=Corrupt Hoe
+item.bananacraft:CorruptHelmet.name=Corrupt Helmet
+item.bananacraft:CorruptChestplate.name=Corrupt Chestplate
+item.bananacraft:CorruptLeggings.name=Corrupt Leggings
+item.bananacraft:CorruptBoots.name=Corrupt Boots
+
 item.bananacraft:CorruptCore.name=Corrupt Core
 item.bananacraft:CorruptFragment.name=Corrupt Fragment
 item.bananacraft:CorruptIngot.name=Corrupt Ingot
@@ -40,6 +52,22 @@ item.bananacraft:Spawner.name=Banana Boss Spawner
 item.bananacraft:RegenOrb.name=Regeneration Orb
 item.bananacraft:RegenOrb1.name=Regeneration Orb
 item.bananacraft:RegenOrb2.name=Regeneration Orb
+item.bananacraft:PowerGem.name=Strength Orb
+item.bananacraft:PowerGem1.name=Strength Orb
+item.bananacraft:PowerGem2.name=Strength Orb
+item.bananacraft:FireGem.name=Fire Orb
+item.bananacraft:FireGem1.name=Fire Orb
+item.bananacraft:FireGem2.name=Fire Orb
+item.bananacraft:JumpGem.name=Jump Orb
+item.bananacraft:JumpGem1.name=Jump Orb
+item.bananacraft:JumpGem2.name=Jump Orb
+item.bananacraft:WaterGem.name=Water Orb
+item.bananacraft:WaterGem1.name=Water Orb
+item.bananacraft:WaterGem2.name=Water Orb
+item.bananacraft:MiningGem.name=Mining Orb
+item.bananacraft:MiningGem1.name=Mining Orb
+item.bananacraft:MiningGem2.name=Mining Orb
+item.bananacraft:UltraGem.name=Ultimate Orb
 
 item.bananacraft:BananaBomb.name=Banana Bomb Tier 0
 item.bananacraft:BananaBomb1.name=Banana Bomb Tier 1
@@ -60,10 +88,12 @@ tile.bananacraft:BananaIngotizer.name=Banana Ingotizer
 tile.bananacraft:BananaTnt.name=Banana TNT
 
 itemGroup.BananaCraft=BananaCraft
+itemGroup.BananaCraft Gems=BananaCraft Orbs
 
 entity.BananaBoss.name=Banana Boss
 entity.Kuala.name=Kuala
 entity.BananaCreeper.name=Banana Creeper
+entity.BananaBullet.name=Banana Arrow
 
 death.attack.Boss=%1$s was turned to dust by the Banana Boss
 

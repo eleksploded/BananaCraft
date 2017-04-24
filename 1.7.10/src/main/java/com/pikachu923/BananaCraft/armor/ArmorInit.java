@@ -8,6 +8,7 @@ import net.minecraftforge.common.util.EnumHelper;
 public class ArmorInit {
 	public static ArmorMaterial ReinBananaArmor = EnumHelper.addArmorMaterial("ReinBananaArmor", 38, new int[] {3, 7, 5, 3}, 11);
 	public static ArmorMaterial AwakenedBananaArmor = EnumHelper.addArmorMaterial("AwakenedBananaArmor", 39, new int[] {5, 10, 8, 5}, 22);
+	public static ArmorMaterial CorruptArmor = EnumHelper.addArmorMaterial("CorruptArmor", 40, new int[] {7, 13, 11, 7}, 33);
 	
 	//Tier 1
 	public static Item BananaHelmet;
@@ -19,6 +20,11 @@ public class ArmorInit {
 	public static Item AwakenedBananaChestplate;
 	public static Item AwakenedBananaLeggings;
 	public static Item AwakenedBananaBoots;
+	//Tier3
+	public static Item CorruptHelmet;
+	public static Item CorruptChestplate;
+	public static Item CorruptLeggings;
+	public static Item CorruptBoots;
 
 	public static void init() {
 		//Tier 1
@@ -31,5 +37,10 @@ public class ArmorInit {
 		GameRegistry.registerItem(AwakenedBananaChestplate = new AwakenedArmor("AwakenedBananaChestplate", AwakenedBananaArmor, "AwakenedBananaArmor", 1), "Awakened_Chestplate");
 		GameRegistry.registerItem(AwakenedBananaLeggings = new AwakenedArmor("AwakenedBananaLeggings", AwakenedBananaArmor, "AwakenedBananaArmor", 2), "Awakened_Leggings");
 		GameRegistry.registerItem(AwakenedBananaBoots = new AwakenedArmor("AwakenedBananaBoots", AwakenedBananaArmor, "AwakenedBananaArmor", 3), "Awakened_Boots");
+		//Tier 3
+		GameRegistry.registerItem(CorruptHelmet = new CorruptArmor("CorruptHelmet", CorruptArmor, "CorruptArmor", 0), "CorruptHelmet");
+		GameRegistry.registerItem(CorruptChestplate = new CorruptArmor("CorruptChestplate", CorruptArmor, "CorruptArmor", 1), "CorruptChestplate");
+		GameRegistry.registerItem(CorruptHelmet = new CorruptArmor("CorruptLeggings", CorruptArmor, "CorruptArmor", 2), "CorruptLeggings");
+		GameRegistry.registerItem(CorruptHelmet = new CorruptArmor("CorruptBoots", CorruptArmor, "CorruptArmor", 3), "CorruptBoots");
 	}
 }

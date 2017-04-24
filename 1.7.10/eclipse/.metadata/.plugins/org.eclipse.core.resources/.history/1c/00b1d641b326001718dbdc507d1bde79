@@ -1,0 +1,100 @@
+item.bananacraft:ReinBanana.name=Reinforced Banana
+item.bananacraft:BananaPlant.name=Banana
+item.bananacraft:BananaIngot.name=Banana Ingot
+item.bananacraft:GoldenBanana.name=Golden Banana
+item.bananacraft:BananaLifeCore.name=Banana Life Core
+item.bananacraft:BananaBread.name=Banana Bread 
+item.bananacraft:BananaDough.name=Banana Dough
+item.bananacraft:BananaNugget.name=Banana Nugget
+item.bananacraft:BananaPickaxe.name=Banana Pickaxe
+item.bananacraft:BananaSword.name=Banana Sword
+item.bananacraft:BananaAxe.name=Banana Axe
+item.bananacraft:BananaHoe.name=Banana Hoe
+item.bananacraft:BananaShovel.name=Banana Shovel
+item.bananacraft:BananaHelmet.name=Banana Helmet
+item.bananacraft:BananaChestplate.name=Banana Chestplate
+item.bananacraft:BananaLeggings.name=Banana Leggings
+item.bananacraft:BananaBoots.name=Banana Boots
+item.bananacraft:BananaPowder.name=Banana Powder
+item.bananacraft:BananaBullet.name=Banana Arrow
+
+item.bananacraft:AwakenedBanana.name=Awakened Banana
+item.bananacraft:AwakenedBananaHelmet.name=Awakened Banana Helmet
+item.bananacraft:AwakenedBananaChestplate.name=Awakened Banana Chestplate
+item.bananacraft:AwakenedBananaLeggings.name=Awakened Banana Leggings
+item.bananacraft:AwakenedBananaBoots.name=Awakened Banana Boots
+item.bananacraft:AwakenedIngot.name=Awakened Banana Ingot
+item.bananacraft:AwakenedSword.name=Awakened Banana Sword
+item.bananacraft:AwakenedPickaxe.name=Awakened Banana Pickaxe
+item.bananacraft:AwakenedAxe.name=Awakened Banana Axe
+item.bananacraft:AwakenedShovel.name=Awakened Banana Shovel
+item.bananacraft:AwakenedHoe.name=Awakened Banana Hoe
+item.bananacraft:BananaGun.name=Banana Gun
+
+item.bananacraft:CorruptSword.name=Corrupt Sword
+item.bananacraft:CorruptPickaxe.name=Corrupt Pickaxe
+item.bananacraft:CorruptAxe.name=Corrupt Axe
+item.bananacraft:CorruptShovel.name=Corrupt Shovel
+item.bananacraft:CorruptHoe.name=Corrupt Hoe
+item.bananacraft:CorruptHelmet.name=Corrupt Helmet
+item.bananacraft:CorruptChestplate.name=Corrupt Chestplate
+item.bananacraft:CorruptLeggings.name=Corrupt Leggings
+item.bananacraft:CorruptBoots.name=Corrupt Boots
+
+item.bananacraft:CorruptCore.name=Corrupt Core
+item.bananacraft:CorruptFragment.name=Corrupt Fragment
+item.bananacraft:CorruptIngot.name=Corrupt Ingot
+item.bananacraft:Purifier.name=Purifing Gel
+item.bananacraft:CorruptBanana.name=Corrput Banana
+item.bananacraft:PurifiedBanana.name=Purified Banana
+item.bananacraft:Spawner.name=Banana Boss Spawner
+
+item.bananacraft:RegenOrb.name=Regeneration Orb
+item.bananacraft:RegenOrb1.name=Regeneration Orb
+item.bananacraft:RegenOrb2.name=Regeneration Orb
+item.bananacraft:PowerGem.name=Strength Orb
+item.bananacraft:PowerGem1.name=Strength Orb
+item.bananacraft:PowerGem2.name=Strength Orb
+item.bananacraft:FireGem.name=Fire Orb
+item.bananacraft:FireGem1.name=Fire Orb
+item.bananacraft:FireGem2.name=Fire Orb
+item.bananacraft:JumpGem.name=Jump Orb
+item.bananacraft:JumpGem1.name=Jump Orb
+item.bananacraft:JumpGem2.name=Jump Orb
+item.bananacraft:WaterGem.name=Water Orb
+item.bananacraft:WaterGem1.name=Water Orb
+item.bananacraft:WaterGem2.name=Water Orb
+item.bananacraft:MiningGem.name=Water Orb
+item.bananacraft:MiningGem1.name=Mining Orb
+item.bananacraft:MiningGem2.name=Mining Orb
+
+item.bananacraft:BananaBomb.name=Banana Bomb Tier 0
+item.bananacraft:BananaBomb1.name=Banana Bomb Tier 1
+item.bananacraft:BananaBomb2.name=Banana Bomb Tier 2
+item.bananacraft:BananaBomb3.name=Banana Bomb Tier 3
+
+tile.bananacraft:AwakenedBlock.name=Awakened Banana Block
+tile.bananacraft:BananaBlock.name=Banana Block
+tile.bananacraft:BananaOre.name=Banana Ore
+tile.bananacraft:BananaStone.name=Banana Stone
+tile.bananacraft:BananaGrass.name=Banana Grass
+tile.bananacraft:BananaPlant.name=Banana Crop
+tile.bananacraft:BananaPillar.name=Banana Pillar
+tile.bananacraft:BananaSlab.name=Banana Slab
+tile.bananacraft:BananaDoubleSlab.name=Double Banana Slab
+tile.bananacraft:BananaStairs.name=Banana Stairs
+tile.bananacraft:BananaIngotizer.name=Banana Ingotizer
+tile.bananacraft:BananaTnt.name=Banana TNT
+
+itemGroup.BananaCraft=BananaCraft
+
+entity.BananaBoss.name=Banana Boss
+entity.Kuala.name=Kuala
+entity.BananaCreeper.name=Banana Creeper
+entity.BananaBullet.name=Banana Arrow
+
+death.attack.Boss=%1$s was turned to dust by the Banana Boss
+
+item.bananacraft:SamItem.name-Sam's Item
+item.bananacraft:DebugGem.name=Debug Gem
+item.bananacraft:DebugSword.name=Debugger of DOOM!

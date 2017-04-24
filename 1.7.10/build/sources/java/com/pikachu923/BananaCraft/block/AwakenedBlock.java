@@ -13,9 +13,9 @@ import net.minecraft.potion.PotionEffect;
 import net.minecraft.world.World;
 
 import com.pikachu923.BananaCraft.Entity.BananaBoss.BossEntity;
+import com.pikachu923.BananaCraft.Items1.BananaLifeCore;
+import com.pikachu923.BananaCraft.Items3.Spawner;
 import com.pikachu923.BananaCraft.init.Tier2Blocks;
-import com.pikachu923.BananaCraft.items.BananaLifeCore;
-import com.pikachu923.BananaCraft.items.Spawner;
 import com.pikachu923.BananaCraft.reference.Reference;
 import com.pikachu923.BananaCraft.utility.func;
 

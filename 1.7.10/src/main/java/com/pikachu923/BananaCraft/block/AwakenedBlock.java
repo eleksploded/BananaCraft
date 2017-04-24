@@ -1,5 +1,12 @@
 package com.pikachu923.BananaCraft.block;
 
+import com.pikachu923.BananaCraft.Entity.BananaBoss.BossEntity;
+import com.pikachu923.BananaCraft.Items3.Spawner;
+import com.pikachu923.BananaCraft.reference.Reference;
+import com.pikachu923.BananaCraft.utility.func;
+
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
@@ -11,16 +18,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.world.World;
-
-import com.pikachu923.BananaCraft.Entity.BananaBoss.BossEntity;
-import com.pikachu923.BananaCraft.init.Tier2Blocks;
-import com.pikachu923.BananaCraft.items.BananaLifeCore;
-import com.pikachu923.BananaCraft.items.Spawner;
-import com.pikachu923.BananaCraft.reference.Reference;
-import com.pikachu923.BananaCraft.utility.func;
-
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
 
 public class AwakenedBlock extends BlockWrapper{
 	String unlocalName;

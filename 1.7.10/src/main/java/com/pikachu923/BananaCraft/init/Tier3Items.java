@@ -1,5 +1,10 @@
 package com.pikachu923.BananaCraft.init;
 
+import com.pikachu923.BananaCraft.Items1.BananaLifeCore;
+import com.pikachu923.BananaCraft.Items3.CorruptBanana;
+import com.pikachu923.BananaCraft.Items3.CorruptFragment;
+import com.pikachu923.BananaCraft.Items3.PurifiedBanana;
+import com.pikachu923.BananaCraft.Items3.Purifier;
 import com.pikachu923.BananaCraft.items.*;
 
 import cpw.mods.fml.common.registry.GameRegistry;

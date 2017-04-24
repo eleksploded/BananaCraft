@@ -1,11 +1,11 @@
 package com.pikachu923.BananaCraft.init;
 
-import com.pikachu923.BananaCraft.items.BananaAxe;
-import com.pikachu923.BananaCraft.items.BananaGun;
-import com.pikachu923.BananaCraft.items.BananaHoe;
-import com.pikachu923.BananaCraft.items.BananaPickaxe;
-import com.pikachu923.BananaCraft.items.BananaShovel;
-import com.pikachu923.BananaCraft.items.BananaSword;
+import com.pikachu923.BananaCraft.Items1.BananaAxe;
+import com.pikachu923.BananaCraft.Items1.BananaHoe;
+import com.pikachu923.BananaCraft.Items1.BananaPickaxe;
+import com.pikachu923.BananaCraft.Items1.BananaShovel;
+import com.pikachu923.BananaCraft.Items1.BananaSword;
+import com.pikachu923.BananaCraft.Items2.BananaGun;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.item.Item.ToolMaterial;

@@ -11,6 +11,5 @@ public static void Init() {
 	
 	func.registerEntityNoEgg(BossEntity.class, "BananaBoss", false);
 	func.registerEntity(EntityBananaCreeper.class, "BananaCreeper", 16776960, 0,  true);
-	
 	}
 }

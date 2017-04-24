@@ -1,9 +1,9 @@
 package com.pikachu923.BananaCraft.init;
 
-import com.pikachu923.BananaCraft.items.AwakenedIngot;
-import com.pikachu923.BananaCraft.items.AwakenedBanana;
+import com.pikachu923.BananaCraft.Items2.AwakenedBanana;
+import com.pikachu923.BananaCraft.Items2.AwakenedIngot;
+import com.pikachu923.BananaCraft.Items3.Spawner;
 import com.pikachu923.BananaCraft.items.ItemWrapper;
-import com.pikachu923.BananaCraft.items.Spawner;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 

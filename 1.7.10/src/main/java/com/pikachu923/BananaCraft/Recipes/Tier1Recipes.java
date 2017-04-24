@@ -40,10 +40,8 @@ public static void init(){
 	GameRegistry.addRecipe(new ItemStack(Tier1Items.ReinBanana, 4), "OIO", "IBI", "OIO", 'O', new ItemStack(Blocks.stone), 'I', new ItemStack(Tier1Items.Banana), 'B', new ItemStack(Items.iron_ingot));
 	GameRegistry.addRecipe(new ItemStack(Tier1Items.BananaLifeCore), "BDB", "DSD", "BDB", 'D', new ItemStack(Items.diamond), 'B', new ItemStack(Tier1Blocks.BananaBlock), 'S', new ItemStack(Items.nether_star));
 	GameRegistry.addRecipe(new ItemStack(Tier1Items.Banana, 9), "B", 'B', new ItemStack(Tier1Blocks.BananaBlock));
-	
-	GameRegistry.addRecipe(new ItemStack(Gems.RegenOrb), " S ", "SPS", " S ", 'S', new ItemStack(Blocks.stone), 'P', new ItemStack(Items.potionitem,1,8225));
-	GameRegistry.addRecipe(new ItemStack(Gems.RegenOrb1), " S ", "SPS", " S ", 'S', new ItemStack(Blocks.obsidian), 'P', new ItemStack(Items.potionitem,1,8225));
-	GameRegistry.addRecipe(new ItemStack(Gems.RegenOrb2), "SPS", "DSD", "SPS", 'S', new ItemStack(Blocks.obsidian), 'P', new ItemStack(Items.potionitem,1,8225), 'D', new ItemStack(Items.diamond));
+	GameRegistry.addRecipe(new ItemStack(Tier1Items.BananaPowder, 4), "BGB", "GBG", "BGB", 'G', new ItemStack(Items.gunpowder), 'B', new ItemStack(Tier1Items.Banana));
+	GameRegistry.addRecipe(new ItemStack(Tier1Items.JumpWings), "FSF", 'F', new ItemStack(Items.feather), 'S', new ItemStack(Items.slime_ball));
 	
 	//blocks
 	GameRegistry.addRecipe(new ItemStack(Tier1Blocks.BananaBlock), "BBB", "BBB", "BBB", 'B', new ItemStack(Tier1Items.Banana));
@@ -58,10 +56,10 @@ public static void init(){
 	GameRegistry.addRecipe(new ItemStack(Tier1Blocks.BananaOre, 2), "BBB", "BBB", "BBB", 'B', new ItemStack(Tier1Blocks.BananaStone));
 	
 	//Bombs
-	GameRegistry.addRecipe(new ItemStack(Other.BananaBomb0), " G ", "GBG", " G ", 'G', new ItemStack(Items.gunpowder), 'B', new ItemStack(Tier1Items.Banana));
-	GameRegistry.addRecipe(new ItemStack(Other.BananaBomb1), "TGT", "TBT", "TGT", 'T', new ItemStack(Items.gunpowder), 'B', new ItemStack(Tier1Items.ReinBanana), 'G', new ItemStack(Blocks.tnt));
-	GameRegistry.addRecipe(new ItemStack(Other.BananaBomb2), "TGT", "GBG", "TGT", 'T', new ItemStack(Items.gunpowder), 'B', new ItemStack(Tier2Items.AwakenedBanana), 'G', new ItemStack(Blocks.tnt));
-	GameRegistry.addRecipe(new ItemStack(Other.BananaBomb3), "TGT", "TBT", "TGT", 'T', new ItemStack(Blocks.tnt), 'B', new ItemStack(Tier3Items.CorruptIngot), 'G', new ItemStack(Items.gunpowder));
+	GameRegistry.addRecipe(new ItemStack(Other.BananaBomb0), " G ", "GBG", " G ", 'G', new ItemStack(Tier1Items.BananaPowder), 'B', new ItemStack(Tier1Items.Banana));
+	GameRegistry.addRecipe(new ItemStack(Other.BananaBomb1), "TGT", "TBT", "TGT", 'T', new ItemStack(Tier1Items.BananaPowder), 'B', new ItemStack(Tier1Items.ReinBanana), 'G', new ItemStack(Blocks.tnt));
+	GameRegistry.addRecipe(new ItemStack(Other.BananaBomb2), "TGT", "GBG", "TGT", 'T', new ItemStack(Tier1Items.BananaPowder), 'B', new ItemStack(Tier2Items.AwakenedBanana), 'G', new ItemStack(Blocks.tnt));
+	GameRegistry.addRecipe(new ItemStack(Other.BananaBomb3), "TGT", "TBT", "TGT", 'T', new ItemStack(Blocks.tnt), 'B', new ItemStack(Tier3Items.CorruptIngot), 'G', new ItemStack(Tier1Items.BananaPowder));
 	
 	//armor
 	GameRegistry.addRecipe(new ItemStack(ArmorInit.BananaHelmet), "BBB", "B B", 'B', new ItemStack(Tier1Items.BananaIngot));

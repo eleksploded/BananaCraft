@@ -15,6 +15,7 @@ import com.pikachu923.BananaCraft.Projectiles.BananaBomb2.RenderBananaBomb2;
 import com.pikachu923.BananaCraft.Projectiles.BananaBomb3.EntityBananaBomb3;
 import com.pikachu923.BananaCraft.Projectiles.BananaBomb3.RenderBananaBomb3;
 import com.pikachu923.BananaCraft.init.Other;
+import com.pikachu923.BananaCraft.init.Tier1Items;
 
 import cpw.mods.fml.client.registry.RenderingRegistry;
 import cpw.mods.fml.relauncher.Side;

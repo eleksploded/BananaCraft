@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<section name="WorkbenchPreferenceDialogSettings">
-		<item value="632" key="DIALOG_X_ORIGIN"/>
-		<item value="119" key="DIALOG_Y_ORIGIN"/>
-	</section>
 	<section name="EditorSelectionDialog">
 		<item value="true" key="EditorSelectionDialog.STORE_ID_INTERNAL_EXTERNAL"/>
-		<item value="GIMP brush" key="EditorSelectionDialog.STORE_ID_DESCR"/>
+		<item value="/Applications/Adobe Photoshop CS6/Adobe Photoshop CS6.app" key="EditorSelectionDialog.STORE_ID_DESCR"/>
 	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
-		<item value="747" key="dialogHeight"/>
-		<item value="1440" key="dialogWidth"/>
+		<item value="563" key="dialogHeight"/>
+		<item value="900" key="dialogWidth"/>
 		<list key="textEntries">
 		</list>
 		<list key="orderedElements">
@@ -19,9 +15,5 @@
 		</list>
 		<list key="textArray">
 		</list>
-	</section>
-	<section name="NewWizardAction">
-	</section>
-	<section name="ImportExportAction">
 	</section>
 </section>

@@ -1,0 +1,16 @@
+package com.pikachu923.BananaCraft.init;
+
+import com.pikachu923.BananaCraft.Entity.BananaBoss.BossEntity;
+import com.pikachu923.BananaCraft.Entity.BananaBoss2.Boss2Entity;
+import com.pikachu923.BananaCraft.Entity.BananaCreeper.EntityBananaCreeper;
+import com.pikachu923.BananaCraft.utility.func;
+
+public class EntityInit {
+public static void Init() {
+	//Other.registerEntity(EntityAbe.class, "Kuala", 8421504, 0, true);
+	//EntityRegistry.addSpawn(EntityAbe.class, 10, 1, 5, EnumCreatureType.creature);
+	
+	func.registerEntityNoEgg(BossEntity.class, "BananaBoss", false);
+	func.registerEntity(EntityBananaCreeper.class, "BananaCreeper", 16776960, 0,  true);
+	}
+}

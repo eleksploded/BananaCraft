@@ -6,6 +6,7 @@ import com.pikachu923.BananaCraft.Entity.BananaBoss.BossModel;
 import com.pikachu923.BananaCraft.Entity.BananaBoss.BossRender;
 import com.pikachu923.BananaCraft.Handler.ConfigurationHandler;
 import com.pikachu923.BananaCraft.Handler.CraftingHandler;
+import com.pikachu923.BananaCraft.Recipes.GemRecipes;
 import com.pikachu923.BananaCraft.Recipes.Tier1Recipes;
 import com.pikachu923.BananaCraft.Recipes.Tier2Recipes;
 import com.pikachu923.BananaCraft.Recipes.Tier3Recipes;
@@ -22,6 +23,7 @@ import com.pikachu923.BananaCraft.init.Tier2Blocks;
 import com.pikachu923.BananaCraft.init.Tier2Items;
 import com.pikachu923.BananaCraft.init.Tier2Tools;
 import com.pikachu923.BananaCraft.init.Tier3Items;
+import com.pikachu923.BananaCraft.init.Tier3Tools;
 import com.pikachu923.BananaCraft.proxy.ClientProxy;
 import com.pikachu923.BananaCraft.proxy.IProxy;
 import com.pikachu923.BananaCraft.proxy.ServerProxy;
@@ -69,12 +71,14 @@ public class BananaCraft {
         Tier2Tools.Init();
     
         Tier3Items.Init();
+        Tier3Tools.Init();
         
         ArmorInit.init();
         
         Tier1Recipes.init();
         Tier2Recipes.Init();
         Tier3Recipes.Init();
+        GemRecipes.Init();
         
         DebugItems.Init();
         

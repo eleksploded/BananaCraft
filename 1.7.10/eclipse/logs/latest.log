@@ -1,63 +1,34 @@
-[19:33:35] [main/INFO]: Setting user: Player369
-[19:33:36] [Client thread/INFO]: LWJGL Version: 2.9.1
-[19:33:46] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:BananaCraft
-[19:33:48] [Sound Library Loader/INFO]: Sound engine started
-[19:33:57] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
-[19:33:57] [Client thread/INFO]: Created: 16x16 textures/items-atlas
-[19:33:57] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:BananaCraft
-[19:33:58] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[19:33:58] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[19:33:59] [Sound Library Loader/INFO]: Sound engine started
-[19:35:10] [Client thread/INFO]: Deleting level New World--
-[19:35:10] [Client thread/INFO]: Attempt 1...
-[19:35:14] [Client thread/INFO]: Deleting level New World
-[19:35:14] [Client thread/INFO]: Attempt 1...
-[19:35:16] [Client thread/INFO]: Deleting level New World-
-[19:35:16] [Client thread/INFO]: Attempt 1...
-[19:35:21] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[19:35:21] [Server thread/INFO]: Generating keypair
-[19:35:21] [Server thread/INFO]: Converting map!
-[19:35:21] [Server thread/INFO]: Scanning folders...
-[19:35:21] [Server thread/INFO]: Total conversion count is 0
-[19:35:21] [Server thread/INFO]: Preparing start region for level 0
-[19:35:22] [Server thread/INFO]: Preparing spawn area: 9%
-[19:35:23] [Server thread/INFO]: Preparing spawn area: 25%
-[19:35:24] [Server thread/INFO]: Preparing spawn area: 40%
-[19:35:25] [Server thread/INFO]: Preparing spawn area: 58%
-[19:35:26] [Server thread/INFO]: Preparing spawn area: 78%
-[19:35:27] [Server thread/INFO]: Preparing spawn area: 98%
-[19:35:28] [Server thread/INFO]: Changing view distance to 12, from 10
-[19:35:28] [Server thread/INFO]: Player369[local:E:3b3e9df5] logged in with entity id 227 at (83.5, 73.0, 226.5)
-[19:35:28] [Server thread/INFO]: Player369 joined the game
-[19:36:19] [Server thread/INFO]: [Player369: Given Speed (ID 1) * 200 to Player369 for 100 seconds]
-[19:36:19] [Client thread/INFO]: [CHAT] Given Speed (ID 1) * 200 to Player369 for 100 seconds
-[19:36:32] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4950ms behind, skipping 99 tick(s)
-[19:36:47] [Client thread/INFO]: Warning: Clientside chunk ticking took 104 ms
-[19:37:08] [Client thread/INFO]: Warning: Clientside chunk ticking took 102 ms
-[19:37:11] [Client thread/INFO]: Warning: Clientside chunk ticking took 216 ms
-[19:37:12] [Client thread/INFO]: Warning: Clientside chunk ticking took 220 ms
-[19:37:12] [Client thread/INFO]: Warning: Clientside chunk ticking took 265 ms
-[19:37:13] [Client thread/INFO]: Warning: Clientside chunk ticking took 246 ms
-[19:37:13] [Client thread/INFO]: Warning: Clientside chunk ticking took 221 ms
-[19:37:13] [Client thread/INFO]: Warning: Clientside chunk ticking took 224 ms
-[19:37:13] [Client thread/INFO]: Warning: Clientside chunk ticking took 234 ms
-[19:37:13] [Client thread/INFO]: Warning: Clientside chunk ticking took 185 ms
-[19:37:14] [Client thread/INFO]: Warning: Clientside chunk ticking took 205 ms
-[19:37:14] [Client thread/INFO]: Warning: Clientside chunk ticking took 247 ms
-[19:37:15] [Client thread/INFO]: Warning: Clientside chunk ticking took 348 ms
-[19:37:16] [Client thread/INFO]: Warning: Clientside chunk ticking took 298 ms
-[19:37:16] [Client thread/INFO]: Warning: Clientside chunk ticking took 212 ms
-[19:37:25] [Client thread/INFO]: Warning: Clientside chunk ticking took 102 ms
-[19:38:15] [Server thread/INFO]: Player369 has just earned the achievement [Taking Inventory]
-[19:38:15] [Client thread/INFO]: [CHAT] Player369 has just earned the achievement [Taking Inventory]
-[19:38:42] [Server thread/INFO]: Saving and pausing game...
-[19:38:42] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[19:38:42] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[19:38:42] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[19:38:42] [Server thread/INFO]: Stopping server
-[19:38:42] [Server thread/INFO]: Saving players
-[19:38:42] [Server thread/INFO]: Saving worlds
-[19:38:42] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[19:38:42] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[19:38:42] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[19:38:52] [Client thread/INFO]: Stopping!
+[07:57:59] [main/INFO]: Setting user: Player563
+[07:58:00] [Client thread/INFO]: LWJGL Version: 2.9.1
+[07:58:06] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:BananaCraft
+[07:58:07] [Sound Library Loader/INFO]: Sound engine started
+[07:58:08] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[07:58:08] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[07:58:08] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:BananaCraft
+[07:58:08] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[07:58:08] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[07:58:09] [Sound Library Loader/INFO]: Sound engine started
+[07:58:11] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[07:58:11] [Server thread/INFO]: Generating keypair
+[07:58:12] [Server thread/INFO]: Preparing start region for level 0
+[07:58:13] [Server thread/INFO]: Preparing spawn area: 92%
+[07:58:13] [Server thread/INFO]: Changing view distance to 12, from 10
+[07:58:13] [Server thread/INFO]: Player563[local:E:de5f174d] logged in with entity id 319 at (-187.61949518615543, 71.0, 218.50687726440847)
+[07:58:13] [Server thread/INFO]: Player563 joined the game
+[07:58:15] [Server thread/INFO]: Player563 has just earned the achievement [Taking Inventory]
+[07:58:15] [Client thread/INFO]: [CHAT] Player563 has just earned the achievement [Taking Inventory]
+[07:58:30] [Client thread/INFO]: [CHAT] BananaCraft:AwakenedBlock, BananaCraft:AwakenedBanana
+[07:58:30] [Server thread/INFO]: [Player563: Given [Awakened Banana Block] * 1 to Player563]
+[07:58:30] [Client thread/INFO]: [CHAT] Given [Awakened Banana Block] * 1 to Player563
+[07:58:33] [Server thread/INFO]: [Player563: Given [Awakened Banana Block] * 1 to Player563]
+[07:58:33] [Client thread/INFO]: [CHAT] Given [Awakened Banana Block] * 1 to Player563
+[07:58:39] [Server thread/INFO]: Player563 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[07:58:39] [Server thread/INFO]: Player563 left the game
+[07:58:39] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[07:58:39] [Server thread/INFO]: Stopping server
+[07:58:39] [Server thread/INFO]: Saving players
+[07:58:39] [Server thread/INFO]: Saving worlds
+[07:58:39] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[07:58:39] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[07:58:39] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[08:05:08] [Client thread/INFO]: Stopping!

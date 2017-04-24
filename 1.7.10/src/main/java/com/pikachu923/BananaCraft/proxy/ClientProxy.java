@@ -4,7 +4,6 @@ import com.pikachu923.BananaCraft.Entity.BananaBoss.BossEntity;
 import com.pikachu923.BananaCraft.Entity.BananaBoss.BossModel;
 import com.pikachu923.BananaCraft.Entity.BananaBoss.BossRender;
 import com.pikachu923.BananaCraft.Entity.BananaCreeper.EntityBananaCreeper;
-import com.pikachu923.BananaCraft.Entity.BananaCreeper.ModelCreeper;
 import com.pikachu923.BananaCraft.Entity.BananaCreeper.RenderCreeper;
 import com.pikachu923.BananaCraft.Projectiles.BananaBomb0.EntityBananaBomb;
 import com.pikachu923.BananaCraft.Projectiles.BananaBomb0.RenderBananaBomb;
