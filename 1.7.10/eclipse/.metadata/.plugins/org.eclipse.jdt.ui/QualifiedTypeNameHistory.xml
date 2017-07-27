@@ -1,16 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="net.minecraft.entity.player.EntityPlayer"/>
-<fullyQualifiedTypeName name="net.minecraft.potion.Potion"/>
-<fullyQualifiedTypeName name="net.minecraft.item.Item"/>
-<fullyQualifiedTypeName name="cpw.mods.fml.relauncher.Side"/>
-<fullyQualifiedTypeName name="com.pikachu923.BananaCraft.items.ItemWrapper"/>
-<fullyQualifiedTypeName name="com.pikachu923.BananaCraft.init.Tier3Tools"/>
-<fullyQualifiedTypeName name="net.minecraft.creativetab.CreativeTabs"/>
-<fullyQualifiedTypeName name="com.pikachu923.BananaCraft.init.Tier1Items"/>
-<fullyQualifiedTypeName name="net.minecraftforge.oredict.OreDictionary"/>
-<fullyQualifiedTypeName name="com.pikachu923.BananaCraft.Recipes.GemRecipes"/>
-<fullyQualifiedTypeName name="com.pikachu923.BananaCraft.init.Tier2Blocks"/>
-<fullyQualifiedTypeName name="com.pikachu923.BananaCraft.init.Gems"/>
-<fullyQualifiedTypeName name="com.pikachu923.BananaCraft.CreativeTab.GemTab"/>
-</qualifiedTypeNameHistroy>
+<qualifiedTypeNameHistroy/>
