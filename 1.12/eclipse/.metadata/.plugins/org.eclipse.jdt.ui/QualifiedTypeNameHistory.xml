@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="net.minecraftforge.client.event.sound.SoundEvent"/>
+<fullyQualifiedTypeName name="net.minecraft.item.Item"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="net.minecraftforge.event.RegistryEvent"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.eventhandler.SubscribeEvent"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="net.minecraft.inventory.EntityEquipmentSlot"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.client.config.GuiConfig"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.client.IModGuiFactory"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.network.IGuiHandler"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.registry.EntityEntry"/>
+<fullyQualifiedTypeName name="net.minecraft.util.ResourceLocation"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.relauncher.SideOnly"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.relauncher.Side"/>
+<fullyQualifiedTypeName name="net.minecraft.potion.Potion"/>
+<fullyQualifiedTypeName name="net.minecraft.inventory.InventoryCrafting"/>
+<fullyQualifiedTypeName name="net.minecraft.inventory.SlotCrafting"/>
+<fullyQualifiedTypeName name="net.minecraft.block.Block"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemStack"/>
+<fullyQualifiedTypeName name="com.pikachu923.BananaCraft.reference.Reference"/>
+<fullyQualifiedTypeName name="net.minecraftforge.registries.IForgeRegistry"/>
+<fullyQualifiedTypeName name="net.minecraftforge.event.RegistryEvent.NewRegistry"/>
+<fullyQualifiedTypeName name="net.minecraft.inventory.IContainerListener"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.Mod.EventBusSubscriber"/>
+<fullyQualifiedTypeName name="net.minecraftforge.event.RegistryEvent.Register"/>
+<fullyQualifiedTypeName name="java.lang.Error"/>
+<fullyQualifiedTypeName name="java.lang.IllegalAccessError"/>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="com.pikachu923.BananaCraft.items.Banana"/>
+<fullyQualifiedTypeName name="net.minecraft.init.Items"/>
+<fullyQualifiedTypeName name="com.pikachu923.BananaCraft.init.Tier1Items"/>
+<fullyQualifiedTypeName name="com.pikachu923.BananaCraft.utility.BananaRegistry"/>
+<fullyQualifiedTypeName name="net.minecraft.client.LoadingScreenRenderer"/>
+<fullyQualifiedTypeName name="net.minecraft.potion.PotionEffect"/>
+<fullyQualifiedTypeName name="net.minecraft.init.MobEffects"/>
+<fullyQualifiedTypeName name="net.minecraft.init.SoundEvents"/>
+<fullyQualifiedTypeName name="net.minecraft.util.SoundCategory"/>
+<fullyQualifiedTypeName name="net.minecraft.util.EnumParticleTypes"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.registry.GameRegistry"/>
+<fullyQualifiedTypeName name="net.minecraft.client.renderer.entity.Render"/>
+</qualifiedTypeNameHistroy>

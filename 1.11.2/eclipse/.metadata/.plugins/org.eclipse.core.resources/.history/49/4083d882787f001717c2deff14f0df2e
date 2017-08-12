@@ -1,0 +1,6 @@
+{
+    "parent": "bananacraft:block/awakenedblock",
+    "textures": {
+        "layer0": "bananacraft:blocks/awakenedblock"
+    }
+}

@@ -1,0 +1,17 @@
+[{
+	"modid": "banancraft",
+	"name": "BananaCraft",
+	"description": "Adding Bananas, Banana related things, and other Non-Banana Related things. This version is probably very broken, you have been warned!",
+	"version": "InDev1.11",
+	"credits": "Created by Pikachu923",
+	"logoFile": "",
+	"mcversion": "1.11.2",
+	"url": "http://goo.gl/QP4kaq",
+	"updateUrl": "",
+	"authors": ["Pikachu923"],
+	"parent": "",
+	"screenshots": [],
+	"dependencies": [
+		"mod_MinecraftForge"
+	]
+}]

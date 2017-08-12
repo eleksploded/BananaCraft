@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "top": "bananacraft:blocks/bananagrass_top",
+        "side": "bananacraft:blocks/bananagrass_side",
+        "bottom": "bananacraft:blocks/bananagrass_bottom"
+    }
+}

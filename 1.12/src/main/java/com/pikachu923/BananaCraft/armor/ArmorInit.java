@@ -1,0 +1,55 @@
+package com.pikachu923.BananaCraft.armor;
+
+import com.pikachu923.BananaCraft.utility.BananaRegistry;
+
+import net.minecraft.init.SoundEvents;
+import net.minecraft.inventory.EntityEquipmentSlot;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemArmor.ArmorMaterial;
+import net.minecraftforge.client.event.sound.SoundEvent;
+import net.minecraftforge.common.util.EnumHelper;
+import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+
+public class ArmorInit {
+	
+	
+	public static ArmorMaterial ReinBananaArmor = EnumHelper.addArmorMaterial("ReinBananaArmor", "ReinBananaArmor", 38, new int[] {3, 7, 5, 3}, 11, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.5F);
+	public static ArmorMaterial AwakenedBananaArmor = EnumHelper.addArmorMaterial("AwakenedBananaArmor","AwakenedBananaArmor", 39, new int[] {5, 10, 8, 5}, 22, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 3F);
+	public static ArmorMaterial CorruptArmor = EnumHelper.addArmorMaterial("CorruptArmor", "CorruptArmor", 40, new int[] {7, 13, 11, 7}, 33, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 4F);
+	
+	//Tier 1
+	public static Item BananaHelmet =  new BananaArmor("BananaHelmet", ReinBananaArmor, "ReinBananaArmor", EntityEquipmentSlot.HEAD);
+	public static Item BananaChestplate = new BananaArmor("BananaChestplate", ReinBananaArmor, "ReinBananaArmor", EntityEquipmentSlot.CHEST);
+	public static Item BananaLeggings = new BananaArmor("BananaLeggings", ReinBananaArmor, "ReinBananaArmor", EntityEquipmentSlot.LEGS);
+	public static Item BananaBoots = new BananaArmor("BananaBoots", ReinBananaArmor, "ReinBananaArmor", EntityEquipmentSlot.FEET);
+	//Tier 2
+	public static Item AwakenedBananaHelmet;
+	public static Item AwakenedBananaChestplate;
+	public static Item AwakenedBananaLeggings;
+	public static Item AwakenedBananaBoots;
+	//Tier3
+	public static Item CorruptHelmet;
+	public static Item CorruptChestplate;
+	public static Item CorruptLeggings;
+	public static Item CorruptBoots;
+
+	public static void init() {
+		//Tier 1
+		BananaRegistry.registerItem(BananaHelmet, "Banana_helmet"); //0 for helmet
+		BananaRegistry.registerItem(BananaChestplate, "Banana_chestplate"); // 1 for chestplate
+		BananaRegistry.registerItem(BananaLeggings, "Banana_leggings"); // 2 for leggings
+		BananaRegistry.registerItem(BananaBoots, "Banana_boots"); // 3 for boots
+		//Tier 2
+		BananaRegistry.registerItem(AwakenedBananaHelmet = new AwakenedArmor("AwakenedBananaHelmet", AwakenedBananaArmor, "AwakenedBananaArmor", EntityEquipmentSlot.HEAD), "Awakened_Helmet");
+		BananaRegistry.registerItem(AwakenedBananaChestplate = new AwakenedArmor("AwakenedBananaChestplate", AwakenedBananaArmor, "AwakenedBananaArmor", EntityEquipmentSlot.CHEST), "Awakened_Chestplate");
+		BananaRegistry.registerItem(AwakenedBananaLeggings = new AwakenedArmor("AwakenedBananaLeggings", AwakenedBananaArmor, "AwakenedBananaArmor", EntityEquipmentSlot.LEGS), "Awakened_Leggings");
+		BananaRegistry.registerItem(AwakenedBananaBoots = new AwakenedArmor("AwakenedBananaBoots", AwakenedBananaArmor, "AwakenedBananaArmor", EntityEquipmentSlot.FEET), "Awakened_Boots");
+		//Tier 3
+		//BananaRegistry.registerItem(CorruptHelmet = new CorruptArmor("CorruptHelmet", CorruptArmor, "CorruptArmor", 0), "CorruptHelmet");
+		//BananaRegistry.registerItem(CorruptChestplate = new CorruptArmor("CorruptChestplate", CorruptArmor, "CorruptArmor", 1), "CorruptChestplate");
+		//BananaRegistry.registerItem(CorruptHelmet = new CorruptArmor("CorruptLeggings", CorruptArmor, "CorruptArmor", 2), "CorruptLeggings");
+		//BananaRegistry.registerItem(CorruptHelmet = new CorruptArmor("CorruptBoots", CorruptArmor, "CorruptArmor", 3), "CorruptBoots");
+	}
+}

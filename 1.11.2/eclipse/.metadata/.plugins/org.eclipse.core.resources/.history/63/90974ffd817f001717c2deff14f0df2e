@@ -1,0 +1,13 @@
+package assets.bananacraft.models.block;
+
+public class Snippet {
+	{
+	    "parent": "block/cube_top",
+	    "textures": {
+	        "top": "blocks/jukebox_top",
+	        "side": "blocks/jukebox_side"
+	    }
+	}
+	
+}
+

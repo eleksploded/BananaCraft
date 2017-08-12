@@ -1,0 +1,55 @@
+package com.pikachu923.BananaCraft.init;
+
+import com.pikachu923.BananaCraft.TileEntity.TileIngotizer;
+import com.pikachu923.BananaCraft.block.BananaBlock;
+import com.pikachu923.BananaCraft.block.BananaGrass;
+import com.pikachu923.BananaCraft.block.BananaIngotizer;
+import com.pikachu923.BananaCraft.block.BananaOre;
+import com.pikachu923.BananaCraft.block.BananaPillar;
+import com.pikachu923.BananaCraft.block.BananaPlant;
+import com.pikachu923.BananaCraft.block.BananaSlab;
+import com.pikachu923.BananaCraft.block.BananaStairs;
+import com.pikachu923.BananaCraft.block.BananaStone;
+import com.pikachu923.BananaCraft.block.BlockWrapper;
+import com.pikachu923.BananaCraft.reference.Reference;
+import com.pikachu923.BananaCraft.utility.BananaRegistry;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.item.Item;
+import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.registries.IForgeRegistry;
+
+//@GameRegistry.ObjectHolder(Reference.MOD_ID)
+public class Tier1Blocks {
+	public static final Block BananaBlock = new BananaBlock("BananaBlock");
+	public static final BlockWrapper BananaOre = new BananaOre("BananaOre");
+	public static final BlockWrapper BananaStone = new BananaStone("BananaStone");
+	public static final BlockWrapper BananaGrass = new BananaGrass("BananaGrass");
+	public static final BlockWrapper BananaPillar = new BananaPillar("BananaPillar");
+	public static final BananaSlab BananaSlab = new BananaSlab(Material.ROCK, "BananaSlab", false);
+	public static final BananaSlab BananaDoubleSlab = new BananaSlab(Material.ROCK, "BananaDoubleSlab", true);
+	public static final BananaStairs BananaStairs = new BananaStairs(BananaBlock, 0, "BananaStairs");
+
+	public static final Block BananaIngotizer = new BananaIngotizer(false, "BananaIngotizer").setCreativeTab(Reference.CreativeTab);
+	public static final Block BananaIngotizerActive = new BananaIngotizer(true, "BananaIngotizer");
+
+
+
+	public static void init() {
+		BananaRegistry.registerBlock(BananaBlock, "BananaBlock");
+		BananaRegistry.registerBlock(BananaOre, "BananaOre");
+		BananaRegistry.registerBlock(BananaStone, "BananaStone");
+		BananaRegistry.registerBlock(BananaGrass, "BananaGrass");
+		BananaRegistry.registerBlock(BananaPillar, "BananaPillar");
+		BananaRegistry.registerBlock(BananaSlab, "BananaSlab");
+		BananaRegistry.registerBlock(BananaDoubleSlab, "BananaDoubleSlab");
+		BananaRegistry.registerBlock(BananaStairs, "BananaStairs");
+		BananaRegistry.registerBlock(BananaIngotizer, "BananaIngotizer");
+		GameRegistry.registerTileEntity(TileIngotizer.class, "BananaIngotizer");
+		BananaRegistry.registerBlock(BananaIngotizerActive, "BananaIngotizerActive");
+	}
+	
+	
+}

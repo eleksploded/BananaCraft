@@ -1,0 +1,479 @@
+This mapping 'snapshot_20161220' was designed for MC 1.11! Use at your own peril.This mapping 'snapshot_20161220' was designed for MC 1.11! Use at your own peril.
+
+#################################################
+         ForgeGradle 2.2-SNAPSHOT-d13a6c8        
+  https://github.com/MinecraftForge/ForgeGradle  
+#################################################
+               Powered by MCP unknown               
+             http://modcoderpack.com             
+         by: Searge, ProfMobius, Fesh0r,         
+         R4wk, ZeuX, IngisKahn, bspkrs           
+#################################################
+Version string 'InDev1.11_Build_1' does not match SemVer specification 
+You should try SemVer : http://semver.org/
+:deobfCompileDummyTask
+:deobfProvidedDummyTask
+:sourceApiJava
+:compileApiJava UP-TO-DATE
+:processApiResources UP-TO-DATE
+:apiClasses UP-TO-DATE
+:sourceMainJava
+:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaGrass.java:9: error: package cpw.mods.fml.relauncher does not exist
+import cpw.mods.fml.relauncher.Side;
+                              ^
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaGrass.java:10: error: package cpw.mods.fml.relauncher does not exist
+import cpw.mods.fml.relauncher.SideOnly;
+                              ^
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaGrass.java:14: error: cannot find symbol
+import net.minecraft.client.renderer.texture.IIconRegister;
+                                            ^
+  symbol:   class IIconRegister
+  location: package net.minecraft.client.renderer.texture
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaGrass.java:17: error: cannot find symbol
+import net.minecraft.util.IIcon;
+                         ^
+  symbol:   class IIcon
+  location: package net.minecraft.util
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaGrass.java:23: error: cannot find symbol
+    public IIcon Side0;
+           ^
+  symbol:   class IIcon
+  location: class BananaGrass
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaGrass.java:24: error: cannot find symbol
+    public IIcon Side1;
+           ^
+  symbol:   class IIcon
+  location: class BananaGrass
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaGrass.java:25: error: cannot find symbol
+    public IIcon Side2;
+           ^
+  symbol:   class IIcon
+  location: class BananaGrass
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaGrass.java:36: error: cannot find symbol
+    public void registerBlockIcons(IIconRegister icon){
+                                   ^
+  symbol:   class IIconRegister
+  location: class BananaGrass
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaGrass.java:44: error: cannot find symbol
+public IIcon getIcon(int side, int meta){
+       ^
+  symbol:   class IIcon
+  location: class BananaGrass
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaIngotizer.java:10: error: package cpw.mods.fml.common does not exist
+import cpw.mods.fml.common.FMLCommonHandler;
+                          ^
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaIngotizer.java:11: error: package cpw.mods.fml.common does not exist
+import cpw.mods.fml.common.ModContainer;
+                          ^
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaIngotizer.java:12: error: package cpw.mods.fml.common.network does not exist
+import cpw.mods.fml.common.network.FMLOutboundHandler;
+                                  ^
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaIngotizer.java:13: error: package cpw.mods.fml.common.network does not exist
+import cpw.mods.fml.common.network.NetworkRegistry;
+                                  ^
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaIngotizer.java:14: error: package cpw.mods.fml.common.network.FMLOutboundHandler does not exist
+import cpw.mods.fml.common.network.FMLOutboundHandler.OutboundTarget;
+                                                     ^
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaIngotizer.java:15: error: package cpw.mods.fml.common.network.internal does not exist
+import cpw.mods.fml.common.network.internal.FMLMessage;
+                                           ^
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaIngotizer.java:16: error: package cpw.mods.fml.common.network.internal does not exist
+import cpw.mods.fml.common.network.internal.FMLNetworkHandler;
+                                           ^
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaIngotizer.java:17: error: package cpw.mods.fml.relauncher does not exist
+import cpw.mods.fml.relauncher.Side;
+                              ^
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaIngotizer.java:18: error: package cpw.mods.fml.relauncher does not exist
+import cpw.mods.fml.relauncher.SideOnly;
+                              ^
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaIngotizer.java:23: error: cannot find symbol
+import net.minecraft.client.renderer.texture.IIconRegister;
+                                            ^
+  symbol:   class IIconRegister
+  location: package net.minecraft.client.renderer.texture
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaIngotizer.java:34: error: cannot find symbol
+import net.minecraft.util.IIcon;
+                         ^
+  symbol:   class IIcon
+  location: package net.minecraft.util
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaIngotizer.java:35: error: cannot find symbol
+import net.minecraft.util.MathHelper;
+                         ^
+  symbol:   class MathHelper
+  location: package net.minecraft.util
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaIngotizer.java:41: error: cannot find symbol
+	private IIcon top;
+	        ^
+  symbol:   class IIcon
+  location: class BananaIngotizer
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaIngotizer.java:43: error: cannot find symbol
+	private IIcon front;
+	        ^
+  symbol:   class IIcon
+  location: class BananaIngotizer
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaIngotizer.java:57: error: cannot find symbol
+	public void registerBlockIcons(IIconRegister iconregister) {
+	                               ^
+  symbol:   class IIconRegister
+  location: class BananaIngotizer
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaIngotizer.java:62: error: cannot find symbol
+	public IIcon getIcon(int side, int meta) {
+	       ^
+  symbol:   class IIcon
+  location: class BananaIngotizer
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaPillar.java:3: error: cannot find symbol
+import net.minecraft.client.renderer.texture.IIconRegister;
+                                            ^
+  symbol:   class IIconRegister
+  location: package net.minecraft.client.renderer.texture
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaPillar.java:4: error: cannot find symbol
+import net.minecraft.util.IIcon;
+                         ^
+  symbol:   class IIcon
+  location: package net.minecraft.util
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaPillar.java:8: error: package cpw.mods.fml.relauncher does not exist
+import cpw.mods.fml.relauncher.Side;
+                              ^
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaPillar.java:9: error: package cpw.mods.fml.relauncher does not exist
+import cpw.mods.fml.relauncher.SideOnly;
+                              ^
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaPillar.java:14: error: cannot find symbol
+    public IIcon Side0;
+           ^
+  symbol:   class IIcon
+  location: class BananaPillar
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaPillar.java:15: error: cannot find symbol
+    public IIcon Side1;
+           ^
+  symbol:   class IIcon
+  location: class BananaPillar
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaPillar.java:16: error: cannot find symbol
+    public IIcon Side2;
+           ^
+  symbol:   class IIcon
+  location: class BananaPillar
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaPillar.java:17: error: cannot find symbol
+    public IIcon Side3;
+           ^
+  symbol:   class IIcon
+  location: class BananaPillar
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaPillar.java:18: error: cannot find symbol
+    public IIcon Side4;
+           ^
+  symbol:   class IIcon
+  location: class BananaPillar
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaPillar.java:19: error: cannot find symbol
+    public IIcon Side5;
+           ^
+  symbol:   class IIcon
+  location: class BananaPillar
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaPillar.java:27: error: cannot find symbol
+    public void registerBlockIcons(IIconRegister icon){
+                                   ^
+  symbol:   class IIconRegister
+  location: class BananaPillar
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaPillar.java:38: error: cannot find symbol
+public IIcon getIcon(int side, int meta){
+       ^
+  symbol:   class IIcon
+  location: class BananaPillar
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaPlant.java:9: error: cannot find symbol
+import net.minecraft.client.renderer.texture.IIconRegister;
+                                            ^
+  symbol:   class IIconRegister
+  location: package net.minecraft.client.renderer.texture
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaPlant.java:11: error: cannot find symbol
+import net.minecraft.util.IIcon;
+                         ^
+  symbol:   class IIcon
+  location: package net.minecraft.util
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaPlant.java:12: error: package cpw.mods.fml.relauncher does not exist
+import cpw.mods.fml.relauncher.Side;
+                              ^
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaPlant.java:13: error: package cpw.mods.fml.relauncher does not exist
+import cpw.mods.fml.relauncher.SideOnly;
+                              ^
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/utility/Plants.java:13: error: cannot find symbol
+import net.minecraft.util.IIcon;
+                         ^
+  symbol:   class IIcon
+  location: package net.minecraft.util
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/utility/Plants.java:14: error: cannot find symbol
+import net.minecraft.util.MathHelper;
+                         ^
+  symbol:   class MathHelper
+  location: package net.minecraft.util
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/utility/Plants.java:16: error: package cpw.mods.fml.relauncher does not exist
+import cpw.mods.fml.relauncher.Side;
+                              ^
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/utility/Plants.java:17: error: package cpw.mods.fml.relauncher does not exist
+import cpw.mods.fml.relauncher.SideOnly;
+                              ^
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaPlant.java:43: error: cannot find symbol
+    public void registerBlockIcons(IIconRegister parIIconRegister)
+                                   ^
+  symbol:   class IIconRegister
+  location: class BananaPlant
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/utility/Plants.java:27: error: cannot find symbol
+    protected IIcon[] iIcon;
+              ^
+  symbol:   class IIcon
+  location: class Plants
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/utility/Plants.java:83: error: cannot find symbol
+    public IIcon getIcon(int parSide, int parGrowthStage)
+           ^
+  symbol:   class IIcon
+  location: class Plants
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaSlab.java:11: error: cannot find symbol
+import net.minecraft.client.renderer.texture.IIconRegister;
+                                            ^
+  symbol:   class IIconRegister
+  location: package net.minecraft.client.renderer.texture
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaSlab.java:15: error: cannot find symbol
+import net.minecraft.util.AxisAlignedBB;
+                         ^
+  symbol:   class AxisAlignedBB
+  location: package net.minecraft.util
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaSlab.java:16: error: cannot find symbol
+import net.minecraft.util.Facing;
+                         ^
+  symbol:   class Facing
+  location: package net.minecraft.util
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaSlab.java:17: error: cannot find symbol
+import net.minecraft.util.IIcon;
+                         ^
+  symbol:   class IIcon
+  location: package net.minecraft.util
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaSlab.java:20: error: package cpw.mods.fml.relauncher does not exist
+import cpw.mods.fml.relauncher.Side;
+                              ^
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaSlab.java:21: error: package cpw.mods.fml.relauncher does not exist
+import cpw.mods.fml.relauncher.SideOnly;
+                              ^
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaSlab.java:24: error: cannot find symbol
+	public IIcon Side0;
+	       ^
+  symbol:   class IIcon
+  location: class BananaSlab
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaSlab.java:25: error: cannot find symbol
+    public IIcon Side1;
+           ^
+  symbol:   class IIcon
+  location: class BananaSlab
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaSlab.java:26: error: cannot find symbol
+    public IIcon Side2;
+           ^
+  symbol:   class IIcon
+  location: class BananaSlab
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaSlab.java:27: error: cannot find symbol
+    public IIcon Side3;
+           ^
+  symbol:   class IIcon
+  location: class BananaSlab
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaSlab.java:28: error: cannot find symbol
+    public IIcon Side4;
+           ^
+  symbol:   class IIcon
+  location: class BananaSlab
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaSlab.java:29: error: cannot find symbol
+    public IIcon Side5;
+           ^
+  symbol:   class IIcon
+  location: class BananaSlab
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaSlab.java:44: error: cannot find symbol
+    public void registerBlockIcons(IIconRegister icon){
+                                   ^
+  symbol:   class IIconRegister
+  location: class BananaSlab
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaSlab.java:55: error: cannot find symbol
+public IIcon getIcon(int side, int meta){
+       ^
+  symbol:   class IIcon
+  location: class BananaSlab
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaStairs.java:13: error: cannot find symbol
+import net.minecraft.client.renderer.texture.IIconRegister;
+                                            ^
+  symbol:   class IIconRegister
+  location: package net.minecraft.client.renderer.texture
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaStairs.java:20: error: cannot find symbol
+import net.minecraft.util.AxisAlignedBB;
+                         ^
+  symbol:   class AxisAlignedBB
+  location: package net.minecraft.util
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaStairs.java:21: error: cannot find symbol
+import net.minecraft.util.IIcon;
+                         ^
+  symbol:   class IIcon
+  location: package net.minecraft.util
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaStairs.java:22: error: cannot find symbol
+import net.minecraft.util.MathHelper;
+                         ^
+  symbol:   class MathHelper
+  location: package net.minecraft.util
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaStairs.java:23: error: cannot find symbol
+import net.minecraft.util.MovingObjectPosition;
+                         ^
+  symbol:   class MovingObjectPosition
+  location: package net.minecraft.util
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaStairs.java:24: error: cannot find symbol
+import net.minecraft.util.Vec3;
+                         ^
+  symbol:   class Vec3
+  location: package net.minecraft.util
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaStairs.java:347: error: cannot find symbol
+    public void addCollisionBoxesToList(World p_149743_1_, int p_149743_2_, int p_149743_3_, int p_149743_4_, AxisAlignedBB p_149743_5_, List p_149743_6_, Entity p_149743_7_)
+                                                                                                              ^
+  symbol:   class AxisAlignedBB
+  location: class BananaStairs
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaStairs.java:402: error: cannot find symbol
+    public IIcon getIcon(int p_149691_1_, int p_149691_2_)
+           ^
+  symbol:   class IIcon
+  location: class BananaStairs
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaStairs.java:410: error: cannot find symbol
+    public AxisAlignedBB getSelectedBoundingBoxFromPool(World p_149633_1_, int p_149633_2_, int p_149633_3_, int p_149633_4_)
+           ^
+  symbol:   class AxisAlignedBB
+  location: class BananaStairs
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaStairs.java:415: error: cannot find symbol
+    public void velocityToAddToEntity(World p_149640_1_, int p_149640_2_, int p_149640_3_, int p_149640_4_, Entity p_149640_5_, Vec3 p_149640_6_)
+                                                                                                                                ^
+  symbol:   class Vec3
+  location: class BananaStairs
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaStairs.java:518: error: cannot find symbol
+    public MovingObjectPosition collisionRayTrace(World p_149731_1_, int p_149731_2_, int p_149731_3_, int p_149731_4_, Vec3 p_149731_5_, Vec3 p_149731_6_)
+                                                                                                                        ^
+  symbol:   class Vec3
+  location: class BananaStairs
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaStairs.java:518: error: cannot find symbol
+    public MovingObjectPosition collisionRayTrace(World p_149731_1_, int p_149731_2_, int p_149731_3_, int p_149731_4_, Vec3 p_149731_5_, Vec3 p_149731_6_)
+                                                                                                                                          ^
+  symbol:   class Vec3
+  location: class BananaStairs
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaStairs.java:518: error: cannot find symbol
+    public MovingObjectPosition collisionRayTrace(World p_149731_1_, int p_149731_2_, int p_149731_3_, int p_149731_4_, Vec3 p_149731_5_, Vec3 p_149731_6_)
+           ^
+  symbol:   class MovingObjectPosition
+  location: class BananaStairs
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/block/BananaStairs.java:582: error: cannot find symbol
+    public void registerBlockIcons(IIconRegister p_149651_1_) {}
+                                   ^
+  symbol:   class IIconRegister
+  location: class BananaStairs
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/client/gui/ConfigGui.java:6: error: package cpw.mods.fml.client.config does not exist
+import cpw.mods.fml.client.config.GuiConfig;
+                                 ^
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/client/gui/ConfigGui.java:14: error: cannot find symbol
+public class ConfigGui extends GuiConfig {
+                               ^
+  symbol: class GuiConfig
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/client/gui/GuiFactory.java:3: error: package cpw.mods.fml.client does not exist
+import cpw.mods.fml.client.IModGuiFactory;
+                          ^
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/client/gui/GuiFactory.java:4: error: package cpw.mods.fml.common.network does not exist
+import cpw.mods.fml.common.network.IGuiHandler;
+                                  ^
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/client/gui/GuiFactory.java:19: error: cannot find symbol
+public class GuiFactory implements IGuiHandler{
+                                   ^
+  symbol: class IGuiHandler
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/Entity/BananaBoss/BossEntity.java:6: error: package cpw.mods.fml.relauncher does not exist
+import cpw.mods.fml.relauncher.Side;
+                              ^
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/Entity/BananaBoss/BossEntity.java:7: error: package cpw.mods.fml.relauncher does not exist
+import cpw.mods.fml.relauncher.SideOnly;
+                              ^
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/Entity/BananaBoss/BossEntity.java:13: error: cannot find symbol
+import net.minecraft.entity.boss.BossStatus;
+                                ^
+  symbol:   class BossStatus
+  location: package net.minecraft.entity.boss
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/Entity/BananaBoss/BossEntity.java:14: error: cannot find symbol
+import net.minecraft.entity.boss.IBossDisplayData;
+                                ^
+  symbol:   class IBossDisplayData
+  location: package net.minecraft.entity.boss
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/Entity/BananaBoss/BossEntity.java:22: error: cannot find symbol
+import net.minecraft.util.MathHelper;
+                         ^
+  symbol:   class MathHelper
+  location: package net.minecraft.util
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/Entity/BananaBoss/BossEntity.java:26: error: cannot find symbol
+public class BossEntity extends EntityMob implements IBossDisplayData, IMob
+                                                     ^
+  symbol: class IBossDisplayData
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/Entity/BananaBoss/BossModel.java:6: error: cannot find symbol
+import net.minecraft.util.MathHelper;
+                         ^
+  symbol:   class MathHelper
+  location: package net.minecraft.util
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/Entity/BananaBoss/BossRender.java:5: error: package cpw.mods.fml.relauncher does not exist
+import cpw.mods.fml.relauncher.Side;
+                              ^
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/Entity/BananaBoss/BossRender.java:9: error: cannot find symbol
+import net.minecraft.entity.boss.BossStatus;
+                                ^
+  symbol:   class BossStatus
+  location: package net.minecraft.entity.boss
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/Entity/BananaBoss/BossRender.java:10: error: cannot find symbol
+import net.minecraft.entity.boss.IBossDisplayData;
+                                ^
+  symbol:   class IBossDisplayData
+  location: package net.minecraft.entity.boss
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/Entity/Kuala/EntityAbe.java:8: error: package cpw.mods.fml.common.registry does not exist
+import cpw.mods.fml.common.registry.EntityRegistry;
+                                   ^
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/Entity/Kuala/EntityAbe.java:17: error: cannot find symbol
+import net.minecraft.entity.ai.EntityAIAttackOnCollide;
+                              ^
+  symbol:   class EntityAIAttackOnCollide
+  location: package net.minecraft.entity.ai
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/Entity/Kuala/EntityAbe.java:43: error: cannot find symbol
+import net.minecraft.pathfinding.PathEntity;
+                                ^
+  symbol:   class PathEntity
+  location: package net.minecraft.pathfinding
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/Entity/Kuala/EntityAbe.java:45: error: cannot find symbol
+import net.minecraft.util.MathHelper;
+                         ^
+  symbol:   class MathHelper
+  location: package net.minecraft.util
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/Entity/Kuala/ModelAbe.java:6: error: cannot find symbol
+import net.minecraft.util.MathHelper;
+                         ^
+  symbol:   class MathHelper
+  location: package net.minecraft.util
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/TileEntity/TileIngotizer.java:6: error: package cpw.mods.fml.relauncher does not exist
+import cpw.mods.fml.relauncher.Side;
+                              ^
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/TileEntity/TileIngotizer.java:7: error: package cpw.mods.fml.relauncher does not exist
+import cpw.mods.fml.relauncher.SideOnly;
+                              ^
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/Handler/ConfigurationHandler.java:3: error: package cpw.mods.fml.client.event does not exist
+import cpw.mods.fml.client.event.ConfigChangedEvent;
+                                ^
+/Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/Handler/ConfigurationHandler.java:4: error: package cpw.mods.fml.common.eventhandler does not exist
+import cpw.mods.fml.common.eventhandler.SubscribeEvent;
+                                       ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.11.2/build/sources/main/java/com/pikachu923/bananacraft/Handler/IngotizerRecipes.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+100 errors
+1 warning
+ FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 10.903 secs

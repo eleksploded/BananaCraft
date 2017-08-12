@@ -1,0 +1,45 @@
+package com.pikachu923.BananaCraft.CreativeTab;
+
+import com.pikachu923.BananaCraft.init.Tier1Items;
+import com.pikachu923.BananaCraft.reference.Reference;
+
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.init.Blocks;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
+
+public class BananaTab {
+	public static final CreativeTabs BananaTab = new CreativeTabs(CreativeTabs.getNextID(), "BananaCraft")// = new CreativeTabs(CreativeTabs.getNextID(), "bananatab")
+	{
+        @SideOnly(Side.CLIENT)
+        public ItemStack getTabIconItem()
+        {
+            return new ItemStack(Tier1Items.Banana);
+        }
+    };
+
+	private static int tabIndex = CreativeTabs.getNextID();
+	private static String tabLabel = "";
+	private static ItemStack iconItemStack;
+
+
+	public static void BananaTabInit(int index, String label) {
+		System.out.println("BananaTab");
+		if (index >= CreativeTabs.CREATIVE_TAB_ARRAY.length)
+		{
+			CreativeTabs[] tmp = new CreativeTabs[index + 1];
+			for (int x = 0; x < CreativeTabs.CREATIVE_TAB_ARRAY.length; x++)
+			{
+				tmp[x] = CreativeTabs.CREATIVE_TAB_ARRAY[x];
+			}
+			CreativeTabs.CREATIVE_TAB_ARRAY = tmp;
+		}
+		tabIndex = index;
+		tabLabel = label;
+		iconItemStack = new ItemStack(Tier1Items.Banana);
+		CreativeTabs.CREATIVE_TAB_ARRAY[index] = BananaTab;
+	}
+}
+

@@ -1,0 +1,39 @@
+package com.pikachu923.BananaCraft;
+
+import com.pikachu923.BananaCraft.CreativeTab.BananaTab;
+import com.pikachu923.BananaCraft.reference.Reference;
+import com.pikachu923.BananaCraft.utility.BananaRegistry;
+
+import net.minecraft.block.Block;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.Mod.EventHandler;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+
+@Mod.EventBusSubscriber
+@Mod(modid = Reference.MOD_ID, version = Reference.VERSION)
+public class BananaCraft {
+	//public static BananaTab BananaTab = new BananaTab(CreativeTabs.getNextID(), "BananaCraft");
+    
+    @EventHandler
+    public void init(FMLInitializationEvent event) {
+    	
+    }
+    
+    @SubscribeEvent
+    public static void runB(RegistryEvent.Register<Block> event) {
+    	System.out.println("REg");
+    	BananaRegistry.blockInit(event);
+    }
+    
+    @SubscribeEvent
+    public static void runI(RegistryEvent.Register<Item> event) {
+    	System.out.println("REg");
+    	BananaRegistry.itemInit(event);
+    }
+    
+}
+

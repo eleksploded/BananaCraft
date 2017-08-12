@@ -1,0 +1,525 @@
+[10:05:32] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[10:05:32] [main/INFO] [FML/]: Forge Mod Loader version 14.21.1.2387 for Minecraft 1.12 loading
+[10:05:32] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_131, running on Mac OS X:x86_64:10.12.5, installed at /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre
+[10:05:32] [main/DEBUG] [FML/]: Java classpath at launch is /Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.12/bin:/Users/nathanmartin/.gradle/caches/minecraft/net/minecraftforge/forge/1.12-14.21.1.2387/snapshot/20170624/forgeSrc-1.12-14.21.1.2387.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.1/f7be08ec23c21485b9b5a1cf1654c2ec8c58168d/jsr305-3.0.1.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/com.mojang/patchy/1.1/aef610b34a1be37fa851825f12372b78424d8903/patchy-1.1.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/oshi-project/oshi-core/1.1/9ddf7b048a8d701be231c0f4f95fd986198fd2d8/oshi-core-1.1.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/4.4.0/cb208278274bf12ebdb56c61bd7407e6f774d65a/jna-4.4.0.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/platform/3.4.0/e3f70017be8100d3d6923f50b3d2ee17714e9c13/platform-3.4.0.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j-core-mojang/51.2/63d216a9311cca6be337c1e458e587f99d382b84/icu4j-core-mojang-51.2.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/5.0.3/cdd846cfc4e0f7eefafc02c0f5dce32b9303aa2a/jopt-simple-5.0.3.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.9.Final/97860965d6a0a6b98e7f569f3f966727b8db75/netty-all-4.1.9.Final.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/21.0/3a3d111be1be1b745edfa7d91678a12d7ed38709/guava-21.0.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.5/6c6c702c89bfff3cd9e80b04d668c5e190d588c6/commons-lang3-3.5.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.5/2852e6e05fbb95076fc091f6d1780f1f8fe35e0f/commons-io-2.5.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.10/4b95f4897fa13f2cd904aee711aeafc0c5295cd8/commons-codec-1.10.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/net.java.jutils/jutils/1.0.0/e12fe1fda814bd348c1579329c86943d2cd3c6a6/jutils-1.0.0.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/1.5.25/9834cdf236c22e84b946bba989e2f94ef5897c3c/authlib-1.5.25.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/com.mojang/realms/1.10.17/e6a623bf93a230b503b0e3ae18c196fcd5aa3299/realms-1.10.17.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.8.1/a698750c16740fd5b3871425f4cb3bbaa87f529d/commons-compress-1.8.1.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/18f4247ff4572a074444572cee34647c43e7c9c7/httpclient-4.3.3.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/31fbbff1ddbf98f3aa7377c94d33b0447c646b6e/httpcore-4.3.2.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/it.unimi.dsi/fastutil/7.1.0/9835253257524c1be7ab50c057aa2d418fb72082/fastutil-7.1.0.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.8.1/e801d13612e22cad62a3f4f3fe7fdbe6334a8e72/log4j-api-2.8.1.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.8.1/4ac28ff2f1ddf05dae3043a190451e8c46b73c31/log4j-core-2.8.1.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/com.mojang/text2speech/1.10.3/48fd510879dff266c3815947de66e3d4809f8668/text2speech-1.10.3.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/ca.weblite/java-objc-bridge/1.0.0/6ef160c3133a78de015830860197602ca1c855d3/java-objc-bridge-1.0.0.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/net.minecraft/launchwrapper/1.12/111e7bea9c968cdb3d06ef4632bf7ff0824d0f36/launchwrapper-1.12.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/jline/jline/2.13/2d9530d0a25daffaffda7c35037b046b627bb171/jline-2.13.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/5.2/3354e11e2b34215f06dab629ab88e06aca477c19/asm-debug-all-5.2.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-actor_2.11/2.3.3/ed62e9fc709ca0f2ff1a3220daa8b70a2870078e/akka-actor_2.11-2.3.3.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.2.1/f771f71fdae3df231bcd54d5ca2d57f0bf93f467/config-1.2.1.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors-migration_2.11/1.1.0/dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f/scala-actors-migration_2.11-1.1.0.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-compiler/2.11.1/56ea2e6c025e0821f28d73ca271218b8dd04926a/scala-compiler-2.11.1.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-library_2.11/1.0.2/e517c53a7e9acd6b1668c5a35eccbaa3bab9aac/scala-continuations-library_2.11-1.0.2.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-plugin_2.11.1/1.0.2/f361a3283452c57fa30c1ee69448995de23c60f7/scala-continuations-plugin_2.11.1-1.0.2.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.1/e11da23da3eabab9f4777b9220e60d44c1aab6a/scala-library-2.11.1.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.1/f05d7345bf5a58924f2837c6c1f4d73a938e1ff0/scala-parser-combinators_2.11-1.0.1.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.11.1/6580347e61cc7f8e802941e7fde40fa83b8badeb/scala-reflect-2.11.1.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-swing_2.11/1.0.1/b1cdd92bd47b1e1837139c1c53020e86bb9112ae/scala-swing_2.11-1.0.1.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.11/1.0.2/820fbca7e524b530fdadc594c39d49a21ea0337e/scala-xml_2.11-1.0.2.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/lzma/lzma/0.0.1/521616dc7487b42bef0e803bd2fa3faf668101d7/lzma-0.0.1.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/net.sf.trove4j/trove4j/3.0.3/42ccaf4761f0dfdfa805c9e340d99a755907e2dd/trove4j-3.0.3.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/com.paulscode/codecjorbis/20101023/c73b5636faf089d9f00e8732a829577de25237ee/codecjorbis-20101023.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/com.paulscode/codecwav/20101023/12f031cfe88fef5c1dd36c563c0a3a69bd7261da/codecwav-20101023.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/com.paulscode/libraryjavasound/20101123/5c5e304366f75f9eaa2e8cca546a1fb6109348b3/libraryjavasound-20101123.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/com.paulscode/librarylwjglopenal/20100824/73e80d0794c39665aec3f62eee88ca91676674ef/librarylwjglopenal-20100824.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/com.paulscode/soundsystem/20120107/419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6/soundsystem-20120107.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.2-nightly-20140822/7707204c9ffa5d91662de95f0a224e2f721b22af/lwjgl-2.9.2-nightly-20140822.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl_util/2.9.2-nightly-20140822/f0e612c840a7639c1f77f68d72a28dae2f0c8490/lwjgl_util-2.9.2-nightly-20140822.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/java3d/vecmath/1.5.2/79846ba34cbd89e2422d74d53752f993dcc2ccaf/vecmath-1.5.2.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/org.fusesource.jansi/jansi/1.11/655c643309c2f45a56a747fda70e3fadf57e9f11/jansi-1.11.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors/2.11.0/8ccfb6541de179bb1c4d45cf414acee069b7f78b/scala-actors-2.11.0.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/7ff832a6eb9ab6a767f1ade2b548092d0fa64795/jinput-platform-2.0.5-natives-linux.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/385ee093e01f587f30ee1c8a2ee7d408fd732e16/jinput-platform-2.0.5-natives-windows.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/53f9c919f34d2ca9de8c51fc4e1e8282029a9232/jinput-platform-2.0.5-natives-osx.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2-nightly-20140822/78b2a55ce4dc29c6b3ec4df8ca165eba05f9b341/lwjgl-platform-2.9.2-nightly-20140822-natives-windows.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2-nightly-20140822/d898a33b5d0a6ef3fed3a4ead506566dce6720a5/lwjgl-platform-2.9.2-nightly-20140822-natives-linux.jar:/Users/nathanmartin/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2-nightly-20140822/79f5ce2fea02e77fe47a3c745219167a542121d7/lwjgl-platform-2.9.2-nightly-20140822-natives-osx.jar:/Users/nathanmartin/.gradle/caches/minecraft/deobfedDeps/compileDummy.jar:/Users/nathanmartin/.gradle/caches/minecraft/deobfedDeps/providedDummy.jar:/Users/nathanmartin/.gradle/caches/minecraft/net/minecraftforge/forge/1.12-14.21.1.2387/start
+[10:05:32] [main/DEBUG] [FML/]: Java library path at launch is /Users/nathanmartin/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.:/Users/nathanmartin/.gradle/caches/minecraft/net/minecraft/natives/1.12
+[10:05:32] [main/INFO] [FML/]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[10:05:32] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[10:05:32] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[10:05:32] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[10:05:32] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[10:05:32] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[10:05:32] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[10:05:32] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to /Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.12/run/.
+[10:05:32] [main/DEBUG] [FML/]: Discovering coremods
+[10:05:32] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[10:05:32] [main/INFO] [GradleStart/]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[10:05:32] [main/INFO] [GradleStart/]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[10:05:32] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[10:05:32] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[10:05:32] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[10:05:32] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[10:05:32] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[10:05:32] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[10:05:32] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\} class transformers
+[10:05:32] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.BlamingTransformer
+[10:05:32] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[10:05:32] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[10:05:32] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[10:05:32] [main/DEBUG] [FML/]: Injection complete
+[10:05:32] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\}
+[10:05:32] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[10:05:32] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[10:05:32] [main/ERROR] [FML/]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[10:05:32] [main/DEBUG] [FML/]: Loading deobfuscation resource /Users/nathanmartin/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_snapshot/20170624/1.12/srgs/srg-mcp.srg with 36059 records
+[10:05:33] [main/ERROR] [FML/]: FML appears to be missing any signature data. This is not a good thing
+[10:05:33] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[10:05:33] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[10:05:33] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\} class transformers
+[10:05:33] [main/DEBUG] [FML/]: Injection complete
+[10:05:33] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\}
+[10:05:33] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[10:05:33] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[10:05:33] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[10:05:33] [main/DEBUG] [FML/]: Loaded 206 rules from AccessTransformer config file forge_at.cfg
+[10:05:33] [main/DEBUG] [FML/]: Validating minecraft
+[10:05:34] [main/DEBUG] [FML/]: Minecraft validated, launching...
+[10:05:34] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[10:05:34] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[10:05:34] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[10:05:34] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[10:05:38] [main/DEBUG] [FML/]: Creating vanilla freeze snapshot
+[10:05:38] [main/DEBUG] [FML/]: Vanilla freeze snapshot created
+[10:05:39] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - LanguageManager took 0.001s
+[10:05:39] [main/INFO] [FML/]: MinecraftForge v14.21.1.2387 Initialized
+[10:05:39] [main/INFO] [FML/]: Replaced 921 ore ingredients
+[10:05:39] [main/DEBUG] [FML/]: File /Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.12/run/config/injectedDependencies.json not found. No dependencies injected
+[10:05:39] [main/DEBUG] [FML/]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
+[10:05:39] [main/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[10:05:39] [main/DEBUG] [FML/]: Found a minecraft related directory at /Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.12/bin, examining for mod candidates
+[10:05:39] [main/DEBUG] [FML/]: Found a minecraft related file at /Users/nathanmartin/.gradle/caches/minecraft/net/minecraftforge/forge/1.12-14.21.1.2387/snapshot/20170624/forgeSrc-1.12-14.21.1.2387.jar, examining for mod candidates
+[10:05:39] [main/DEBUG] [FML/]: Found a minecraft related file at /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.1/f7be08ec23c21485b9b5a1cf1654c2ec8c58168d/jsr305-3.0.1.jar, examining for mod candidates
+[10:05:39] [main/DEBUG] [FML/]: Found a minecraft related file at /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/com.mojang/patchy/1.1/aef610b34a1be37fa851825f12372b78424d8903/patchy-1.1.jar, examining for mod candidates
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/oshi-project/oshi-core/1.1/9ddf7b048a8d701be231c0f4f95fd986198fd2d8/oshi-core-1.1.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/4.4.0/cb208278274bf12ebdb56c61bd7407e6f774d65a/jna-4.4.0.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/platform/3.4.0/e3f70017be8100d3d6923f50b3d2ee17714e9c13/platform-3.4.0.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j-core-mojang/51.2/63d216a9311cca6be337c1e458e587f99d382b84/icu4j-core-mojang-51.2.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/5.0.3/cdd846cfc4e0f7eefafc02c0f5dce32b9303aa2a/jopt-simple-5.0.3.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.9.Final/97860965d6a0a6b98e7f569f3f966727b8db75/netty-all-4.1.9.Final.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/21.0/3a3d111be1be1b745edfa7d91678a12d7ed38709/guava-21.0.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.5/6c6c702c89bfff3cd9e80b04d668c5e190d588c6/commons-lang3-3.5.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.5/2852e6e05fbb95076fc091f6d1780f1f8fe35e0f/commons-io-2.5.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.10/4b95f4897fa13f2cd904aee711aeafc0c5295cd8/commons-codec-1.10.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/net.java.jutils/jutils/1.0.0/e12fe1fda814bd348c1579329c86943d2cd3c6a6/jutils-1.0.0.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/1.5.25/9834cdf236c22e84b946bba989e2f94ef5897c3c/authlib-1.5.25.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/com.mojang/realms/1.10.17/e6a623bf93a230b503b0e3ae18c196fcd5aa3299/realms-1.10.17.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.8.1/a698750c16740fd5b3871425f4cb3bbaa87f529d/commons-compress-1.8.1.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/18f4247ff4572a074444572cee34647c43e7c9c7/httpclient-4.3.3.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/31fbbff1ddbf98f3aa7377c94d33b0447c646b6e/httpcore-4.3.2.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/it.unimi.dsi/fastutil/7.1.0/9835253257524c1be7ab50c057aa2d418fb72082/fastutil-7.1.0.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.8.1/e801d13612e22cad62a3f4f3fe7fdbe6334a8e72/log4j-api-2.8.1.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.8.1/4ac28ff2f1ddf05dae3043a190451e8c46b73c31/log4j-core-2.8.1.jar
+[10:05:39] [main/DEBUG] [FML/]: Found a minecraft related file at /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/com.mojang/text2speech/1.10.3/48fd510879dff266c3815947de66e3d4809f8668/text2speech-1.10.3.jar, examining for mod candidates
+[10:05:39] [main/DEBUG] [FML/]: Found a minecraft related file at /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/ca.weblite/java-objc-bridge/1.0.0/6ef160c3133a78de015830860197602ca1c855d3/java-objc-bridge-1.0.0.jar, examining for mod candidates
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/net.minecraft/launchwrapper/1.12/111e7bea9c968cdb3d06ef4632bf7ff0824d0f36/launchwrapper-1.12.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/jline/jline/2.13/2d9530d0a25daffaffda7c35037b046b627bb171/jline-2.13.jar
+[10:05:39] [main/DEBUG] [FML/]: Found a minecraft related file at /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/5.2/3354e11e2b34215f06dab629ab88e06aca477c19/asm-debug-all-5.2.jar, examining for mod candidates
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-actor_2.11/2.3.3/ed62e9fc709ca0f2ff1a3220daa8b70a2870078e/akka-actor_2.11-2.3.3.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.2.1/f771f71fdae3df231bcd54d5ca2d57f0bf93f467/config-1.2.1.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors-migration_2.11/1.1.0/dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f/scala-actors-migration_2.11-1.1.0.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-compiler/2.11.1/56ea2e6c025e0821f28d73ca271218b8dd04926a/scala-compiler-2.11.1.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-library_2.11/1.0.2/e517c53a7e9acd6b1668c5a35eccbaa3bab9aac/scala-continuations-library_2.11-1.0.2.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-plugin_2.11.1/1.0.2/f361a3283452c57fa30c1ee69448995de23c60f7/scala-continuations-plugin_2.11.1-1.0.2.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.1/e11da23da3eabab9f4777b9220e60d44c1aab6a/scala-library-2.11.1.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.1/f05d7345bf5a58924f2837c6c1f4d73a938e1ff0/scala-parser-combinators_2.11-1.0.1.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.11.1/6580347e61cc7f8e802941e7fde40fa83b8badeb/scala-reflect-2.11.1.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-swing_2.11/1.0.1/b1cdd92bd47b1e1837139c1c53020e86bb9112ae/scala-swing_2.11-1.0.1.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.11/1.0.2/820fbca7e524b530fdadc594c39d49a21ea0337e/scala-xml_2.11-1.0.2.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/lzma/lzma/0.0.1/521616dc7487b42bef0e803bd2fa3faf668101d7/lzma-0.0.1.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/net.sf.trove4j/trove4j/3.0.3/42ccaf4761f0dfdfa805c9e340d99a755907e2dd/trove4j-3.0.3.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/com.paulscode/codecjorbis/20101023/c73b5636faf089d9f00e8732a829577de25237ee/codecjorbis-20101023.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/com.paulscode/codecwav/20101023/12f031cfe88fef5c1dd36c563c0a3a69bd7261da/codecwav-20101023.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/com.paulscode/libraryjavasound/20101123/5c5e304366f75f9eaa2e8cca546a1fb6109348b3/libraryjavasound-20101123.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/com.paulscode/librarylwjglopenal/20100824/73e80d0794c39665aec3f62eee88ca91676674ef/librarylwjglopenal-20100824.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/com.paulscode/soundsystem/20120107/419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6/soundsystem-20120107.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.2-nightly-20140822/7707204c9ffa5d91662de95f0a224e2f721b22af/lwjgl-2.9.2-nightly-20140822.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl_util/2.9.2-nightly-20140822/f0e612c840a7639c1f77f68d72a28dae2f0c8490/lwjgl_util-2.9.2-nightly-20140822.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/java3d/vecmath/1.5.2/79846ba34cbd89e2422d74d53752f993dcc2ccaf/vecmath-1.5.2.jar
+[10:05:39] [main/DEBUG] [FML/]: Found a minecraft related file at /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/org.fusesource.jansi/jansi/1.11/655c643309c2f45a56a747fda70e3fadf57e9f11/jansi-1.11.jar, examining for mod candidates
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors/2.11.0/8ccfb6541de179bb1c4d45cf414acee069b7f78b/scala-actors-2.11.0.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/7ff832a6eb9ab6a767f1ade2b548092d0fa64795/jinput-platform-2.0.5-natives-linux.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/385ee093e01f587f30ee1c8a2ee7d408fd732e16/jinput-platform-2.0.5-natives-windows.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/53f9c919f34d2ca9de8c51fc4e1e8282029a9232/jinput-platform-2.0.5-natives-osx.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2-nightly-20140822/78b2a55ce4dc29c6b3ec4df8ca165eba05f9b341/lwjgl-platform-2.9.2-nightly-20140822-natives-windows.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2-nightly-20140822/d898a33b5d0a6ef3fed3a4ead506566dce6720a5/lwjgl-platform-2.9.2-nightly-20140822-natives-linux.jar
+[10:05:39] [main/TRACE] [FML/]: Skipping known library file /Users/nathanmartin/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2-nightly-20140822/79f5ce2fea02e77fe47a3c745219167a542121d7/lwjgl-platform-2.9.2-nightly-20140822-natives-osx.jar
+[10:05:39] [main/DEBUG] [FML/]: Found a minecraft related file at /Users/nathanmartin/.gradle/caches/minecraft/deobfedDeps/compileDummy.jar, examining for mod candidates
+[10:05:39] [main/DEBUG] [FML/]: Found a minecraft related file at /Users/nathanmartin/.gradle/caches/minecraft/deobfedDeps/providedDummy.jar, examining for mod candidates
+[10:05:39] [main/DEBUG] [FML/]: Found a minecraft related directory at /Users/nathanmartin/.gradle/caches/minecraft/net/minecraftforge/forge/1.12-14.21.1.2387/start, examining for mod candidates
+[10:05:39] [main/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[10:05:39] [main/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[10:05:39] [main/INFO] [FML/]: Searching /Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.12/run/mods for mods
+[10:05:39] [main/DEBUG] [FML/]: Examining directory bin for potential mods
+[10:05:39] [main/DEBUG] [FML/]: Found an mcmod.info file in directory bin
+[10:05:39] [main/TRACE] [FML/]: Recursing into package assets
+[10:05:39] [main/TRACE] [FML/]: Recursing into package assets/bananacraft
+[10:05:39] [main/TRACE] [FML/]: Recursing into package assets/bananacraft/lang
+[10:05:39] [main/TRACE] [FML/]: Recursing into package assets/bananacraft/sounds
+[10:05:39] [main/TRACE] [FML/]: Recursing into package assets/bananacraft/sounds/Items
+[10:05:39] [main/TRACE] [FML/]: Recursing into package assets/bananacraft/sounds/Kuala
+[10:05:39] [main/TRACE] [FML/]: Recursing into package assets/bananacraft/textures
+[10:05:39] [main/TRACE] [FML/]: Recursing into package assets/bananacraft/textures/armor
+[10:05:39] [main/TRACE] [FML/]: Recursing into package assets/bananacraft/textures/blocks
+[10:05:39] [main/TRACE] [FML/]: Recursing into package assets/bananacraft/textures/entity
+[10:05:39] [main/TRACE] [FML/]: Recursing into package assets/bananacraft/textures/entity/BananaBoss
+[10:05:39] [main/TRACE] [FML/]: Recursing into package assets/bananacraft/textures/gui
+[10:05:39] [main/TRACE] [FML/]: Recursing into package assets/bananacraft/textures/gui/container
+[10:05:39] [main/TRACE] [FML/]: Recursing into package assets/bananacraft/textures/items
+[10:05:39] [main/TRACE] [FML/]: Recursing into package com
+[10:05:39] [main/TRACE] [FML/]: Recursing into package com/pikachu923
+[10:05:39] [main/TRACE] [FML/]: Recursing into package com/pikachu923/BananaCraft
+[10:05:39] [main/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (com.pikachu923.BananaCraft.BananaCraft) - loading
+[10:05:39] [main/TRACE] [bananacraft/]: Parsed dependency info : [] [] []
+[10:05:39] [main/INFO] [bananacraft/]: Mod bananacraft is missing the required element 'name'. Substituting bananacraft
+[10:05:39] [main/TRACE] [FML/]: Recursing into package com/pikachu923/BananaCraft/CreativeTab
+[10:05:39] [main/TRACE] [FML/]: Recursing into package com/pikachu923/BananaCraft/Entity
+[10:05:39] [main/TRACE] [FML/]: Recursing into package com/pikachu923/BananaCraft/Entity/BananaBoss
+[10:05:39] [main/TRACE] [FML/]: Recursing into package com/pikachu923/BananaCraft/Entity/BananaCreeper
+[10:05:39] [main/TRACE] [FML/]: Recursing into package com/pikachu923/BananaCraft/Gen
+[10:05:39] [main/TRACE] [FML/]: Recursing into package com/pikachu923/BananaCraft/Handler
+[10:05:39] [main/TRACE] [FML/]: Recursing into package com/pikachu923/BananaCraft/Inventory
+[10:05:39] [main/TRACE] [FML/]: Recursing into package com/pikachu923/BananaCraft/Items1
+[10:05:39] [main/TRACE] [FML/]: Recursing into package com/pikachu923/BananaCraft/Items2
+[10:05:40] [main/TRACE] [FML/]: Recursing into package com/pikachu923/BananaCraft/Items3
+[10:05:40] [main/TRACE] [FML/]: Recursing into package com/pikachu923/BananaCraft/Projectiles
+[10:05:40] [main/TRACE] [FML/]: Recursing into package com/pikachu923/BananaCraft/Projectiles/BananaBomb0
+[10:05:40] [main/TRACE] [FML/]: Recursing into package com/pikachu923/BananaCraft/Projectiles/BananaBomb1
+[10:05:40] [main/TRACE] [FML/]: Recursing into package com/pikachu923/BananaCraft/Projectiles/BananaBomb2
+[10:05:40] [main/TRACE] [FML/]: Recursing into package com/pikachu923/BananaCraft/Projectiles/BananaBomb3
+[10:05:40] [main/TRACE] [FML/]: Recursing into package com/pikachu923/BananaCraft/Recipes
+[10:05:40] [main/TRACE] [FML/]: Recursing into package com/pikachu923/BananaCraft/TileEntity
+[10:05:40] [main/TRACE] [FML/]: Recursing into package com/pikachu923/BananaCraft/armor
+[10:05:40] [main/TRACE] [FML/]: Recursing into package com/pikachu923/BananaCraft/block
+[10:05:40] [main/TRACE] [FML/]: Recursing into package com/pikachu923/BananaCraft/client
+[10:05:40] [main/TRACE] [FML/]: Recursing into package com/pikachu923/BananaCraft/client/gui
+[10:05:40] [main/TRACE] [FML/]: Recursing into package com/pikachu923/BananaCraft/gui
+[10:05:40] [main/TRACE] [FML/]: Recursing into package com/pikachu923/BananaCraft/init
+[10:05:40] [main/TRACE] [FML/]: Recursing into package com/pikachu923/BananaCraft/items
+[10:05:40] [main/TRACE] [FML/]: Recursing into package com/pikachu923/BananaCraft/proxy
+[10:05:40] [main/TRACE] [FML/]: Recursing into package com/pikachu923/BananaCraft/reference
+[10:05:40] [main/TRACE] [FML/]: Recursing into package com/pikachu923/BananaCraft/utility
+[10:05:40] [main/DEBUG] [FML/]: Examining file forgeSrc-1.12-14.21.1.2387.jar for potential mods
+[10:05:40] [main/DEBUG] [FML/]: The mod container forgeSrc-1.12-14.21.1.2387.jar appears to be missing an mcmod.info file
+[10:05:41] [main/DEBUG] [FML/]: Examining file jsr305-3.0.1.jar for potential mods
+[10:05:41] [main/DEBUG] [FML/]: The mod container jsr305-3.0.1.jar appears to be missing an mcmod.info file
+[10:05:41] [main/DEBUG] [FML/]: Examining file patchy-1.1.jar for potential mods
+[10:05:41] [main/DEBUG] [FML/]: The mod container patchy-1.1.jar appears to be missing an mcmod.info file
+[10:05:41] [main/DEBUG] [FML/]: Examining file text2speech-1.10.3.jar for potential mods
+[10:05:41] [main/DEBUG] [FML/]: The mod container text2speech-1.10.3.jar appears to be missing an mcmod.info file
+[10:05:41] [main/DEBUG] [FML/]: Examining file java-objc-bridge-1.0.0.jar for potential mods
+[10:05:41] [main/DEBUG] [FML/]: The mod container java-objc-bridge-1.0.0.jar appears to be missing an mcmod.info file
+[10:05:41] [main/DEBUG] [FML/]: Examining file asm-debug-all-5.2.jar for potential mods
+[10:05:41] [main/DEBUG] [FML/]: The mod container asm-debug-all-5.2.jar appears to be missing an mcmod.info file
+[10:05:41] [main/DEBUG] [FML/]: Examining file jansi-1.11.jar for potential mods
+[10:05:41] [main/DEBUG] [FML/]: The mod container jansi-1.11.jar appears to be missing an mcmod.info file
+[10:05:41] [main/DEBUG] [FML/]: Examining file compileDummy.jar for potential mods
+[10:05:41] [main/DEBUG] [FML/]: The mod container compileDummy.jar appears to be missing an mcmod.info file
+[10:05:41] [main/DEBUG] [FML/]: Examining file providedDummy.jar for potential mods
+[10:05:41] [main/DEBUG] [FML/]: The mod container providedDummy.jar appears to be missing an mcmod.info file
+[10:05:41] [main/DEBUG] [FML/]: Examining directory start for potential mods
+[10:05:41] [main/DEBUG] [FML/]: No mcmod.info file found in directory start
+[10:05:41] [main/TRACE] [FML/]: Recursing into package net
+[10:05:41] [main/TRACE] [FML/]: Recursing into package net/minecraftforge
+[10:05:41] [main/TRACE] [FML/]: Recursing into package net/minecraftforge/gradle
+[10:05:41] [main/TRACE] [FML/]: Recursing into package net/minecraftforge/gradle/tweakers
+[10:05:41] [main/INFO] [FML/]: Forge Mod Loader has identified 5 mods to load
+[10:05:41] [main/TRACE] [FML/]: Received a system property request ''
+[10:05:41] [main/TRACE] [FML/]: System property request managing the state of 0 mods
+[10:05:41] [main/DEBUG] [FML/]: After merging, found state information for 0 mods
+[10:05:41] [main/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[10:05:41] [main/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[10:05:41] [main/DEBUG] [bananacraft/]: Enabling mod bananacraft
+[10:05:41] [main/DEBUG] [bananacraft/]: Mod bananacraft is missing a pack.mcmeta file, substituting a dummy one
+[10:05:41] [main/TRACE] [FML/]: Verifying mod requirements are satisfied
+[10:05:41] [main/TRACE] [FML/]: All mod requirements are satisfied
+[10:05:41] [main/TRACE] [FML/]: Sorting mods into an ordered list
+[10:05:41] [main/TRACE] [FML/]: Mod sorting completed successfully
+[10:05:41] [main/DEBUG] [FML/]: Mod sorting data
+[10:05:41] [main/DEBUG] [FML/]: 	bananacraft(bananacraft:1.12-Pre1): bin ()
+[10:05:41] [main/DEBUG] [FML/]: Loading @Config anotation data
+[10:05:41] [main/TRACE] [minecraft/minecraft]: Sending event FMLConstructionEvent to mod minecraft
+[10:05:41] [main/TRACE] [minecraft/minecraft]: Sent event FMLConstructionEvent to mod minecraft
+[10:05:41] [main/DEBUG] [FML/]: Bar Step: Construction - Minecraft took 0.005s
+[10:05:41] [main/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
+[10:05:41] [main/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
+[10:05:41] [main/DEBUG] [FML/]: Bar Step: Construction - Minecraft Coder Pack took 0.001s
+[10:05:41] [main/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
+[10:05:41] [main/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
+[10:05:41] [main/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[10:05:41] [main/TRACE] [FML/FML]: The mod FML accepts its own version (8.0.99.99)
+[10:05:41] [main/INFO] [FML/FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, bananacraft] at CLIENT
+[10:05:41] [main/INFO] [FML/FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, bananacraft] at SERVER
+[10:05:41] [main/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
+[10:05:41] [main/DEBUG] [FML/]: Bar Step: Construction - Forge Mod Loader took 0.560s
+[10:05:41] [main/TRACE] [forge/forge]: Sending event FMLConstructionEvent to mod forge
+[10:05:41] [main/DEBUG] [forge/forge]: Preloading CrashReport Classes
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$10
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$11
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$12
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$13
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$14
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$2
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$3
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$4
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$5
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$6
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$7
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$8
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$9
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/client/multiplayer/WorldClient$1
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/client/multiplayer/WorldClient$2
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/client/multiplayer/WorldClient$3
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/client/multiplayer/WorldClient$4
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/client/particle/ParticleManager$1
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/client/particle/ParticleManager$2
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/client/particle/ParticleManager$3
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/client/particle/ParticleManager$4
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/EntityRenderer$2
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/EntityRenderer$3
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/EntityRenderer$4
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/RenderGlobal$1
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/RenderItem$1
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/RenderItem$2
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/RenderItem$3
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/RenderItem$4
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/texture/TextureAtlasSprite$1
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/texture/TextureManager$1
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/texture/TextureMap$1
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/texture/TextureMap$2
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/texture/TextureMap$3
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReport$1
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReport$2
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReport$3
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReport$4
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReport$5
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReport$6
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReport$7
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReportCategory$1
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReportCategory$2
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReportCategory$3
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReportCategory$4
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReportCategory$5
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/entity/Entity$2
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/entity/Entity$3
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/entity/Entity$4
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/entity/Entity$5
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/entity/EntityTracker$1
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/entity/player/InventoryPlayer$1
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/nbt/NBTTagCompound$1
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/nbt/NBTTagCompound$2
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/network/NetHandlerPlayServer$3
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/network/NetworkSystem$6
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/server/MinecraftServer$2
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/server/MinecraftServer$3
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/server/dedicated/DedicatedServer$3
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/server/dedicated/DedicatedServer$4
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/server/integrated/IntegratedServer$1
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/server/integrated/IntegratedServer$2
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/tileentity/CommandBlockBaseLogic$1
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/tileentity/CommandBlockBaseLogic$2
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/tileentity/TileEntity$1
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/tileentity/TileEntity$2
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/tileentity/TileEntity$3
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/world/World$1
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/world/World$2
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/world/World$3
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/world/World$4
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/world/World$5
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/world/chunk/Chunk$1
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/world/gen/structure/MapGenStructure$1
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/world/gen/structure/MapGenStructure$2
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/world/gen/structure/MapGenStructure$3
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/world/storage/WorldInfo$10
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/world/storage/WorldInfo$2
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/world/storage/WorldInfo$3
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/world/storage/WorldInfo$4
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/world/storage/WorldInfo$5
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/world/storage/WorldInfo$6
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/world/storage/WorldInfo$7
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/world/storage/WorldInfo$8
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraft/world/storage/WorldInfo$9
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraftforge/fml/client/SplashProgress$1
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraftforge/fml/common/FMLCommonHandler$1
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraftforge/fml/common/ICrashCallable
+[10:05:41] [main/DEBUG] [forge/forge]: 	net/minecraftforge/fml/common/Loader$1
+[10:05:41] [main/TRACE] [FML/forge]: Mod forge is using network checker : No network checking performed
+[10:05:41] [main/TRACE] [FML/forge]: Testing mod forge to verify it accepts its own version in a remote connection
+[10:05:41] [main/TRACE] [FML/forge]: The mod forge accepts its own version (14.21.1.2387)
+[10:05:41] [main/DEBUG] [FML/forge]: Attempting to inject @Config classes into forge for type INSTANCE
+[10:05:41] [main/TRACE] [forge/forge]: Sent event FMLConstructionEvent to mod forge
+[10:05:41] [main/DEBUG] [FML/]: Bar Step: Construction - Minecraft Forge took 0.091s
+[10:05:41] [main/TRACE] [bananacraft/bananacraft]: Sending event FMLConstructionEvent to mod bananacraft
+[10:05:41] [main/TRACE] [FML/bananacraft]: Mod bananacraft is using network checker : Accepting version 1.12-Pre1
+[10:05:41] [main/TRACE] [FML/bananacraft]: Testing mod bananacraft to verify it accepts its own version in a remote connection
+[10:05:41] [main/TRACE] [FML/bananacraft]: The mod bananacraft accepts its own version (1.12-Pre1)
+[10:05:41] [main/DEBUG] [FML/bananacraft]: Attempting to inject @SidedProxy classes into bananacraft
+[10:05:41] [main/DEBUG] [FML/bananacraft]: Attempting to inject @EventBusSubscriber classes into the eventbus for bananacraft
+[10:05:41] [main/DEBUG] [FML/bananacraft]: Registering @EventBusSubscriber for com.pikachu923.BananaCraft.BananaCraft for mod bananacraft
+[10:05:41] [main/DEBUG] [FML/bananacraft]: Injected @EventBusSubscriber class com.pikachu923.BananaCraft.BananaCraft
+[10:05:41] [main/DEBUG] [FML/bananacraft]: Attempting to inject @Config classes into bananacraft for type INSTANCE
+[10:05:41] [main/TRACE] [bananacraft/bananacraft]: Sent event FMLConstructionEvent to mod bananacraft
+[10:05:41] [main/DEBUG] [FML/]: Bar Step: Construction - bananacraft took 0.017s
+[10:05:41] [main/DEBUG] [FML/]: Bar Finished: Construction took 0.674s
+[10:05:41] [main/DEBUG] [FML/]: Mod signature data
+[10:05:41] [main/DEBUG] [FML/]:  	Valid Signatures:
+[10:05:41] [main/DEBUG] [FML/]:  	Missing Signatures:
+[10:05:41] [main/DEBUG] [FML/]: 		minecraft	(Minecraft	1.12)	minecraft.jar
+[10:05:41] [main/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.19)	minecraft.jar
+[10:05:41] [main/DEBUG] [FML/]: 		FML	(Forge Mod Loader	8.0.99.99)	forgeSrc-1.12-14.21.1.2387.jar
+[10:05:41] [main/DEBUG] [FML/]: 		forge	(Minecraft Forge	14.21.1.2387)	forgeSrc-1.12-14.21.1.2387.jar
+[10:05:41] [main/DEBUG] [FML/]: 		bananacraft	(bananacraft	1.12-Pre1)	bin
+[10:05:41] [main/DEBUG] [FML/]: Bar Step: Loading Resources - Default took 0.005s
+[10:05:41] [main/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0.012s
+[10:05:41] [main/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0.013s
+[10:05:41] [main/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:bananacraft took 0.002s
+[10:05:42] [main/DEBUG] [FML/]: Bar Finished: Reloading - LanguageManager took 0.022s
+[10:05:42] [main/DEBUG] [FML/]: Bar Step: Loading Resources - Reloading listeners took 0.023s
+[10:05:42] [main/DEBUG] [FML/]: Bar Finished: Loading Resources took 0.055s
+[10:05:42] [main/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[10:05:42] [main/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[10:05:42] [main/DEBUG] [bananacraft/]: Mod bananacraft is missing a pack.mcmeta file, substituting a dummy one
+[10:05:42] [main/INFO] [FML/]: Processing ObjectHolder annotations
+[10:05:42] [main/INFO] [FML/]: Found 1168 ObjectHolder annotations
+[10:05:42] [main/INFO] [FML/]: Identifying ItemStackHolder annotations
+[10:05:42] [main/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[10:05:42] [main/TRACE] [minecraft/minecraft]: Sending event FMLPreInitializationEvent to mod minecraft
+[10:05:42] [main/TRACE] [minecraft/minecraft]: Sent event FMLPreInitializationEvent to mod minecraft
+[10:05:42] [main/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft took 0.001s
+[10:05:42] [main/TRACE] [mcp/mcp]: Sending event FMLPreInitializationEvent to mod mcp
+[10:05:42] [main/TRACE] [mcp/mcp]: Sent event FMLPreInitializationEvent to mod mcp
+[10:05:42] [main/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.002s
+[10:05:42] [main/TRACE] [FML/FML]: Sending event FMLPreInitializationEvent to mod FML
+[10:05:42] [main/TRACE] [FML/FML]: Sent event FMLPreInitializationEvent to mod FML
+[10:05:42] [main/DEBUG] [FML/]: Bar Step: PreInitialization - Forge Mod Loader took 0.001s
+[10:05:42] [main/TRACE] [forge/forge]: Sending event FMLPreInitializationEvent to mod forge
+[10:05:42] [main/INFO] [FML/forge]: Configured a dormant chunk cache size of 0
+[10:05:42] [main/TRACE] [forge/forge]: Sent event FMLPreInitializationEvent to mod forge
+[10:05:42] [main/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Forge took 0.076s
+[10:05:42] [main/TRACE] [bananacraft/bananacraft]: Sending event FMLPreInitializationEvent to mod bananacraft
+[10:05:42] [main/TRACE] [bananacraft/bananacraft]: Sent event FMLPreInitializationEvent to mod bananacraft
+[10:05:42] [main/DEBUG] [FML/]: Bar Step: PreInitialization - bananacraft took 0.000s
+[10:05:42] [main/DEBUG] [FML/]: Bar Finished: PreInitialization took 0.080s
+[10:05:42] [main/INFO] [FML/]: Applying holder lookups
+[10:05:42] [main/INFO] [FML/]: Holder lookups applied
+[10:05:42] [main/ERROR] [FML/]: Exception caught during firing event net.minecraftforge.event.RegistryEvent$Register@637798b4:
+java.lang.ExceptionInInitializerError: null
+	at com.pikachu923.BananaCraft.utility.BananaRegistry.InitItems(BananaRegistry.java:73) ~[BananaRegistry.class:?]
+	at com.pikachu923.BananaCraft.utility.BananaRegistry.itemReg(BananaRegistry.java:44) ~[BananaRegistry.class:?]
+	at com.pikachu923.BananaCraft.BananaCraft.runI(BananaCraft.java:40) ~[BananaCraft.class:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_5_BananaCraft_runI_Register.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) ~[ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus$1.invoke(EventBus.java:143) ~[EventBus$1.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:179) [EventBus.class:?]
+	at net.minecraftforge.registries.GameData.fireRegistryEvents(GameData.java:693) [GameData.class:?]
+	at net.minecraftforge.registries.GameData.fireRegistryEvents(GameData.java:673) [GameData.class:?]
+	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:605) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:266) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:508) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:416) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_131]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_131]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:26) [start/:?]
+Caused by: java.lang.IllegalStateException: Attempted to set registry name with existing registry name! New: ReinBanana Old: bananacraft: 
+	at net.minecraftforge.registries.IForgeRegistryEntry$Impl.setRegistryName(IForgeRegistryEntry.java:76) ~[IForgeRegistryEntry$Impl.class:?]
+	at com.pikachu923.BananaCraft.Items1.ReinBanana.<init>(ReinBanana.java:16) ~[ReinBanana.class:?]
+	at com.pikachu923.BananaCraft.init.Tier1Items.<clinit>(Tier1Items.java:23) ~[Tier1Items.class:?]
+	... 26 more
+[10:05:42] [main/ERROR] [FML/]: Index: 3 Listeners:
+[10:05:42] [main/ERROR] [FML/]: 0: NORMAL
+[10:05:42] [main/ERROR] [FML/]: 1: net.minecraftforge.fml.common.eventhandler.EventBus$1@7d972029
+[10:05:42] [main/ERROR] [FML/]: 2: net.minecraftforge.fml.common.eventhandler.EventBus$1@3a237f14
+[10:05:42] [main/ERROR] [FML/]: 3: net.minecraftforge.fml.common.eventhandler.EventBus$1@74a9a20d
+[10:05:42] [main/INFO] [STDOUT/]: [net.minecraft.init.Bootstrap:printToSYSOUT:629]: ---- Minecraft Crash Report ----
+// I'm sorry, Dave.
+
+Time: 7/30/17 10:05 AM
+Description: Initializing game
+
+java.lang.ExceptionInInitializerError
+	at com.pikachu923.BananaCraft.utility.BananaRegistry.InitItems(BananaRegistry.java:73)
+	at com.pikachu923.BananaCraft.utility.BananaRegistry.itemReg(BananaRegistry.java:44)
+	at com.pikachu923.BananaCraft.BananaCraft.runI(BananaCraft.java:40)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_5_BananaCraft_runI_Register.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus$1.invoke(EventBus.java:143)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:179)
+	at net.minecraftforge.registries.GameData.fireRegistryEvents(GameData.java:693)
+	at net.minecraftforge.registries.GameData.fireRegistryEvents(GameData.java:673)
+	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:605)
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:266)
+	at net.minecraft.client.Minecraft.init(Minecraft.java:508)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:416)
+	at net.minecraft.client.main.Main.main(Main.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+	at GradleStart.main(GradleStart.java:26)
+Caused by: java.lang.IllegalStateException: Attempted to set registry name with existing registry name! New: ReinBanana Old: bananacraft: 
+	at net.minecraftforge.registries.IForgeRegistryEntry$Impl.setRegistryName(IForgeRegistryEntry.java:76)
+	at com.pikachu923.BananaCraft.Items1.ReinBanana.<init>(ReinBanana.java:16)
+	at com.pikachu923.BananaCraft.init.Tier1Items.<clinit>(Tier1Items.java:23)
+	... 26 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at com.pikachu923.BananaCraft.utility.BananaRegistry.InitItems(BananaRegistry.java:73)
+	at com.pikachu923.BananaCraft.utility.BananaRegistry.itemReg(BananaRegistry.java:44)
+	at com.pikachu923.BananaCraft.BananaCraft.runI(BananaCraft.java:40)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_5_BananaCraft_runI_Register.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus$1.invoke(EventBus.java:143)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:179)
+	at net.minecraftforge.registries.GameData.fireRegistryEvents(GameData.java:693)
+	at net.minecraftforge.registries.GameData.fireRegistryEvents(GameData.java:673)
+	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:605)
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:266)
+	at net.minecraft.client.Minecraft.init(Minecraft.java:508)
+
+-- Initialization --
+Details:
+Stacktrace:
+	at net.minecraft.client.Minecraft.run(Minecraft.java:416)
+	at net.minecraft.client.main.Main.main(Main.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+	at GradleStart.main(GradleStart.java:26)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12
+	Operating System: Mac OS X (x86_64) version 10.12.5
+	Java Version: 1.8.0_131, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 845894024 bytes (806 MB) / 1038876672 bytes (990 MB) up to 1038876672 bytes (990 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.40 Powered by Forge 14.21.1.2387 5 mods loaded, 5 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCH	minecraft{1.12} [Minecraft] (minecraft.jar) 
+	UCH	mcp{9.19} [Minecraft Coder Pack] (minecraft.jar) 
+	UCH	FML{8.0.99.99} [Forge Mod Loader] (forgeSrc-1.12-14.21.1.2387.jar) 
+	UCH	forge{14.21.1.2387} [Minecraft Forge] (forgeSrc-1.12-14.21.1.2387.jar) 
+	UCH	bananacraft{1.12-Pre1} [bananacraft] (bin) 
+	Loaded coremods (and transformers): 
+	Launched Version: 1.12
+	LWJGL: 2.9.2
+	OpenGL: Intel(R) Iris(TM) Graphics 550 GL version 2.1 INTEL-10.25.13, Intel Inc.
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because ARB_framebuffer_object is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 4x Intel(R) Core(TM) i5-6267U CPU @ 2.90GHz
+[10:05:42] [main/INFO] [STDOUT/]: [net.minecraft.init.Bootstrap:printToSYSOUT:629]: #@!@# Game crashed! Crash report saved to: #@!@# /Users/nathanmartin/Dropbox/BananaCraft/BananaCraft/1.12/run/./crash-reports/crash-2017-07-30_10.05.42-client.txt

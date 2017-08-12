@@ -1,0 +1,78 @@
+package com.pikachu923.BananaCraft.utility;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+import com.pikachu923.BananaCraft.init.Tier1Items;
+import com.pikachu923.BananaCraft.items.Banana;
+
+import net.minecraft.block.Block;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.registries.IForgeRegistry;
+
+public class BananaRegistry {
+	
+	private static List<Item> items = new ArrayList<Item>();
+	private static List<String> itemNames = new ArrayList<String>();
+	private static List<Block> blocks = new ArrayList<Block>();
+	private static List<String> blockNames = new ArrayList<String>();
+	public static final Set<Item> ITEMS = new HashSet<>();
+	public static final Set<Block> BLOCKS = new HashSet<>();
+	
+	public static void registerItem(Item item, String name) {
+		items.add(item);
+		itemNames.add(name);
+	}
+	
+	public static void registerBlock(Block block, String name) {
+		blocks.add(block);
+		blockNames.add(name);
+	}
+	
+	@SubscribeEvent
+	public static void itemReg(final RegistryEvent.Register<Item> event) {
+		if(!(items.size() == itemNames.size())) {
+			throw new java.lang.RuntimeException("Items and Names do not match");
+		}
+		
+		itemInit();
+		final IForgeRegistry<Item> registry = event.getRegistry();
+		
+		
+		for(int i=1; i<items.size(); i++) {
+			System.out.println(items.get(i));
+			registry.register(items.get(i));
+			ITEMS.add(items.get(i));
+		}
+	}
+	
+	@SubscribeEvent
+	public static void blockReg(final RegistryEvent.Register<Block> event) {
+		if(!(blocks.size() == blockNames.size())) {
+			throw new java.lang.RuntimeException("Blocks and Names do not match");
+		}
+		
+		InitBlocks();
+		final IForgeRegistry<Block> registry = event.getRegistry();
+		
+		for(int i=1; i<blocks.size(); i++) {
+			registry.register(blocks.get(i));
+			BLOCKS.add(blocks.get(i));
+		}
+	}
+	
+	public static void InitItems() {
+		Tier1Items.init();
+	}
+	
+	public static void InitBlocks() {
+		
+	}
+	
+}

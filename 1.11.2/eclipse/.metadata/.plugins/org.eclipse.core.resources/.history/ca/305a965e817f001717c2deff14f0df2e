@@ -1,0 +1,6 @@
+{
+    "parent": "block_all",
+    "textures": {
+        "layer0": "bananacraft:blocks/bananaore"
+    }
+}

@@ -1,0 +1,29 @@
+package com.pikachu923.BananaCraft;
+
+import com.pikachu923.BananaCraft.reference.Reference;
+import com.pikachu923.BananaCraft.utility.BananaRegistry;
+
+import net.minecraft.block.Block;
+import net.minecraft.init.Blocks;
+import net.minecraft.item.Item;
+import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.Mod.EventHandler;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.registries.IForgeRegistry;
+
+@Mod(modid = Reference.MOD_ID, version = Reference.VERSION)
+public class BananaCraft {
+	
+	private final RegistryEvent.Register<Block> BReg;
+	
+    
+    @EventHandler
+    public void init(FMLInitializationEvent event) {
+    	System.out.println("Hello");
+    	BananaRegistry.blockInit(BReg);
+    }
+    
+    
+}
