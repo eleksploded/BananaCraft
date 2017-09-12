@@ -2,27 +2,32 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="" key="selection"/>
+		<item value="register" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="register"/>
+			<item value="GameRegistry."/>
+			<item value="GameRegistry"/>
+			<item value="onUpdate"/>
+			<item value="EntityLivingBase"/>
 			<item value="registerBlockIcons"/>
 			<item value="getItem"/>
 			<item value="registerBlockIcon"/>
-			<item value="register"/>
-			<item value="setBLock"/>
-			<item value="onBlock"/>
 		</list>
 		<list key="replacehistory">
+			<item value="registerRender"/>
+			<item value="GameRegistry.register(RegenOrb);&#x0A;&#x09;&#x09;GameRegistry.register(RegenOrb1);&#x0A;&#x09;&#x09;GameRegistry.register(RegenOrb2);&#x0A;&#x09;&#x09;GameRegistry.register(PowerGem);&#x0A;&#x09;&#x09;GameRegistry.register(PowerGem1);&#x0A;&#x09;&#x09;GameRegistry.register(PowerGem2);&#x0A;&#x09;&#x09;GameRegistry.register(JumpGem);&#x0A;&#x09;&#x09;GameRegistry.register(JumpGem1);&#x0A;&#x09;&#x09;GameRegistry.register(JumpGem2);&#x0A;&#x09;&#x09;GameRegistry.register(FireGem);&#x0A;&#x09;&#x09;GameRegistry.register(FireGem1);&#x0A;&#x09;&#x09;GameRegistry.register(FireGem2);&#x0A;&#x09;&#x09;GameRegistry.register(WaterGem);&#x0A;&#x09;&#x09;GameRegistry.register(WaterGem1);&#x0A;&#x09;&#x09;GameRegistry.register(WaterGem2);&#x0A;&#x09;&#x09;GameRegistry.register(MiningGem);&#x0A;&#x09;&#x09;GameRegistry.register(MiningGem1);&#x0A;registerRender"/>
+			<item value=""/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="263" key="DIALOG_WIDTH"/>
 		<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText" key="DIALOG_FONT_NAME"/>
 		<item value="399" key="DIALOG_HEIGHT"/>
-		<item value="948" key="DIALOG_X_ORIGIN"/>
-		<item value="151" key="DIALOG_Y_ORIGIN"/>
+		<item value="1096" key="DIALOG_X_ORIGIN"/>
+		<item value="144" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

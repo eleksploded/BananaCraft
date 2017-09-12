@@ -1,0 +1,91 @@
+package com.pikachu923.BananaCraft.init;
+
+import com.pikachu923.bananacraft.gems.FireGem;
+import com.pikachu923.bananacraft.gems.JumpGem;
+import com.pikachu923.bananacraft.gems.MiningGem;
+import com.pikachu923.bananacraft.gems.PowerGem;
+import com.pikachu923.bananacraft.gems.RegenOrb;
+import com.pikachu923.bananacraft.gems.UltraGem;
+import com.pikachu923.bananacraft.gems.WaterGem;
+
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.item.Item;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+
+public class Gems {
+	public static final Item RegenOrb = new RegenOrb("RegenOrb", 200, 1);
+	public static final Item RegenOrb1 = new RegenOrb("RegenOrb1", 400, 2);
+	public static final Item RegenOrb2 = new RegenOrb("RegenOrb2", 400, 3);
+	public static final Item PowerGem = new PowerGem("PowerGem", 150, 1);
+	public static final Item PowerGem1 = new PowerGem("PowerGem1", 300, 2);
+	public static final Item PowerGem2 = new PowerGem("PowerGem2", 300, 3);
+	public static final Item JumpGem = new JumpGem("JumpGem", 150, 1);
+	public static final Item JumpGem1 = new JumpGem("JumpGem1", 300, 2);
+	public static final Item JumpGem2 = new JumpGem("JumpGem2", 300, 3);
+	public static final Item FireGem = new FireGem("FireGem", 150, 1);
+	public static final Item FireGem1 = new FireGem("FireGem1", 300, 2);
+	public static final Item FireGem2 = new FireGem("FireGem2", 450, 3);
+	public static final Item WaterGem = new WaterGem("WaterGem", 150, 1);
+	public static final Item WaterGem1 = new WaterGem("WaterGem1", 300, 2);
+	public static final Item WaterGem2 = new WaterGem("WaterGem2", 450, 3);
+	public static final Item MiningGem = new MiningGem("MiningGem", 150, 1);
+	public static final Item MiningGem1 = new MiningGem("MiningGem", 300, 2);
+	public static final Item MiningGem2 = new MiningGem("MiningGem", 450, 3);
+	
+	public static final Item UltraGem = new UltraGem("UltraGem", 300);
+ 
+	
+
+
+	public static void Init() {
+		GameRegistry.register(RegenOrb);
+		GameRegistry.register(RegenOrb1);
+		GameRegistry.register(RegenOrb2);
+		GameRegistry.register(PowerGem);
+		GameRegistry.register(PowerGem1);
+		GameRegistry.register(PowerGem2);
+		GameRegistry.register(JumpGem);
+		GameRegistry.register(JumpGem1);
+		GameRegistry.register(JumpGem2);
+		GameRegistry.register(FireGem);
+		GameRegistry.register(FireGem1);
+		GameRegistry.register(FireGem2);
+		GameRegistry.register(WaterGem);
+		GameRegistry.register(WaterGem1);
+		GameRegistry.register(WaterGem2);
+		GameRegistry.register(MiningGem);
+		GameRegistry.register(MiningGem1);
+		GameRegistry.register(MiningGem2);
+		
+		GameRegistry.register(UltraGem);
+	}
+	
+	public static void Renders() {
+		registerRender(RegenOrb);
+		registerRender(RegenOrb1);
+		registerRender(RegenOrb2);
+		registerRender(PowerGem);
+		registerRender(PowerGem1);
+		registerRender(PowerGem2);
+		registerRender(JumpGem);
+		registerRender(JumpGem1);
+		registerRender(JumpGem2);
+		registerRender(FireGem);
+		registerRender(FireGem1);
+		registerRender(FireGem2);
+		registerRender(WaterGem);
+		registerRender(WaterGem1);
+		registerRender(WaterGem2);
+		registerRender(MiningGem);
+		registerRender(MiningGem1);
+		registerRender(MiningGem2);
+		
+		registerRender(UltraGem);
+		
+	}
+	
+	 private static void registerRender(Item item) {
+	    	Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0, new ModelResourceLocation(item.getUnlocalizedName().substring(5), "inventory"));
+	    }
+}

@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=bottom,variant=default": { "model": "bananaslab" },
+        "half=top,variant=default": { "model": "bananaslab_up" }
+    }
+}

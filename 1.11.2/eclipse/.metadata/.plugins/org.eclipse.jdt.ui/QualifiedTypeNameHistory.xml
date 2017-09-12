@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="net.minecraft.inventory.EntityEquipmentSlot"/>
-<fullyQualifiedTypeName name="net.minecraft.init.SoundEvents"/>
 <fullyQualifiedTypeName name="net.minecraft.util.SoundCategory"/>
 <fullyQualifiedTypeName name="net.minecraft.util.EnumParticleTypes"/>
 <fullyQualifiedTypeName name="com.pikachu923.BananaCraft.Items1.BananaLifeCore"/>
-<fullyQualifiedTypeName name="net.minecraft.util.math.BlockPos"/>
 <fullyQualifiedTypeName name="net.minecraft.block.material.Material"/>
-<fullyQualifiedTypeName name="net.minecraft.init.MobEffects"/>
-<fullyQualifiedTypeName name="net.minecraft.potion.PotionEffect"/>
 <fullyQualifiedTypeName name="net.minecraft.client.Minecraft"/>
-<fullyQualifiedTypeName name="com.pikachu923.bananacraft.init.Tier1Items"/>
-<fullyQualifiedTypeName name="net.minecraftforge.fml.common.registry.GameRegistry"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="net.minecraft.world.World"/>
 <fullyQualifiedTypeName name="java.awt.List"/>
@@ -19,5 +13,34 @@
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="net.minecraft.block.Block"/>
 <fullyQualifiedTypeName name="com.pikachu923.bananacraft.BananaCraft"/>
+<fullyQualifiedTypeName name="net.minecraft.util.math.BlockPos"/>
+<fullyQualifiedTypeName name="net.minecraft.util.math.MathHelper"/>
+<fullyQualifiedTypeName name="net.minecraft.init.Blocks"/>
+<fullyQualifiedTypeName name="net.minecraft.block.BlockStoneSlab.EnumType"/>
+<fullyQualifiedTypeName name="net.minecraft.block.properties.PropertyBool"/>
+<fullyQualifiedTypeName name="net.minecraft.block.properties.PropertyEnum"/>
+<fullyQualifiedTypeName name="net.minecraft.block.BlockStoneSlab"/>
+<fullyQualifiedTypeName name="net.minecraft.util.IStringSerializable"/>
+<fullyQualifiedTypeName name="net.minecraft.block.state.IBlockState"/>
+<fullyQualifiedTypeName name="com.pikachu923.bananacraft.block.BananaSlab.Variant"/>
+<fullyQualifiedTypeName name="net.minecraft.block.BlockSlab.EnumBlockHalf"/>
+<fullyQualifiedTypeName name="net.minecraft.entity.player.EntityPlayerMP"/>
+<fullyQualifiedTypeName name="net.minecraft.world.BossInfo"/>
+<fullyQualifiedTypeName name="net.minecraft.enchantment.Enchantment"/>
+<fullyQualifiedTypeName name="net.minecraft.init.Enchantments"/>
+<fullyQualifiedTypeName name="net.minecraft.client.renderer.entity.RenderManager"/>
+<fullyQualifiedTypeName name="com.pikachu923.bananacraft.utility.ResourceLocationHelper"/>
+<fullyQualifiedTypeName name="net.minecraft.entity.player.EntityPlayer"/>
+<fullyQualifiedTypeName name="net.minecraft.potion.PotionEffect"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.registry.GameRegistry"/>
+<fullyQualifiedTypeName name="com.pikachu923.bananacraft.init.DebugItems"/>
+<fullyQualifiedTypeName name="net.minecraft.init.SoundEvents"/>
 <fullyQualifiedTypeName name="net.minecraft.item.Item"/>
+<fullyQualifiedTypeName name="com.pikachu923.bananacraft.init.Tier1Items"/>
+<fullyQualifiedTypeName name="com.pikachu923.bananacraft.init.Tier1Tools"/>
+<fullyQualifiedTypeName name="com.pikachu923.BananaCraft.init.Gems"/>
+<fullyQualifiedTypeName name="com.pikachu923.bananacraft.reference.Reference"/>
+<fullyQualifiedTypeName name="com.pikachu923.bananacraft.utility.func"/>
+<fullyQualifiedTypeName name="com.pikachu923.bananacraft.init.Gems"/>
+<fullyQualifiedTypeName name="net.minecraft.init.MobEffects"/>
 </qualifiedTypeNameHistroy>

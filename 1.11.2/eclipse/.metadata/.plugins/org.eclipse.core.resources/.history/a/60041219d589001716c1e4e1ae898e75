@@ -1,0 +1,92 @@
+package com.pikachu923.bananacraft;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.pikachu923.bananacraft.init.DebugItems;
+import com.pikachu923.bananacraft.init.Tier1Blocks;
+import com.pikachu923.bananacraft.init.Tier1Items;
+import com.pikachu923.bananacraft.init.Tier1Tools;
+import com.pikachu923.bananacraft.init.Tier2Blocks;
+import com.pikachu923.bananacraft.proxy.IProxy;
+import com.pikachu923.bananacraft.reference.Reference;
+
+import net.minecraft.item.Item;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.Mod.Instance;
+import net.minecraftforge.fml.common.SidedProxy;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+
+/**
+ * Created by pikachu on 6/20/2016.
+ * Main Class
+ */
+@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION)
+public class BananaCraft {
+
+	public static List<Item> Blocks = new ArrayList<Item>();
+	
+	@Instance(Reference.MOD_ID)
+	public static BananaCraft modInstance;
+
+    @SidedProxy(clientSide = Reference.PROXYCLIENT, serverSide = Reference.PROXYSERVER)
+    public static IProxy proxy;
+
+    @Mod.EventHandler
+    public void preInit(FMLPreInitializationEvent event){
+        //ConfigurationHandler.init(event.getSuggestedConfigurationFile());
+        //FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+        //FMLCommonHandler.instance().bus().register(new CraftingHandler());
+
+        //Init
+        Tier1Items.init();
+        Tier1Blocks.init();
+        Tier1Tools.init();
+        
+        //Tier2Items.Init();
+        Tier2Blocks.Init(); 
+        //Tier2Tools.Init();
+    
+//        Tier3Items.Init();
+//        Tier3Tools.Init();
+//        
+//        ArmorInit.init();
+//        
+//        Tier1Recipes.init();
+//        Tier2Recipes.Init();
+//        Tier3Recipes.Init();
+//        GemRecipes.Init();
+//        
+        DebugItems.Init();
+//        
+//        Other.init();
+        
+        Gems.Init();
+        
+        
+//        proxy.registerTile();
+        
+        
+    
+    }
+ 
+    @Mod.EventHandler
+    public void Init(FMLInitializationEvent event){
+    	//Recipes.init();
+    	
+    	//@SideOnly(Side.CLIENT)
+    	//proxy.registerRendering();
+    	//EntityInit.Init();
+    	//NetworkRegistry.INSTANCE.registerGuiHandler(modInstance, new GuiFactory());
+    	proxy.ItemRender();
+    	proxy.BlockRender();
+    }
+
+    @Mod.EventHandler
+    public void PostInit(FMLPostInitializationEvent event){
+
+    }
+    
+}

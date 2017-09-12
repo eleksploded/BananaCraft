@@ -1,6 +1,0 @@
-{
-    "parent": "block/bedrock",
-    "textures": {
-        "layer0": "bananacraft:blocks/awakenedblock"
-    },
-}
