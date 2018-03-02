@@ -1,0 +1,34 @@
+package com.pikachu923.BananaCraft.Items2;
+
+import com.pikachu923.BananaCraft.init.Tier2Tools;
+import com.pikachu923.BananaCraft.reference.Reference;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.state.IBlockState;
+import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.init.MobEffects;
+import net.minecraft.item.ItemAxe;
+import net.minecraft.item.ItemStack;
+import net.minecraft.potion.Potion;
+import net.minecraft.potion.PotionEffect;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.World;
+
+public class AwakenedAxe extends ItemAxe {
+	String Texture;
+
+    public AwakenedAxe(String unlocalName) {
+        super(Tier2Tools.AwakenedBanana);
+        this.setUnlocalizedName(Reference.RESOURCE_PREFIX + unlocalName);
+        this.Texture = Reference.RESOURCE_PREFIX + unlocalName;
+        this.setCreativeTab(Reference.CreativeTab);
+    }
+
+    
+
+    public boolean onBlockDestroyed(ItemStack stack, World worldIn, IBlockState state, BlockPos pos, EntityLivingBase entityLiving) {
+    	super.onBlockDestroyed(stack, worldIn, state, pos, entityLiving);
+        entityLiving.addPotionEffect(new PotionEffect(MobEffects.HASTE, 200, 1, true, false));
+        return true;
+    }
+}

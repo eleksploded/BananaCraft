@@ -1,0 +1,40 @@
+package com.pikachu923.BananaCraft.armor;
+
+import com.pikachu923.BananaCraft.reference.Reference;
+
+import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.init.MobEffects;
+import net.minecraft.inventory.EntityEquipmentSlot;
+import net.minecraft.item.ItemArmor;
+import net.minecraft.item.ItemStack;
+import net.minecraft.potion.PotionEffect;
+import net.minecraft.world.World;
+
+public class AwakenedArmor extends ItemArmor {
+
+	public String textureName;
+
+	public AwakenedArmor(String unlocalizedName, ArmorMaterial material, String textureName, EntityEquipmentSlot type) {
+	    super(material, 0, type);
+	    this.textureName = textureName;
+	    this.setUnlocalizedName(Reference.RESOURCE_PREFIX + unlocalizedName);
+	    this.setCreativeTab(Reference.CreativeTab);
+	}
+
+
+	public void onArmorTick(World world, EntityPlayer player, ItemStack itemStack) {
+		EntityPlayer entity = null;
+		EntityPlayer Player = (EntityPlayer) entity;
+		ItemStack boots = ((EntityPlayer)player).inventory.armorInventory[0];
+		ItemStack pants = ((EntityPlayer)player).inventory.armorInventory[1];
+		ItemStack chest = ((EntityPlayer)player).inventory.armorInventory[2];
+		ItemStack head = ((EntityPlayer)player).inventory.armorInventory[3];
+		if(boots != null && pants != null && chest != null && head != null/* && hand != null*/)
+		{
+			((EntityLivingBase) player).addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 1, 1, true, true));
+			((EntityLivingBase) player).addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 1, 1, true, true));
+;
+		}
+	}	
+}

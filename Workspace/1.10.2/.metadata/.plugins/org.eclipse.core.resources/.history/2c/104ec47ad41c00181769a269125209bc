@@ -1,0 +1,65 @@
+package com.pikachu923.BananaCraft.gems;
+
+import java.util.List;
+
+import com.pikachu923.BananaCraft.reference.Reference;
+import com.pikachu923.BananaCraft.utility.func;
+
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.init.MobEffects;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.potion.PotionEffect;
+import net.minecraft.world.World;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
+
+public class WaterGem extends Item {
+	String Texture;
+	int timer = 0;
+	int max;
+	int Tier;
+    public WaterGem(String unlocalName, int Max, int tierNum){
+        super();
+        this.setUnlocalizedName(unlocalName);
+        Texture = Reference.RESOURCE_PREFIX + "WaterGem";
+        setCreativeTab(Reference.GemTab);
+        setMaxDamage(256);
+        setMaxStackSize(1);
+        max = Max;
+        Tier = tierNum;
+    }
+
+ 
+    
+    public void onUpdate(ItemStack stack, World p_77663_2_, Entity entity, int p_77663_4_, boolean p_77663_5_) {
+    	EntityPlayer player = (EntityPlayer) entity;
+    	
+    	
+    	player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 40, 0, true,false));
+    	
+    	
+    	if(!player.capabilities.isCreativeMode) {
+    		
+    		if(timer == max) {
+    			if(stack.getItemDamage() == stack.getMaxDamage() ){
+    				func.removeItem(player, stack);
+    				timer = 0;
+    			}else{
+    				timer = 0;
+    				stack.setItemDamage(stack.getItemDamage() + 1);
+    			}
+    		} else { 
+    			timer++;
+    		}
+    	}
+    }
+    
+    @Override
+    public void addInformation(ItemStack stack, EntityPlayer playerIn, List<String> tooltip, boolean advanced)
+    {
+    	tooltip.add("Tier " + String.valueOf(Tier));
+    }
+    
+}

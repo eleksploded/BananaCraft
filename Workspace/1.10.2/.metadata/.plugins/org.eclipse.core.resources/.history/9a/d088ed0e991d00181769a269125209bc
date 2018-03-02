@@ -1,0 +1,46 @@
+package com.pikachu923.BananaCraft.block;
+
+import com.pikachu923.BananaCraft.reference.Reference;
+
+import net.minecraft.block.BlockSlab;
+import net.minecraft.block.material.Material;
+import net.minecraft.block.properties.IProperty;
+import net.minecraft.item.ItemStack;
+
+public class BananaSlab extends BlockSlab {
+	String unlocalName;
+	public BananaSlab(Material material, String unlocalName1 ,boolean field_150004_a)
+    {
+        super(material);
+        unlocalName = unlocalName1;
+        this.setLightOpacity(255);
+        this.setRegistryName(Reference.RESOURCE_PREFIX + unlocalName);
+        this.setCreativeTab(Reference.CreativeTab);
+        this.useNeighborBrightness = true;
+    }
+
+	@Override
+	public String getUnlocalizedName(int meta) {
+		// TODO Auto-generated method stub
+		return unlocalName;
+	}
+
+	@Override
+	public boolean isDouble() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public IProperty<?> getVariantProperty() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Comparable<?> getTypeForItem(ItemStack stack) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}

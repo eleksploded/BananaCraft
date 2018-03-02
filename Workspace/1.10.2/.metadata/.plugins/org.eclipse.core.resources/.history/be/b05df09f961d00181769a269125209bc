@@ -1,0 +1,38 @@
+package com.pikachu923.BananaCraft.Items3;
+
+import com.pikachu923.BananaCraft.init.Tier3Tools;
+import com.pikachu923.BananaCraft.reference.Reference;
+
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.init.MobEffects;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemPickaxe;
+import net.minecraft.item.ItemStack;
+import net.minecraft.potion.PotionEffect;
+import net.minecraft.world.World;
+
+public class CorruptPickaxe extends ItemPickaxe {
+	private String Texture;
+
+	public CorruptPickaxe(String unlocalName) {
+        super(Tier3Tools.CorruptBanana);
+        this.setUnlocalizedName(Reference.RESOURCE_PREFIX + unlocalName);
+        this.Texture = Reference.RESOURCE_PREFIX + unlocalName;
+        this.setCreativeTab(Reference.CreativeTab);
+    }
+
+
+    
+    public void onUpdate(ItemStack item, World world, Entity entity, int p_77663_4_, boolean p_77663_5_) {
+    	EntityPlayer player = (EntityPlayer) entity;
+    	ItemStack held = player.inventory.getCurrentItem();
+    	if(!(held == null)) {
+    		Item helditem = held.getItem();
+    		if(helditem instanceof CorruptPickaxe) {
+    			player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 20, 1));
+    		}
+    	}
+    }
+    
+}

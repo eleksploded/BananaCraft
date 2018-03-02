@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_O8BAEJf7EeejSsAg1MZvxA" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_O8BAEZf7EeejSsAg1MZvxA" bindingContexts="_O8CPOJf7EeejSsAg1MZvxA">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Gems.java&quot; tooltip=&quot;MDKExample/src/main/java/com/pikachu923/bananacraft/init/Gems.java&quot;>&#xA;&lt;persistable path=&quot;/MDKExample/src/main/java/com/pikachu923/bananacraft/init/Gems.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;RegenOrb.java&quot; tooltip=&quot;MDKExample/src/main/java/com/pikachu923/bananacraft/gems/RegenOrb.java&quot;>&#xA;&lt;persistable path=&quot;/MDKExample/src/main/java/com/pikachu923/bananacraft/gems/RegenOrb.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CorruptFragment.java&quot; tooltip=&quot;MDKExample/src/main/java/com/pikachu923/bananacraft/Items3/CorruptFragment.java&quot;>&#xA;&lt;persistable path=&quot;/MDKExample/src/main/java/com/pikachu923/bananacraft/Items3/CorruptFragment.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;AwakenedBanana.java&quot; tooltip=&quot;MDKExample/src/main/java/com/pikachu923/bananacraft/Items2/AwakenedBanana.java&quot;>&#xA;&lt;persistable path=&quot;/MDKExample/src/main/java/com/pikachu923/bananacraft/Items2/AwakenedBanana.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;AwakenedSword.java&quot; tooltip=&quot;MDKExample/src/main/java/com/pikachu923/bananacraft/Items2/AwakenedSword.java&quot;>&#xA;&lt;persistable path=&quot;/MDKExample/src/main/java/com/pikachu923/bananacraft/Items2/AwakenedSword.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;AwakenedAxe.java&quot; tooltip=&quot;MDKExample/src/main/java/com/pikachu923/bananacraft/Items2/AwakenedAxe.java&quot;>&#xA;&lt;persistable path=&quot;/MDKExample/src/main/java/com/pikachu923/bananacraft/Items2/AwakenedAxe.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;AwakenedShovel.java&quot; tooltip=&quot;MDKExample/src/main/java/com/pikachu923/bananacraft/Items2/AwakenedShovel.java&quot;>&#xA;&lt;persistable path=&quot;/MDKExample/src/main/java/com/pikachu923/bananacraft/Items2/AwakenedShovel.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BananaAxe.java&quot; tooltip=&quot;MDKExample/src/main/java/com/pikachu923/bananacraft/Items1/BananaAxe.java&quot;>&#xA;&lt;persistable path=&quot;/MDKExample/src/main/java/com/pikachu923/bananacraft/Items1/BananaAxe.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;AwakenedHoe.java&quot; tooltip=&quot;MDKExample/src/main/java/com/pikachu923/bananacraft/Items2/AwakenedHoe.java&quot;>&#xA;&lt;persistable path=&quot;/MDKExample/src/main/java/com/pikachu923/bananacraft/Items2/AwakenedHoe.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;AwakenedPickaxe.java&quot; tooltip=&quot;MDKExample/src/main/java/com/pikachu923/bananacraft/Items2/AwakenedPickaxe.java&quot;>&#xA;&lt;persistable path=&quot;/MDKExample/src/main/java/com/pikachu923/bananacraft/Items2/AwakenedPickaxe.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditor&quot; name=&quot;ItemTool.class&quot; tooltip=&quot;net.minecraft.item.ItemTool&quot;>&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=MDKExample/\/Users\/nathanmartin\/.gradle\/caches\/minecraft\/net\/minecraftforge\/forge\/1.11.2-13.20.1.2386\/snapshot\/20161220\/forgeSrc-1.11.2-13.20.1.2386.jar&amp;lt;net.minecraft.item(ItemTool.class&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditor&quot; name=&quot;ItemAxe.class&quot; tooltip=&quot;net.minecraft.item.ItemAxe&quot;>&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=MDKExample/\/Users\/nathanmartin\/.gradle\/caches\/minecraft\/net\/minecraftforge\/forge\/1.11.2-13.20.1.2386\/snapshot\/20161220\/forgeSrc-1.11.2-13.20.1.2386.jar&amp;lt;net.minecraft.item(ItemAxe.class&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;WaterGem.java&quot; tooltip=&quot;MDKExample/src/main/java/com/pikachu923/bananacraft/gems/WaterGem.java&quot;>&#xA;&lt;persistable path=&quot;/MDKExample/src/main/java/com/pikachu923/bananacraft/gems/WaterGem.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;UltraGem.java&quot; tooltip=&quot;MDKExample/src/main/java/com/pikachu923/bananacraft/gems/UltraGem.java&quot;>&#xA;&lt;persistable path=&quot;/MDKExample/src/main/java/com/pikachu923/bananacraft/gems/UltraGem.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;PowerGem.java&quot; tooltip=&quot;MDKExample/src/main/java/com/pikachu923/bananacraft/gems/PowerGem.java&quot;>&#xA;&lt;persistable path=&quot;/MDKExample/src/main/java/com/pikachu923/bananacraft/gems/PowerGem.java&quot;/>&#xA;&lt;/file>&#xA;&lt;/mruList>&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BossEntity.java&quot; tooltip=&quot;MDKExample/src/main/java/com/pikachu923/bananacraft/Entity/BananaBoss/BossEntity.java&quot;>&#xA;&lt;persistable path=&quot;/MDKExample/src/main/java/com/pikachu923/bananacraft/Entity/BananaBoss/BossEntity.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;AwakenedArmor.java&quot; tooltip=&quot;MDKExample/src/main/java/com/pikachu923/bananacraft/armor/AwakenedArmor.java&quot;>&#xA;&lt;persistable path=&quot;/MDKExample/src/main/java/com/pikachu923/bananacraft/armor/AwakenedArmor.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;RenderBananaBomb.java&quot; tooltip=&quot;MDKExample/src/main/java/com/pikachu923/bananacraft/Projectiles/BananaBomb0/RenderBananaBomb.java&quot;>&#xA;&lt;persistable path=&quot;/MDKExample/src/main/java/com/pikachu923/bananacraft/Projectiles/BananaBomb0/RenderBananaBomb.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;EntityBananaBomb.java&quot; tooltip=&quot;MDKExample/src/main/java/com/pikachu923/bananacraft/Projectiles/BananaBomb0/EntityBananaBomb.java&quot;>&#xA;&lt;persistable path=&quot;/MDKExample/src/main/java/com/pikachu923/bananacraft/Projectiles/BananaBomb0/EntityBananaBomb.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;AwakenedBlock.java&quot; tooltip=&quot;MDKExample/src/main/java/com/pikachu923/bananacraft/block/AwakenedBlock.java&quot;>&#xA;&lt;persistable path=&quot;/MDKExample/src/main/java/com/pikachu923/bananacraft/block/AwakenedBlock.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditor&quot; name=&quot;EntityThrowable.class&quot; tooltip=&quot;net.minecraft.entity.projectile.EntityThrowable&quot;>&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=MDKExample/\/Users\/nathanmartin\/.gradle\/caches\/minecraft\/net\/minecraftforge\/forge\/1.11.2-13.20.1.2386\/snapshot\/20161220\/forgeSrc-1.11.2-13.20.1.2386.jar&amp;lt;net.minecraft.entity.projectile(EntityThrowable.class&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditor&quot; name=&quot;ItemStack.class&quot; tooltip=&quot;net.minecraft.item.ItemStack&quot;>&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=MDKExample/\/Users\/nathanmartin\/.gradle\/caches\/minecraft\/net\/minecraftforge\/forge\/1.11.2-13.20.1.2386\/snapshot\/20161220\/forgeSrc-1.11.2-13.20.1.2386.jar&amp;lt;net.minecraft.item(ItemStack.class&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BananaBomb.java&quot; tooltip=&quot;MDKExample/src/main/java/com/pikachu923/bananacraft/Projectiles/BananaBomb0/BananaBomb.java&quot;>&#xA;&lt;persistable path=&quot;/MDKExample/src/main/java/com/pikachu923/bananacraft/Projectiles/BananaBomb0/BananaBomb.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Other.java&quot; tooltip=&quot;MDKExample/src/main/java/com/pikachu923/bananacraft/init/Other.java&quot;>&#xA;&lt;persistable path=&quot;/MDKExample/src/main/java/com/pikachu923/bananacraft/init/Other.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Tier1Blocks.java&quot; tooltip=&quot;MDKExample/src/main/java/com/pikachu923/bananacraft/init/Tier1Blocks.java&quot;>&#xA;&lt;persistable path=&quot;/MDKExample/src/main/java/com/pikachu923/bananacraft/init/Tier1Blocks.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ClientProxy.java&quot; tooltip=&quot;MDKExample/src/main/java/com/pikachu923/bananacraft/proxy/ClientProxy.java&quot;>&#xA;&lt;persistable path=&quot;/MDKExample/src/main/java/com/pikachu923/bananacraft/proxy/ClientProxy.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;IProxy.java&quot; tooltip=&quot;MDKExample/src/main/java/com/pikachu923/bananacraft/proxy/IProxy.java&quot;>&#xA;&lt;persistable path=&quot;/MDKExample/src/main/java/com/pikachu923/bananacraft/proxy/IProxy.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Gems.java&quot; tooltip=&quot;MDKExample/src/main/java/com/pikachu923/bananacraft/init/Gems.java&quot;>&#xA;&lt;persistable path=&quot;/MDKExample/src/main/java/com/pikachu923/bananacraft/init/Gems.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;JumpGem.java&quot; tooltip=&quot;MDKExample/src/main/java/com/pikachu923/bananacraft/gems/JumpGem.java&quot;>&#xA;&lt;persistable path=&quot;/MDKExample/src/main/java/com/pikachu923/bananacraft/gems/JumpGem.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;RegenOrb.java&quot; tooltip=&quot;MDKExample/src/main/java/com/pikachu923/bananacraft/gems/RegenOrb.java&quot;>&#xA;&lt;persistable path=&quot;/MDKExample/src/main/java/com/pikachu923/bananacraft/gems/RegenOrb.java&quot;/>&#xA;&lt;/file>&#xA;&lt;/mruList>&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_O8BAEZf7EeejSsAg1MZvxA" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_O8BAEpf7EeejSsAg1MZvxA" label="%trimmedwindow.label.eclipseSDK" x="42" y="64" width="1027" height="769">
@@ -137,13 +137,12 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_O8Bn3pf7EeejSsAg1MZvxA" elementId="org.eclipse.ui.editorss" selectedElement="_O8Bn35f7EeejSsAg1MZvxA">
-      <children xsi:type="basic:PartStack" xmi:id="_O8Bn35f7EeejSsAg1MZvxA" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_O8Bn6pf7EeejSsAg1MZvxA">
+      <children xsi:type="basic:PartStack" xmi:id="_O8Bn35f7EeejSsAg1MZvxA" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_qQdj0MArEeejicTOnn1aBg">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <tags>active</tags>
-        <tags>noFocus</tags>
         <children xsi:type="basic:Part" xmi:id="_O8Bn4Jf7EeejSsAg1MZvxA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="BananaCraft.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BananaCraft.java&quot; partName=&quot;BananaCraft.java&quot; title=&quot;BananaCraft.java&quot; tooltip=&quot;MDKExample/src/main/java/com/pikachu923/bananacraft/BananaCraft.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/MDKExample/src/main/java/com/pikachu923/bananacraft/BananaCraft.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1967&quot; selectionTopPixel=&quot;140&quot;/>&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BananaCraft.java&quot; partName=&quot;BananaCraft.java&quot; title=&quot;BananaCraft.java&quot; tooltip=&quot;MDKExample/src/main/java/com/pikachu923/bananacraft/BananaCraft.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/MDKExample/src/main/java/com/pikachu923/bananacraft/BananaCraft.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;2352&quot; selectionTopPixel=&quot;277&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
@@ -164,12 +163,6 @@
             <tags>popup:#OverviewRulerContext</tags>
           </menus>
         </children>
-        <children xsi:type="basic:Part" xmi:id="_O8Bn5Jf7EeejSsAg1MZvxA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="EnchantmentHelper.class" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/classf_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.ClassFileEditor&quot; name=&quot;EnchantmentHelper.class&quot; partName=&quot;EnchantmentHelper.class&quot; title=&quot;EnchantmentHelper.class&quot; tooltip=&quot;net.minecraft.enchantment.EnchantmentHelper&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=MDKExample/\/Users\/nathanmartin\/.gradle\/caches\/minecraft\/net\/minecraftforge\/forge\/1.11.2-13.20.1.2386\/snapshot\/20161220\/forgeSrc-1.11.2-13.20.1.2386.jar&amp;lt;net.minecraft.enchantment(EnchantmentHelper.class&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;16&quot; selectionOffset=&quot;6992&quot; selectionTopPixel=&quot;2687&quot;/>&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>org.eclipse.jdt.ui.ClassFileEditor</tags>
-          <tags>removeOnHide</tags>
-        </children>
         <children xsi:type="basic:Part" xmi:id="_O8Bn5Zf7EeejSsAg1MZvxA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="DebugItems.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;DebugItems.java&quot; partName=&quot;DebugItems.java&quot; title=&quot;DebugItems.java&quot; tooltip=&quot;MDKExample/src/main/java/com/pikachu923/bananacraft/init/DebugItems.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/MDKExample/src/main/java/com/pikachu923/bananacraft/init/DebugItems.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1110&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
@@ -177,7 +170,7 @@
           <tags>removeOnHide</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_O8Bn5pf7EeejSsAg1MZvxA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Tier1Items.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Tier1Items.java&quot; partName=&quot;Tier1Items.java&quot; title=&quot;Tier1Items.java&quot; tooltip=&quot;MDKExample/src/main/java/com/pikachu923/bananacraft/init/Tier1Items.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/MDKExample/src/main/java/com/pikachu923/bananacraft/init/Tier1Items.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;2489&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Tier1Items.java&quot; partName=&quot;Tier1Items.java&quot; title=&quot;Tier1Items.java&quot; tooltip=&quot;MDKExample/src/main/java/com/pikachu923/bananacraft/init/Tier1Items.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/MDKExample/src/main/java/com/pikachu923/bananacraft/init/Tier1Items.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;7&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;2489&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
@@ -199,11 +192,10 @@
           </menus>
         </children>
         <children xsi:type="basic:Part" xmi:id="_O8Bn6pf7EeejSsAg1MZvxA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="RegenOrb.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;RegenOrb.java&quot; partName=&quot;RegenOrb.java&quot; title=&quot;RegenOrb.java&quot; tooltip=&quot;MDKExample/src/main/java/com/pikachu923/bananacraft/gems/RegenOrb.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/MDKExample/src/main/java/com/pikachu923/bananacraft/gems/RegenOrb.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1415&quot; selectionTopPixel=&quot;162&quot;/>&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;RegenOrb.java&quot; partName=&quot;RegenOrb.java&quot; title=&quot;RegenOrb.java&quot; tooltip=&quot;MDKExample/src/main/java/com/pikachu923/bananacraft/gems/RegenOrb.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/MDKExample/src/main/java/com/pikachu923/bananacraft/gems/RegenOrb.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;535&quot; selectionTopPixel=&quot;174&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
-          <tags>active</tags>
           <menus xsi:type="menu:PopupMenu" xmi:id="_O8Bn65f7EeejSsAg1MZvxA" elementId="#CompilationUnitEditorContext">
             <tags>menuContribution:popup</tags>
             <tags>popup:#CompilationUnitEditorContext</tags>
@@ -222,7 +214,7 @@
           </menus>
         </children>
         <children xsi:type="basic:Part" xmi:id="_O8Bn7pf7EeejSsAg1MZvxA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Gems.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Gems.java&quot; partName=&quot;Gems.java&quot; title=&quot;Gems.java&quot; tooltip=&quot;MDKExample/src/main/java/com/pikachu923/bananacraft/init/Gems.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/MDKExample/src/main/java/com/pikachu923/bananacraft/init/Gems.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;836&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Gems.java&quot; partName=&quot;Gems.java&quot; title=&quot;Gems.java&quot; tooltip=&quot;MDKExample/src/main/java/com/pikachu923/bananacraft/init/Gems.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/MDKExample/src/main/java/com/pikachu923/bananacraft/init/Gems.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;3349&quot; selectionTopPixel=&quot;726&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
@@ -242,6 +234,56 @@
             <tags>menuContribution:popup</tags>
             <tags>popup:#OverviewRulerContext</tags>
           </menus>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_LZdG0LA6Eee6VLXOpfF17g" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="JumpGem.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;JumpGem.java&quot; partName=&quot;JumpGem.java&quot; title=&quot;JumpGem.java&quot; tooltip=&quot;MDKExample/src/main/java/com/pikachu923/bananacraft/gems/JumpGem.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/MDKExample/src/main/java/com/pikachu923/bananacraft/gems/JumpGem.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_sVN5MLEqEeefLYzKC2mK3g" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Other.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Other.java&quot; partName=&quot;Other.java&quot; title=&quot;Other.java&quot; tooltip=&quot;MDKExample/src/main/java/com/pikachu923/bananacraft/init/Other.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/MDKExample/src/main/java/com/pikachu923/bananacraft/init/Other.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1362&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_LPYQELy3EeeB9LBK2fRQCw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="BananaBomb.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BananaBomb.java&quot; partName=&quot;BananaBomb.java&quot; title=&quot;BananaBomb.java&quot; tooltip=&quot;MDKExample/src/main/java/com/pikachu923/bananacraft/Projectiles/BananaBomb0/BananaBomb.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/MDKExample/src/main/java/com/pikachu923/bananacraft/Projectiles/BananaBomb0/BananaBomb.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1597&quot; selectionTopPixel=&quot;321&quot;/>&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_3V0ZwLy4EeeB9LBK2fRQCw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="EntityBananaBomb.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;EntityBananaBomb.java&quot; partName=&quot;EntityBananaBomb.java&quot; title=&quot;EntityBananaBomb.java&quot; tooltip=&quot;MDKExample/src/main/java/com/pikachu923/bananacraft/Projectiles/BananaBomb0/EntityBananaBomb.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/MDKExample/src/main/java/com/pikachu923/bananacraft/Projectiles/BananaBomb0/EntityBananaBomb.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1661&quot; selectionTopPixel=&quot;411&quot;/>&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_APdT8Ly5EeeB9LBK2fRQCw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="EntityThrowable.class" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/classf_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.ClassFileEditor&quot; name=&quot;EntityThrowable.class&quot; partName=&quot;EntityThrowable.class&quot; title=&quot;EntityThrowable.class&quot; tooltip=&quot;net.minecraft.entity.projectile.EntityThrowable&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=MDKExample/\/Users\/nathanmartin\/.gradle\/caches\/minecraft\/net\/minecraftforge\/forge\/1.11.2-13.20.1.2386\/snapshot\/20161220\/forgeSrc-1.11.2-13.20.1.2386.jar&amp;lt;net.minecraft.entity.projectile(EntityThrowable.class&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;21&quot; selectionOffset=&quot;11310&quot; selectionTopPixel=&quot;4725&quot;/>&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.jdt.ui.ClassFileEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_rSlb8Ly5EeeB9LBK2fRQCw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="RenderBananaBomb.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;RenderBananaBomb.java&quot; partName=&quot;RenderBananaBomb.java&quot; title=&quot;RenderBananaBomb.java&quot; tooltip=&quot;MDKExample/src/main/java/com/pikachu923/bananacraft/Projectiles/BananaBomb0/RenderBananaBomb.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/MDKExample/src/main/java/com/pikachu923/bananacraft/Projectiles/BananaBomb0/RenderBananaBomb.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;1&quot; selectionOffset=&quot;3004&quot; selectionTopPixel=&quot;786&quot;/>&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_pXVjcMArEeejicTOnn1aBg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="AwakenedArmor.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;AwakenedArmor.java&quot; partName=&quot;AwakenedArmor.java&quot; title=&quot;AwakenedArmor.java&quot; tooltip=&quot;MDKExample/src/main/java/com/pikachu923/bananacraft/armor/AwakenedArmor.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/MDKExample/src/main/java/com/pikachu923/bananacraft/armor/AwakenedArmor.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_qQdj0MArEeejicTOnn1aBg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="BossEntity.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BossEntity.java&quot; partName=&quot;BossEntity.java&quot; title=&quot;BossEntity.java&quot; tooltip=&quot;MDKExample/src/main/java/com/pikachu923/bananacraft/Entity/BananaBoss/BossEntity.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/MDKExample/src/main/java/com/pikachu923/bananacraft/Entity/BananaBoss/BossEntity.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;2511&quot;/>&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>removeOnHide</tags>
+          <tags>active</tags>
+          <tags>activeOnClose</tags>
         </children>
       </children>
     </sharedElements>
@@ -373,43 +415,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_O8BoNpf7EeejSsAg1MZvxA" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_O8BoN5f7EeejSsAg1MZvxA" elementId="new.group">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_O8BoOJf7EeejSsAg1MZvxA" elementId="newWizardDropDown">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_O8BoOZf7EeejSsAg1MZvxA" elementId="new.ext" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_O8BoOpf7EeejSsAg1MZvxA" elementId="save.group" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_O8BoO5f7EeejSsAg1MZvxA" elementId="save">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_O8BoPJf7EeejSsAg1MZvxA" elementId="saveAll">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_O8BoPZf7EeejSsAg1MZvxA" elementId="save.ext" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_O8BoPpf7EeejSsAg1MZvxA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_O8EFSZf7EeejSsAg1MZvxA"/>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_O8BoP5f7EeejSsAg1MZvxA" elementId="print.ext" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_O8BoQJf7EeejSsAg1MZvxA" elementId="build.group">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_O8BoQZf7EeejSsAg1MZvxA" elementId="build.ext" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_O8BoQpf7EeejSsAg1MZvxA" elementId="additions">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_O8BoQ5f7EeejSsAg1MZvxA" elementId="org.eclipse.wb.core.wizards.actions.NewDesignerTypeDropDownAction">
-          <tags>Opaque</tags>
-        </children>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_gya8EMArEeejicTOnn1aBg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_O8EFSZf7EeejSsAg1MZvxA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_O8BoRJf7EeejSsAg1MZvxA" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -417,72 +423,15 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_O8BobZf7EeejSsAg1MZvxA" elementId="org.eclipse.debug.ui.launchActionSet">
         <tags>Draggable</tags>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_O8Bobpf7EeejSsAg1MZvxA" elementId="debug">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_O8Bob5f7EeejSsAg1MZvxA" elementId="org.eclipse.debug.internal.ui.actions.DebugDropDownAction">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_O8BocJf7EeejSsAg1MZvxA" elementId="org.eclipse.debug.internal.ui.actions.RunDropDownAction">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_O8BocZf7EeejSsAg1MZvxA" elementId="org.eclipse.ui.externaltools.ExternalToolMenuDelegateToolbar">
-          <tags>Opaque</tags>
-        </children>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_O8Bocpf7EeejSsAg1MZvxA" elementId="org.eclipse.jdt.ui.JavaElementCreationActionSet">
         <tags>Draggable</tags>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_O8Boc5f7EeejSsAg1MZvxA" elementId="JavaWizards">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_O8BodJf7EeejSsAg1MZvxA" elementId="org.eclipse.jdt.ui.actions.OpenProjectWizard" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_O8BodZf7EeejSsAg1MZvxA" elementId="org.eclipse.jdt.ui.actions.OpenPackageWizard">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_O8Bodpf7EeejSsAg1MZvxA" elementId="org.eclipse.jdt.ui.actions.NewTypeDropDown">
-          <tags>Opaque</tags>
-        </children>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_O8Bod5f7EeejSsAg1MZvxA" elementId="org.eclipse.search.searchActionSet">
         <tags>Draggable</tags>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_O8BoeJf7EeejSsAg1MZvxA" elementId="Search">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_O8BoeZf7EeejSsAg1MZvxA" elementId="openType">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_O8Boepf7EeejSsAg1MZvxA" elementId="org.eclipse.mylyn.tasks.ui.openTask">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_O8Boe5f7EeejSsAg1MZvxA" elementId="org.eclipse.search.OpenSearchDialogPage">
-          <tags>Opaque</tags>
-        </children>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_O8BofJf7EeejSsAg1MZvxA" elementId="org.eclipse.ui.edit.text.actionSet.presentation">
         <tags>Draggable</tags>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_O8BofZf7EeejSsAg1MZvxA" elementId="Presentation">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_O8Bofpf7EeejSsAg1MZvxA" elementId="org.eclipse.jdt.ui.edit.text.java.toggleBreadcrumb">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_O8Bof5f7EeejSsAg1MZvxA" elementId="org.eclipse.jdt.ui.edit.text.java.toggleMarkOccurrences">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_O8BogJf7EeejSsAg1MZvxA" elementId="org.eclipse.mylyn.java.ui.editor.folding.auto">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_O8BogZf7EeejSsAg1MZvxA" elementId="org.eclipse.ui.edit.text.toggleBlockSelectionMode">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_O8Bogpf7EeejSsAg1MZvxA" elementId="org.eclipse.ui.edit.text.toggleShowWhitespaceCharacters">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_O8Bog5f7EeejSsAg1MZvxA" elementId="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly" visible="false">
-          <tags>Opaque</tags>
-        </children>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_O8BohJf7EeejSsAg1MZvxA" elementId="group.nav" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -490,34 +439,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_O8Bohpf7EeejSsAg1MZvxA" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_O8Boh5f7EeejSsAg1MZvxA" elementId="history.group">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_O8BoiJf7EeejSsAg1MZvxA" elementId="group.application" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_O8BoiZf7EeejSsAg1MZvxA" elementId="backardHistory">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_O8Boipf7EeejSsAg1MZvxA" elementId="forwardHistory">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_O8Boi5f7EeejSsAg1MZvxA" elementId="pin.group">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_O8BojJf7EeejSsAg1MZvxA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_O8EEwJf7EeejSsAg1MZvxA"/>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_O8BojZf7EeejSsAg1MZvxA" elementId="org.eclipse.ui.edit.text.gotoNextAnnotation">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_O8Bojpf7EeejSsAg1MZvxA" elementId="org.eclipse.ui.edit.text.gotoPreviousAnnotation">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_O8Boj5f7EeejSsAg1MZvxA" elementId="org.eclipse.ui.edit.text.gotoLastEditPosition">
-          <tags>Opaque</tags>
-        </children>
-      </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_O8BokJf7EeejSsAg1MZvxA" elementId="org.eclipse.jdt.ui.CompilationUnitEditor" visible="false">
-        <tags>Draggable</tags>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_gyd_YMArEeejicTOnn1aBg" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_O8EEwJf7EeejSsAg1MZvxA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_O8BokZf7EeejSsAg1MZvxA" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -529,12 +451,6 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_O8BolZf7EeejSsAg1MZvxA" elementId="org.eclipse.ui.workbench.help" visible="false">
         <tags>Draggable</tags>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_O8Bolpf7EeejSsAg1MZvxA" elementId="group.help">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_O8Bol5f7EeejSsAg1MZvxA" elementId="group.application" visible="false">
-          <tags>Opaque</tags>
-        </children>
       </children>
       <children xsi:type="menu:ToolControl" xmi:id="_O8BomJf7EeejSsAg1MZvxA" elementId="PerspectiveSpacer" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
         <tags>stretch</tags>
@@ -914,7 +830,7 @@
       <tags>platform:cocoa</tags>
       <parameters xmi:id="_O8COmJf7EeejSsAg1MZvxA" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.jdt.ui.SourceView"/>
     </bindings>
-    <bindings xmi:id="_O8COmZf7EeejSsAg1MZvxA" keySequence="COMMAND+CTRL+F" command="_O8EGWZf7EeejSsAg1MZvxA"/>
+    <bindings xmi:id="_ge3t8MArEeejicTOnn1aBg" keySequence="COMMAND+CTRL+F" command="_O8EGWZf7EeejSsAg1MZvxA"/>
   </bindingTables>
   <bindingTables xmi:id="_O8COmpf7EeejSsAg1MZvxA" elementId="org.eclipse.ui.textEditorScope" bindingContext="_O8CPPJf7EeejSsAg1MZvxA">
     <bindings xmi:id="_O8COm5f7EeejSsAg1MZvxA" keySequence="COMMAND+SHIFT+ARROW_LEFT" command="_O8EFgZf7EeejSsAg1MZvxA">
@@ -1101,7 +1017,7 @@
     <bindings xmi:id="_O8CPEpf7EeejSsAg1MZvxA" keySequence="COMMAND+O" command="_O8EDrJf7EeejSsAg1MZvxA"/>
   </bindingTables>
   <bindingTables xmi:id="_O8CPE5f7EeejSsAg1MZvxA" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" bindingContext="_O8CPX5f7EeejSsAg1MZvxA">
-    <bindings xmi:id="_O8CPFJf7EeejSsAg1MZvxA" keySequence="M1+W" command="_O8EGW5f7EeejSsAg1MZvxA"/>
+    <bindings xmi:id="_ge3t8cArEeejicTOnn1aBg" keySequence="M1+W" command="_O8EGW5f7EeejSsAg1MZvxA"/>
   </bindingTables>
   <bindingTables xmi:id="_O8CPFZf7EeejSsAg1MZvxA" bindingContext="_O8CPZZf7EeejSsAg1MZvxA"/>
   <bindingTables xmi:id="_O8CPFpf7EeejSsAg1MZvxA" bindingContext="_O8CPZpf7EeejSsAg1MZvxA"/>
@@ -1483,6 +1399,23 @@
     <tags>View</tags>
     <tags>categoryTag:XML</tags>
   </descriptors>
+  <trimContributions xmi:id="_2r10UF9tEeO-yojH_y4TJA" elementId="org.eclipse.ui.ide.application.trimcontribution.QuickAccess" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" toBeRendered="false" parentId="org.eclipse.ui.main.toolbar" positionInParent="last">
+    <children xsi:type="menu:ToolControl" xmi:id="_76uUAF9tEeO-yojH_y4TJA" elementId="Spacer Glue" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
+      <tags>glue</tags>
+      <tags>move_after:PerspectiveSpacer</tags>
+      <tags>SHOW_RESTORE_MENU</tags>
+    </children>
+    <children xsi:type="menu:ToolControl" xmi:id="_8tJPcF9tEeO-yojH_y4TJA" elementId="SearchField" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.quickaccess.SearchField">
+      <tags>move_after:Spacer Glue</tags>
+      <tags>HIDEABLE</tags>
+      <tags>SHOW_RESTORE_MENU</tags>
+    </children>
+    <children xsi:type="menu:ToolControl" xmi:id="_9LgmcF9tEeO-yojH_y4TJA" elementId="Search-PS Glue" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
+      <tags>glue</tags>
+      <tags>move_after:SearchField</tags>
+      <tags>SHOW_RESTORE_MENU</tags>
+    </children>
+  </trimContributions>
   <commands xmi:id="_O8DeAJf7EeejSsAg1MZvxA" elementId="org.eclipse.jdt.ui.correction.inlineLocal.assist" commandName="Quick Assist - Inline local variable" description="Invokes quick assist and selects 'Inline local variable'" category="_O8Eq7Jf7EeejSsAg1MZvxA"/>
   <commands xmi:id="_O8DeAZf7EeejSsAg1MZvxA" elementId="org.eclipse.ui.edit.text.select.pageUp" commandName="Select Page Up" description="Select to the top of the page" category="_O8Eq2Jf7EeejSsAg1MZvxA"/>
   <commands xmi:id="_O8DeApf7EeejSsAg1MZvxA" elementId="org.eclipse.egit.ui.history.ResetQuickdiffBaseline" commandName="Reset quickdiff baseline" category="_O8Eq75f7EeejSsAg1MZvxA">

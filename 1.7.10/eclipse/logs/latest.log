@@ -1,11 +1,50 @@
-[09:31:52] [main/INFO]: Setting user: Player276
-[09:31:54] [Client thread/INFO]: LWJGL Version: 2.9.1
-[09:32:01] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge
-[09:32:02] [Sound Library Loader/INFO]: Sound engine started
-[09:32:02] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
-[09:32:02] [Client thread/INFO]: Created: 16x16 textures/items-atlas
-[09:32:02] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge
-[09:32:02] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[09:32:03] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[09:32:03] [Sound Library Loader/INFO]: Sound engine started
-[09:32:08] [Client thread/INFO]: Stopping!
+[13:33:30] [main/INFO]: Setting user: Player226
+[13:33:32] [Client thread/INFO]: LWJGL Version: 2.9.1
+[13:33:42] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:BananaCraft
+[13:33:43] [Sound Library Loader/INFO]: Sound engine started
+[13:33:43] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[13:33:43] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[13:33:43] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:BananaCraft
+[13:33:44] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[13:33:44] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[13:33:45] [Sound Library Loader/INFO]: Sound engine started
+[13:34:06] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[13:34:06] [Server thread/INFO]: Generating keypair
+[13:34:07] [Server thread/INFO]: Preparing start region for level 0
+[13:34:08] [Server thread/INFO]: Changing view distance to 12, from 10
+[13:34:08] [Server thread/INFO]: Player226[local:E:7066563a] logged in with entity id 277 at (-98.30000001192093, 72.47031439589455, 292.6106252860858)
+[13:34:08] [Server thread/INFO]: Player226 joined the game
+[13:34:18] [Server thread/INFO]: Player226 has just earned the achievement [Taking Inventory]
+[13:34:18] [Client thread/INFO]: [CHAT] Player226 has just earned the achievement [Taking Inventory]
+[13:34:32] [Server thread/INFO]: [Player226: Set own game mode to Creative Mode]
+[13:34:32] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[13:34:35] [Server thread/INFO]: [Player226: Set own game mode to Survival Mode]
+[13:34:35] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[13:34:49] [Client thread/INFO]: Warning: Clientside chunk ticking took 115 ms
+[13:35:24] [Server thread/INFO]: Saving and pausing game...
+[13:35:24] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[13:35:24] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[13:35:24] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[13:35:25] [Server thread/INFO]: Stopping server
+[13:35:25] [Server thread/INFO]: Saving players
+[13:35:25] [Server thread/INFO]: Saving worlds
+[13:35:25] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[13:35:25] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[13:35:25] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[13:35:28] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[13:35:28] [Server thread/INFO]: Generating keypair
+[13:35:29] [Server thread/INFO]: Preparing start region for level 0
+[13:35:29] [Server thread/INFO]: Changing view distance to 12, from 10
+[13:35:29] [Server thread/INFO]: Player226[local:E:9667aabb] logged in with entity id 3894 at (-104.31720764424568, 73.18120402237558, 294.61019957823294)
+[13:35:29] [Server thread/INFO]: Player226 joined the game
+[13:35:32] [Server thread/INFO]: Saving and pausing game...
+[13:35:32] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[13:35:32] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[13:35:32] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[13:35:33] [Server thread/INFO]: Stopping server
+[13:35:33] [Server thread/INFO]: Saving players
+[13:35:33] [Server thread/INFO]: Saving worlds
+[13:35:33] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[13:35:33] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[13:35:33] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[13:35:34] [Client thread/INFO]: Stopping!

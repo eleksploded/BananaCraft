@@ -1,0 +1,17 @@
+package com.pikachu923.BananaCraft.CreativeTab;
+
+import com.pikachu923.BananaCraft.init.Gems;
+import com.pikachu923.BananaCraft.init.Tier1Items;
+import com.pikachu923.BananaCraft.reference.Reference;
+
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+
+public class GemTab {
+public static final CreativeTabs GemTab = new CreativeTabs(Reference.MOD_ID + " Gems"){
+	@Override
+	public Item getTabIconItem(){
+		return Gems.UltraGem;
+	}
+};
+}

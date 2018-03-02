@@ -1,0 +1,30 @@
+package com.pikachu923.BananaCraft.Items2;
+
+import com.pikachu923.BananaCraft.init.Tier2Tools;
+import com.pikachu923.BananaCraft.reference.Reference;
+
+import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.init.MobEffects;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemSword;
+import net.minecraft.potion.Potion;
+import net.minecraft.potion.PotionEffect;
+
+public class AwakenedSword
+extends ItemSword {
+    String Texture;
+
+    public AwakenedSword(String unlocalName) {
+        super(Tier2Tools.AwakenedBanana);
+        this.setUnlocalizedName(Reference.RESOURCE_PREFIX + unlocalName);
+        this.Texture = Reference.RESOURCE_PREFIX + unlocalName;
+        this.setCreativeTab(Reference.CreativeTab);
+    }
+
+  
+    public boolean hitEntity(ItemStack p_77644_1_, EntityLivingBase p_77644_2_, EntityLivingBase p_77644_3_) {
+        p_77644_2_.addPotionEffect(new PotionEffect(MobEffects.WITHER, 200, 1));
+        p_77644_1_.damageItem(2, p_77644_3_);
+        return true;
+    }
+}

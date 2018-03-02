@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemHoe"/>
+<fullyQualifiedTypeName name="net.minecraft.init.Blocks"/>
+<fullyQualifiedTypeName name="net.minecraft.block.BlockDirt"/>
+<fullyQualifiedTypeName name="com.pikachu923.BananaCraft.utility.func"/>
+<fullyQualifiedTypeName name="net.minecraft.world.World"/>
+<fullyQualifiedTypeName name="com.pikachu923.BananaCraft.utility.LogHelper"/>
+</qualifiedTypeNameHistroy>

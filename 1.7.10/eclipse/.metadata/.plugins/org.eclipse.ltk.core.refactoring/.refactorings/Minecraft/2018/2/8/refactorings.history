@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;BananaBlock.java&apos; to &apos;Minecraft/src/main/java/com.pikachu923.BananaCraft.block&apos;&#x0A;- Original project: &apos;Minecraft&apos;&#x0A;- Destination element: &apos;Minecraft/src/main/java/com.pikachu923.BananaCraft.block&apos;&#x0A;- Original element: &apos;com.pikachu923.BananaCraft.block.BananaBlock.java&apos;" description="Copy compilation unit" destination="/src\/main\/java&lt;com.pikachu923.BananaCraft.block" element1="/src\/main\/java&lt;com.pikachu923.BananaCraft.block{BananaBlock.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1519246705562" units="1" version="1.0"/>
+</session>

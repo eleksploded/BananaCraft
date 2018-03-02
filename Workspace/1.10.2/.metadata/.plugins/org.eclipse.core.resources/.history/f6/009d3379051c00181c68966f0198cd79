@@ -1,0 +1,34 @@
+package com.pikachu923.BananaCraft.armor;
+
+import com.pikachu923.BananaCraft.reference.Reference;
+
+import net.minecraft.entity.Entity;
+import net.minecraft.inventory.EntityEquipmentSlot;
+import net.minecraft.item.ItemArmor;
+import net.minecraft.item.ItemStack;
+
+public class BananaArmor extends ItemArmor {
+
+	public String textureName;
+	static EntityEquipmentSlot type = null;
+	
+	public BananaArmor(String unlocalizedName, ArmorMaterial material, String textureName, int type1) {
+	    super(material, 0, type);
+	    if(type1==0){
+			 type = EntityEquipmentSlot.HEAD;
+		} else if(type1==1){
+			 type = EntityEquipmentSlot.CHEST;
+		} else if(type1==2){
+			 type = EntityEquipmentSlot.LEGS;
+		} else if(type1==3){
+			 type = EntityEquipmentSlot.FEET;
+		} else {
+			 type = null;
+		}
+	    this.textureName = textureName;
+	    this.setUnlocalizedName(Reference.RESOURCE_PREFIX + unlocalizedName);
+	    this.setCreativeTab(Reference.CreativeTab);
+	}
+	
+
+}

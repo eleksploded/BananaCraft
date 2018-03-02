@@ -1,0 +1,61 @@
+package com.pikachu923.BananaCraft.init;
+
+import com.pikachu923.BananaCraft.Gen.BananaBiomeGen;
+import com.pikachu923.BananaCraft.Gen.OreGen;
+import com.pikachu923.BananaCraft.Projectiles.BananaBomb0.BananaBomb;
+import com.pikachu923.BananaCraft.Projectiles.BananaBomb0.EntityBananaBomb;
+import com.pikachu923.BananaCraft.Projectiles.BananaBomb1.BananaBomb1;
+import com.pikachu923.BananaCraft.Projectiles.BananaBomb1.EntityBananaBomb1;
+import com.pikachu923.BananaCraft.Projectiles.BananaBomb2.BananaBomb2;
+import com.pikachu923.BananaCraft.Projectiles.BananaBomb2.EntityBananaBomb2;
+import com.pikachu923.BananaCraft.Projectiles.BananaBomb3.BananaBomb3;
+import com.pikachu923.BananaCraft.Projectiles.BananaBomb3.EntityBananaBomb3;
+import com.pikachu923.BananaCraft.reference.Reference;
+import com.pikachu923.BananaCraft.utility.func;
+
+import net.minecraft.util.DamageSource;
+import net.minecraft.world.biome.Biome;
+import net.minecraftforge.common.BiomeManager;
+import net.minecraftforge.fml.common.registry.EntityRegistry;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+
+public class Other{
+	public static final BananaBomb BananaBomb0 = new BananaBomb("BananaBomb", 5F); 
+	public static final BananaBomb1 BananaBomb1 = new BananaBomb1("BananaBomb1", 7.5F); 
+	public static final BananaBomb2 BananaBomb2 = new BananaBomb2("BananaBomb2", 10F); 
+	public static final BananaBomb3 BananaBomb3 = new BananaBomb3("BananaBomb3", 12.5F); 
+	public static final DamageSource Boss = (new DamageSource("Boss"));
+	
+public static void init() {
+		Tier1Items.BananaLifeCore.setContainerItem(Tier1Items.BananaLifeCore);
+		Tier1Items.BananaLifeCore.setMaxStackSize(1);
+		Tier3Items.Purifier.setContainerItem(Tier3Items.Purifier).setMaxStackSize(1);
+		
+		GameRegistry.registerWorldGenerator(new OreGen(), 0);
+		
+		
+		func.registerItem(BananaBomb0, "BananaBomb");
+		func.registerItem(BananaBomb1, "BananaBomb1");
+		func.registerItem(BananaBomb2, "BananaBomb2");
+		func.registerItem(BananaBomb3, "BananaBomb3");
+		
+		EntityRegistry.registerGlobalEntityID(EntityBananaBomb.class, "BananaBomb", EntityRegistry.findGlobalUniqueEntityId());
+	    EntityRegistry.registerModEntity(EntityBananaBomb.class, "BananaBomb", 2, Reference.MOD_ID, 256, 1, true);
+	    
+	    EntityRegistry.registerGlobalEntityID(EntityBananaBomb1.class, "BananaBomb1", EntityRegistry.findGlobalUniqueEntityId());
+	    EntityRegistry.registerModEntity(EntityBananaBomb1.class, "BananaBomb1", 3, Reference.MOD_ID, 256, 1, true);
+	    
+	    EntityRegistry.registerGlobalEntityID(EntityBananaBomb2.class, "BananaBomb2", EntityRegistry.findGlobalUniqueEntityId());
+	    EntityRegistry.registerModEntity(EntityBananaBomb2.class, "BananaBomb2", 4, Reference.MOD_ID, 256, 1, true);
+	    
+	    EntityRegistry.registerGlobalEntityID(EntityBananaBomb3.class, "BananaBomb3", EntityRegistry.findGlobalUniqueEntityId());
+	    EntityRegistry.registerModEntity(EntityBananaBomb3.class, "BananaBomb3", 5, Reference.MOD_ID, 256, 1, true);
+	    
+	    
+	    
+	    //BiomeManager.addSpawnBiome(BananaBiome);
+	    //BiomeDictionary.registerBiomeType(BananaBiome, BiomeDictionary.Type.PLAINS);
+	    //LogHelper.Log(BiomeManager.getBiomes(BiomeType.WARM).toString());
+	    Biome.registerBiome(1023, "Banana Biome", new BananaBiomeGen());
+	}
+}
