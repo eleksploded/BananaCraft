@@ -1,3 +1,75 @@
-[13:17:33] [Client thread/INFO]: Setting user: Player916
-[13:17:38] [Client thread/INFO]: LWJGL Version: 2.9.2
-[13:17:43] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:BananaCraft
+[21:01:17] [Client thread/INFO]: Setting user: Player463
+[21:01:21] [Client thread/WARN]: Skipping bad option: lastServer:
+[21:01:21] [Client thread/INFO]: LWJGL Version: 2.9.2
+[21:01:24] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:BananaCraft
+[21:01:28] [Client thread/WARN]: File minecraft:sounds/Kuala/Hurt.ogg does not exist, cannot add it to event bananacraft:mob.Kuala.Hurt
+[21:01:28] [Client thread/WARN]: File minecraft:sounds/Kuala/Living.ogg does not exist, cannot add it to event bananacraft:mob.Kuala.Living
+[21:01:28] [Client thread/WARN]: File minecraft:sounds/Items/BananaGunFire.ogg does not exist, cannot add it to event bananacraft:Items.BananaGunFire
+[21:01:28] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[21:01:28] [Thread-6/INFO]: Initializing LWJGL OpenAL
+[21:01:28] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[21:01:29] [Thread-6/INFO]: OpenAL initialized.
+[21:01:29] [Sound Library Loader/INFO]: Sound engine started
+[21:01:33] [Client thread/INFO]: Created: 16x16 textures-atlas
+[21:01:34] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:BananaCraft
+[21:01:38] [Client thread/WARN]: File minecraft:sounds/Kuala/Hurt.ogg does not exist, cannot add it to event bananacraft:mob.Kuala.Hurt
+[21:01:38] [Client thread/WARN]: File minecraft:sounds/Kuala/Living.ogg does not exist, cannot add it to event bananacraft:mob.Kuala.Living
+[21:01:38] [Client thread/WARN]: File minecraft:sounds/Items/BananaGunFire.ogg does not exist, cannot add it to event bananacraft:Items.BananaGunFire
+[21:01:38] [Client thread/INFO]: SoundSystem shutting down...
+[21:01:38] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[21:01:38] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[21:01:38] [Thread-8/INFO]: Initializing LWJGL OpenAL
+[21:01:38] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[21:01:38] [Thread-8/INFO]: OpenAL initialized.
+[21:01:38] [Sound Library Loader/INFO]: Sound engine started
+[21:01:41] [Client thread/INFO]: Created: 512x512 textures-atlas
+[21:01:42] [Client thread/WARN]: Skipping bad option: lastServer:
+[21:01:43] [Client thread/WARN]: Unable to start LAN server detection: Can't assign requested address
+[21:01:45] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[21:01:47] [Server thread/INFO]: Starting integrated minecraft server version 1.10.2
+[21:01:47] [Server thread/INFO]: Generating keypair
+[21:01:47] [Server thread/INFO]: Preparing start region for level 0
+[21:01:48] [Server thread/INFO]: Preparing spawn area: 5%
+[21:01:49] [Server thread/INFO]: Preparing spawn area: 97%
+[21:01:49] [Server thread/INFO]: Changing view distance to 12, from 10
+[21:01:51] [Server thread/INFO]: Player463[local:E:86d1c884] logged in with entity id 295 at (-201.93831434886098, 65.0, 79.53379546182359)
+[21:01:51] [Server thread/INFO]: Player463 joined the game
+[21:01:53] [Server thread/INFO]: Saving and pausing game...
+[21:01:53] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[21:01:53] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[21:01:53] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[21:01:53] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@e1de6f5[id=6256f6e3-2e58-3651-998e-2564a0b2a631,name=Player463,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:65) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:175) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:59) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:56) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3524) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2317) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3934) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3938) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827) [guava-17.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:165) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:3060) [Minecraft.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:131) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_144]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_144]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_144]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_144]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
+[21:02:08] [Server thread/INFO]: Saving and pausing game...
+[21:02:08] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[21:02:08] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[21:02:08] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[21:02:08] [Server thread/INFO]: Stopping server
+[21:02:08] [Server thread/INFO]: Saving players
+[21:02:08] [Server thread/INFO]: Saving worlds
+[21:02:08] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[21:02:08] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[21:02:08] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[21:02:09] [Client thread/INFO]: Stopping!
+[21:02:09] [Client thread/INFO]: SoundSystem shutting down...
+[21:02:10] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

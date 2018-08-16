@@ -6,14 +6,11 @@
 <fullyQualifiedTypeName name="net.minecraft.util.EnumParticleTypes"/>
 <fullyQualifiedTypeName name="net.minecraftforge.event.entity.player.PlayerEvent"/>
 <fullyQualifiedTypeName name="net.minecraftforge.fml.common.gameevent.PlayerEvent"/>
-<fullyQualifiedTypeName name="net.minecraft.item.Item"/>
 <fullyQualifiedTypeName name="com.pikachu923.BananaCraft.utility.func"/>
 <fullyQualifiedTypeName name="net.minecraft.world.biome.Biome"/>
 <fullyQualifiedTypeName name="net.minecraft.world.biome.Biome.BiomeProperties"/>
 <fullyQualifiedTypeName name="net.minecraft.entity.monster.EntityCreeper"/>
 <fullyQualifiedTypeName name="net.minecraftforge.fml.common.eventhandler.EventBus"/>
-<fullyQualifiedTypeName name="net.minecraft.block.material.Material"/>
-<fullyQualifiedTypeName name="net.minecraft.inventory.Container"/>
 <fullyQualifiedTypeName name="net.minecraft.util.ITickable"/>
 <fullyQualifiedTypeName name="java.awt.List"/>
 <fullyQualifiedTypeName name="net.minecraft.tileentity.TileEntityLockable"/>
@@ -21,4 +18,20 @@
 <fullyQualifiedTypeName name="net.minecraft.potion.PotionEffect"/>
 <fullyQualifiedTypeName name="net.minecraft.block.SoundType"/>
 <fullyQualifiedTypeName name="net.minecraft.init.MobEffects"/>
+<fullyQualifiedTypeName name="net.minecraft.inventory.Slot"/>
+<fullyQualifiedTypeName name="net.minecraft.block.Block"/>
+<fullyQualifiedTypeName name="com.pikachu923.BananaCraft.reference.Reference"/>
+<fullyQualifiedTypeName name="net.minecraft.block.BlockContainer"/>
+<fullyQualifiedTypeName name="net.minecraft.world.World"/>
+<fullyQualifiedTypeName name="net.minecraft.tileentity.TileEntity"/>
+<fullyQualifiedTypeName name="net.minecraft.item.Item"/>
+<fullyQualifiedTypeName name="net.minecraft.inventory.Container"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="net.minecraft.block.material.Material"/>
+<fullyQualifiedTypeName name="net.minecraft.util.Rotation"/>
+<fullyQualifiedTypeName name="net.minecraft.util.Mirror"/>
+<fullyQualifiedTypeName name="javax.annotation.Nullable"/>
+<fullyQualifiedTypeName name="com.pikachu923.BananaCraft.init.Tier1Blocks"/>
+<fullyQualifiedTypeName name="net.minecraft.inventory.SlotFurnaceFuel"/>
+<fullyQualifiedTypeName name="com.pikachu923.BananaCraft.block.TileBananaIngotizer"/>
 </qualifiedTypeNameHistroy>

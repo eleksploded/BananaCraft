@@ -1,7 +1,7 @@
-package com.pikachu923.BananaCraft.CreativeTab;
+package com.eleksploded.BananaCraft.CreativeTab;
 
-import com.pikachu923.BananaCraft.init.Tier1Items;
-import com.pikachu923.BananaCraft.reference.Reference;
+import com.eleksploded.BananaCraft.init.Tier1Items;
+import com.eleksploded.BananaCraft.reference.Reference;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;

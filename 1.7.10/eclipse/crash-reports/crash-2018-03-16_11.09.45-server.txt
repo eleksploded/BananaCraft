@@ -1,0 +1,104 @@
+---- Minecraft Crash Report ----
+// Hey, that tickles! Hehehe!
+
+Time: 3/16/18 11:09 AM
+Description: Ticking entity
+
+java.lang.NoClassDefFoundError: net/minecraft/entity/boss/BossStatus
+	at com.eleksploded.BananaCraft.Entity.BananaBoss.BossEntity.onLivingUpdateClient(BossEntity.java:100)
+	at com.eleksploded.BananaCraft.Entity.BananaBoss.BossEntity.onLivingUpdate(BossEntity.java:110)
+	at net.minecraft.entity.EntityLivingBase.onUpdate(EntityLivingBase.java:1816)
+	at net.minecraft.entity.EntityLiving.onUpdate(EntityLiving.java:250)
+	at net.minecraft.entity.monster.EntityMob.onUpdate(EntityMob.java:47)
+	at com.eleksploded.BananaCraft.Entity.BananaBoss.BossEntity.onUpdate(BossEntity.java:263)
+	at net.minecraft.world.World.updateEntityWithOptionalForce(World.java:2298)
+	at net.minecraft.world.WorldServer.updateEntityWithOptionalForce(WorldServer.java:684)
+	at net.minecraft.world.World.updateEntity(World.java:2258)
+	at net.minecraft.world.World.updateEntities(World.java:2108)
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:515)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:703)
+	at net.minecraft.server.dedicated.DedicatedServer.updateTimeLightAndEntities(DedicatedServer.java:349)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:614)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:485)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:752)
+Caused by: java.lang.ClassNotFoundException: net.minecraft.entity.boss.BossStatus
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 16 more
+Caused by: java.lang.RuntimeException: Attempted to load class net/minecraft/entity/boss/BossStatus for invalid side SERVER
+	at cpw.mods.fml.common.asm.transformers.SideTransformer.transform(SideTransformer.java:50)
+	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279)
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176)
+	... 18 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at com.eleksploded.BananaCraft.Entity.BananaBoss.BossEntity.onLivingUpdateClient(BossEntity.java:100)
+	at com.eleksploded.BananaCraft.Entity.BananaBoss.BossEntity.onLivingUpdate(BossEntity.java:110)
+	at net.minecraft.entity.EntityLivingBase.onUpdate(EntityLivingBase.java:1816)
+	at net.minecraft.entity.EntityLiving.onUpdate(EntityLiving.java:250)
+	at net.minecraft.entity.monster.EntityMob.onUpdate(EntityMob.java:47)
+	at com.eleksploded.BananaCraft.Entity.BananaBoss.BossEntity.onUpdate(BossEntity.java:263)
+	at net.minecraft.world.World.updateEntityWithOptionalForce(World.java:2298)
+	at net.minecraft.world.WorldServer.updateEntityWithOptionalForce(WorldServer.java:684)
+	at net.minecraft.world.World.updateEntity(World.java:2258)
+
+-- Entity being ticked --
+Details:
+	Entity Type: BananaBoss (com.eleksploded.BananaCraft.Entity.BananaBoss.BossEntity)
+	Entity ID: 1553
+	Entity Name: Banana Boss
+	Entity's Exact location: -31.00, 63.00, 20.00
+	Entity's Block location: World: (-31,63,20), Chunk: (at 1,3,4 in -2,1; contains blocks -32,0,16 to -17,255,31), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
+	Entity's Momentum: 0.00, 0.00, 0.00
+Stacktrace:
+	at net.minecraft.world.World.updateEntities(World.java:2108)
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:515)
+
+-- Affected level --
+Details:
+	Level name: world
+	All players: 1 total; [EntityPlayerMP['Player437'/992, l='world', x=-29.55, y=66.00, z=18.88]]
+	Chunk stats: ServerChunkCache: 526 Drop: 0
+	Level seed: 6220552091512448125
+	Level generator: ID 00 - default, ver 1. Features enabled: true
+	Level generator options: 
+	Level spawn location: World: (-21,64,14), Chunk: (at 11,4,14 in -2,0; contains blocks -32,0,0 to -17,255,15), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
+	Level time: 3387 game time, 3387 day time
+	Level dimension: 0
+	Level storage version: 0x04ABD - Anvil
+	Level weather: Rain time: 136554 (now: false), thunder time: 16719 (now: false)
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:703)
+	at net.minecraft.server.dedicated.DedicatedServer.updateTimeLightAndEntities(DedicatedServer.java:349)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:614)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:485)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:752)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Mac OS X (x86_64) version 10.13.1
+	Java Version: 1.8.0_144, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 938675616 bytes (895 MB) / 1038876672 bytes (990 MB) up to 1038876672 bytes (990 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 12, tallocated: 94
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1614 4 mods loaded, 4 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAAAA	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAAAA	FML{7.10.99.99} [Forge Mod Loader] (forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar) 
+	UCHIJAAAA	Forge{10.13.4.1614} [Minecraft Forge] (forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar) 
+	UCHIJAAAA	BananaCraft{1.7.10-Dev21} [BananaCraft] (bin) 
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Player Count: 1 / 20; [EntityPlayerMP['Player437'/992, l='world', x=-29.55, y=66.00, z=18.88]]
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)

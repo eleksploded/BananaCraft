@@ -2,27 +2,37 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="getX" key="selection"/>
+		<item value="Purified" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="getx"/>
-			<item value="x"/>
-			<item value="tick"/>
-			<item value="randomT"/>
-			<item value="random"/>
-			<item value="click"/>
+			<item value="Tier3"/>
+			<item value="Corrupt"/>
+			<item value="entityplayermp"/>
+			<item value="Purifed"/>
+			<item value="gold"/>
+			<item value="goldf"/>
+			<item value="onB"/>
+			<item value="on"/>
 		</list>
 		<list key="replacehistory">
+			<item value="Purified"/>
+			<item value="player"/>
+			<item value="Tier1Items.BananaStick"/>
+			<item value="z"/>
+			<item value="y"/>
+			<item value="x"/>
+			<item value="rand"/>
+			<item value="world"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="269" key="DIALOG_WIDTH"/>
 		<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Medium" key="DIALOG_FONT_NAME"/>
 		<item value="399" key="DIALOG_HEIGHT"/>
-		<item value="1033" key="DIALOG_X_ORIGIN"/>
-		<item value="87" key="DIALOG_Y_ORIGIN"/>
+		<item value="26" key="DIALOG_X_ORIGIN"/>
+		<item value="152" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

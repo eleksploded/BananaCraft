@@ -1,0 +1,103 @@
+---- Minecraft Crash Report ----
+// Hi. I'm Minecraft, and I'm a crashaholic.
+
+Time: 3/8/18 12:32 PM
+Description: Ticking entity
+
+java.lang.OutOfMemoryError: Java heap space
+	at java.util.HashMap.resize(HashMap.java:703)
+	at java.util.HashMap.putVal(HashMap.java:662)
+	at java.util.HashMap.put(HashMap.java:611)
+	at java.util.HashSet.add(HashSet.java:219)
+	at net.minecraft.world.Explosion.doExplosionA(Explosion.java:101)
+	at net.minecraft.world.WorldServer.newExplosion(WorldServer.java:973)
+	at net.minecraft.world.World.createExplosion(World.java:2655)
+	at com.eleksploded.BananaCraft.Projectiles.BananaBomb3.EntityBananaBomb3.explode(EntityBananaBomb3.java:59)
+	at com.eleksploded.BananaCraft.Projectiles.BananaBomb3.EntityBananaBomb3.onImpact(EntityBananaBomb3.java:53)
+	at net.minecraft.entity.projectile.EntityThrowable.onUpdate(EntityThrowable.java:229)
+	at net.minecraft.world.World.updateEntityWithOptionalForce(World.java:2298)
+	at net.minecraft.world.WorldServer.updateEntityWithOptionalForce(WorldServer.java:684)
+	at net.minecraft.world.World.updateEntity(World.java:2258)
+	at net.minecraft.world.World.updateEntities(World.java:2108)
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:515)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:703)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:614)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:118)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:485)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:752)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at java.util.HashMap.resize(HashMap.java:703)
+	at java.util.HashMap.putVal(HashMap.java:662)
+	at java.util.HashMap.put(HashMap.java:611)
+	at java.util.HashSet.add(HashSet.java:219)
+	at net.minecraft.world.Explosion.doExplosionA(Explosion.java:101)
+	at net.minecraft.world.WorldServer.newExplosion(WorldServer.java:973)
+	at net.minecraft.world.World.createExplosion(World.java:2655)
+	at com.eleksploded.BananaCraft.Projectiles.BananaBomb3.EntityBananaBomb3.explode(EntityBananaBomb3.java:59)
+	at com.eleksploded.BananaCraft.Projectiles.BananaBomb3.EntityBananaBomb3.onImpact(EntityBananaBomb3.java:53)
+	at net.minecraft.entity.projectile.EntityThrowable.onUpdate(EntityThrowable.java:229)
+	at net.minecraft.world.World.updateEntityWithOptionalForce(World.java:2298)
+	at net.minecraft.world.WorldServer.updateEntityWithOptionalForce(WorldServer.java:684)
+	at net.minecraft.world.World.updateEntity(World.java:2258)
+
+-- Entity being ticked --
+Details:
+	Entity Type: BananaBomb3 (com.eleksploded.BananaCraft.Projectiles.BananaBomb3.EntityBananaBomb3)
+	Entity ID: 1429
+	Entity Name: entity.BananaBomb3.name
+	Entity's Exact location: -23.56, 65.54, 334.56
+	Entity's Block location: World: (-24,65,334), Chunk: (at 8,4,14 in -2,20; contains blocks -32,0,320 to -17,255,335), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
+	Entity's Momentum: -0.16, -1.64, 0.25
+Stacktrace:
+	at net.minecraft.world.World.updateEntities(World.java:2108)
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:515)
+
+-- Affected level --
+Details:
+	Level name: Copy of New World
+	All players: 1 total; [EntityPlayerMP['Player229'/845, l='Copy of New World', x=-21.56, y=81.07, z=331.70]]
+	Chunk stats: ServerChunkCache: 738 Drop: 0
+	Level seed: -2306855758494368065
+	Level generator: ID 00 - default, ver 1. Features enabled: true
+	Level generator options: 
+	Level spawn location: World: (-152,64,256), Chunk: (at 8,4,0 in -10,16; contains blocks -160,0,256 to -145,255,271), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
+	Level time: 18714 game time, 5998 day time
+	Level dimension: 0
+	Level storage version: 0x04ABD - Anvil
+	Level weather: Rain time: 101963 (now: false), thunder time: 76043 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:703)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:614)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:118)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:485)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:752)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Mac OS X (x86_64) version 10.13.1
+	Java Version: 1.8.0_144, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 97789392 bytes (93 MB) / 1038876672 bytes (990 MB) up to 1038876672 bytes (990 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 12, tallocated: 94
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1614 4 mods loaded, 4 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAAAA	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAAAA	FML{7.10.99.99} [Forge Mod Loader] (forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar) 
+	UCHIJAAAA	Forge{10.13.4.1614} [Minecraft Forge] (forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar) 
+	UCHIJAAAA	BananaCraft{1.7.10-Dev20D} [BananaCraft] (bin) 
+	GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Player Count: 1 / 8; [EntityPlayerMP['Player229'/845, l='Copy of New World', x=-21.56, y=81.07, z=331.70]]
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fml,forge'

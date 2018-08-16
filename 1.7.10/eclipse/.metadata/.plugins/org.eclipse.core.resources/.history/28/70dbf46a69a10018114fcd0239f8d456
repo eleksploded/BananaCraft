@@ -1,0 +1,187 @@
+package com.eleksploded.BananaCraft.block;
+
+import com.eleksploded.BananaCraft.init.Tier1Blocks;
+import com.eleksploded.BananaCraft.init.Tier2Blocks;
+import com.eleksploded.BananaCraft.init.Tier3Blocks;
+import com.eleksploded.BananaCraft.reference.Reference;
+
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.client.renderer.texture.IIconRegister;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.item.EntityTNTPrimed;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.init.Blocks;
+import net.minecraft.item.ItemStack;
+import net.minecraft.util.ChatComponentText;
+import net.minecraft.util.IIcon;
+import net.minecraft.world.World;
+
+public class CorruptCore extends Block {
+	String unlocalName;
+	String Texture;
+
+	public IIcon Side0;
+	public IIcon Side1;
+	public IIcon Side2;
+	public IIcon Side3;
+	public IIcon Side4;
+	public IIcon Side5;
+
+	public CorruptCore(String unlocalName){
+		super(Material.rock);
+		this.setHardness(3.0F);
+		this.setBlockName(Reference.RESOURCE_PREFIX + unlocalName);
+		Texture = Reference.RESOURCE_PREFIX + unlocalName;
+		this.setCreativeTab(Reference.CreativeTab);
+	}
+	@Override
+	@SideOnly(Side.CLIENT)
+	public void registerBlockIcons(IIconRegister icon){
+		//Bottom
+		Side0 = icon.registerIcon(Texture + "_side2");
+		//top
+		Side1 = icon.registerIcon(Texture + "_side2");
+		//sides
+		Side2 = icon.registerIcon(Texture + "_side2");
+		Side3 = icon.registerIcon(Texture + "_side2");
+		Side4 = icon.registerIcon(Texture + "_side1");
+		Side5 = icon.registerIcon(Texture + "_side1");
+	}
+	public IIcon getIcon(int side, int meta){
+		if(side == 0){
+			return Side0;
+		}else if(side == 1){
+			return Side1;
+		}else if(side == 2){
+			return Side2;
+		}else if(side == 3){
+			return Side3;
+		}else if(side == 4){
+			return Side4;
+		}else if(side == 5){
+			return Side5;
+		}
+		return null;
+	}
+
+	public void complete(World world, int x, int y, int z, EntityPlayer player){
+		world.playSoundEffect(x, y, z, "random.explode", 1F, 1F);
+		world.spawnParticle("hugeexplosion", x, y + 1, z, 0.0D, 0.0D, 0.0D);
+		boolean good = true;
+		if(world.getBlock(x+2, y+2, z+2) != Tier1Blocks.BananaBlock){
+			world.createExplosion(player, x, y, z, 9.0F, true);
+			good = false;
+		}	
+		if(world.getBlock(x+2, y+2, z-2) != Tier1Blocks.BananaBlock){
+			world.createExplosion(player, x, y, z, 9.0F, true);
+			good = false;
+		}	
+		if(world.getBlock(x-2, y+2, z+2) != Tier1Blocks.BananaBlock){	
+			world.createExplosion(player, x, y, z, 9.0F, true);
+			good = false;
+		}	
+		if(world.getBlock(x-2, y+2, z-2) != Tier1Blocks.BananaBlock){
+			world.createExplosion(player, x, y, z, 9.0F, true);
+			good = false;
+		}
+		if(good){
+			world.setBlock(x+2, y, z, Blocks.air);
+			world.setBlock(x-2, y, z, Blocks.air);
+			world.setBlock(x, y, z+2, Blocks.air);
+			world.setBlock(x, y, z-2, Blocks.air);
+			world.setBlock(x, y+1, z, Blocks.air);
+			world.setBlock(x+1, y, z-1, Blocks.air);
+			world.setBlock(x+1, y, z+1, Blocks.air);
+			world.setBlock(x-1, y, z+1, Blocks.air);
+			world.setBlock(x-1, y, z-1, Blocks.air);
+			world.setBlock(x+2, y, z-2, Tier3Blocks.CorruptBlock);
+			world.setBlock(x+2, y, z+2, Tier3Blocks.CorruptBlock);
+			world.setBlock(x-2, y, z+2, Tier3Blocks.CorruptBlock);
+			world.setBlock(x-2, y, z-2, Tier3Blocks.CorruptBlock);
+			world.setBlock(x+2, y+2, z-2, Tier2Blocks.AwakenedBlock);
+			world.setBlock(x+2, y+2, z+2, Tier2Blocks.AwakenedBlock);
+			world.setBlock(x-2, y+2, z+2, Tier2Blocks.AwakenedBlock);
+			world.setBlock(x-2, y+2, z-2, Tier2Blocks.AwakenedBlock);
+		}
+	}
+
+	public boolean onBlockActivated(World world, int x, int y, int z, EntityPlayer player, int meta, float px, float py, float pz)
+	{
+		ItemStack itemstack = player.getHeldItem();
+		if(itemstack == null){
+			if(world.getBlock(x+2, y, z) == Blocks.gold_block){
+				if(world.getBlock(x-2, y, z) == Blocks.gold_block){
+					if(world.getBlock(x, y, z+2) == Blocks.gold_block){
+						if(world.getBlock(x, y, z-2) == Blocks.gold_block){
+							if(world.getBlock(x+2, y, z+2) == Tier2Blocks.AwakenedBlock){
+								if(world.getBlock(x+2, y, z-2) == Tier2Blocks.AwakenedBlock){
+									if(world.getBlock(x-2, y, z+2) == Tier2Blocks.AwakenedBlock){
+										if(world.getBlock(x-2, y, z+2) == Tier2Blocks.AwakenedBlock){
+											if(world.getBlock(x+1, y, z+1) == Tier1Blocks.BananaBlock){
+												if(world.getBlock(x+1, y, z-1) == Tier1Blocks.BananaBlock){
+													if(world.getBlock(x-1, y, z+1) == Tier1Blocks.BananaBlock){
+														if(world.getBlock(x-1, y, z-1) == Tier1Blocks.BananaBlock){
+															if(world.getBlock(x+2, y+1, z+2) == Tier2Blocks.AwakenedBlock){
+																if(world.getBlock(x+2, y+1, z-2) == Tier2Blocks.AwakenedBlock){
+																	if(world.getBlock(x-2, y+1, z+2) == Tier2Blocks.AwakenedBlock){
+																		if(world.getBlock(x-2, y+1, z-2) == Tier2Blocks.AwakenedBlock){
+																			if(world.getBlock(x, y+1, z) == Blocks.diamond_block){
+																				complete(world, x, y, z, player);
+																			} else {
+																				player.addChatMessage(new ChatComponentText("Missing Diamond Block at " + x + " " + (y+1) + " " + z));
+																			}
+																		} else {
+																			player.addChatMessage(new ChatComponentText("Missing Awakened Block at " + (x-2) + " " + (y+1) + " " + (z-2)));
+																		}
+																	} else {
+																		player.addChatMessage(new ChatComponentText("Missing Awakened Block " + (x-2) + " " + (y+1) + " " + (z+2)));
+																	}
+																} else {
+																	player.addChatMessage(new ChatComponentText("Missing Awakened Block " + (x+2) + " " + (y+1) + " " + (z-2)));
+																}
+															} else {
+																player.addChatMessage(new ChatComponentText("Missing Awakened Block " + (x+2) + " " + (y+1) + " " + (z+2)));
+															}
+														} else {
+															player.addChatMessage(new ChatComponentText("Missing Banana Block " + (x-1) + " " + (y) + " " + (z-1)));
+														}
+													} else {
+														player.addChatMessage(new ChatComponentText("Missing Banana Block " + (x-1) + " " + (y) + " " + (z+1)));
+													}
+												} else {
+													player.addChatMessage(new ChatComponentText("Missing Banana Block " + (x+1) + " " + (y) + " " + (z-1)));
+												}
+											} else {
+												player.addChatMessage(new ChatComponentText("Missing Banana Block " + (x+1) + " " + (y) + " " + (z+1)));
+											}
+										} else {
+											player.addChatMessage(new ChatComponentText("Missing Awakened Block " + x + " " + (y) + " " + z));
+										}
+									} else {
+										player.addChatMessage(new ChatComponentText("Missing Awakened Block " + (x-2) + " " + (y) + " " + (z+2)));
+									}
+								} else {
+									player.addChatMessage(new ChatComponentText("Missing Awakened Block " + (x+2) + " " + (y) + " " + (z-2)));
+								}
+							} else {
+								player.addChatMessage(new ChatComponentText("Missing Awakened Block " + (x+2) + " " + (y) + " " + (z+2)));
+							}
+						} else {
+							player.addChatMessage(new ChatComponentText("Missing Gold Block " + x + " " + (y) + " " + (z-2)));
+						}
+					} else	{
+						player.addChatMessage(new ChatComponentText("Missing Gold Block " + x + " " + (y) + " " + (z+2)));
+					}
+				} else {
+					player.addChatMessage(new ChatComponentText("Missing Gold Block " + (x-2) + " " + (y) + " " + z));
+				}
+			} else {
+				player.addChatMessage(new ChatComponentText("Missing Gold Block " + (x+2) + " " + (y) + " " + z));
+			}
+		}
+		return false;
+	}
+}

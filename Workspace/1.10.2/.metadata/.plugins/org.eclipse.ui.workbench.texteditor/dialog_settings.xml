@@ -2,25 +2,30 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="Sound" key="selection"/>
+		<item value="inventory" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="sound"/>
-			<item value="getIte"/>
-			<item value="container"/>
-			<item value="potion"/>
-			<item value="name"/>
-			<item value="obsidian"/>
-			<item value="stone"/>
-			<item value="RenderC"/>
+			<item value="furnaceInventory"/>
+			<item value="isItemValid"/>
+			<item value="fuel"/>
+			<item value="coal"/>
+			<item value="Items"/>
+			<item value="Tiems"/>
+			<item value="FurnaceRecipes"/>
+			<item value="recipe"/>
 		</list>
 		<list key="replacehistory">
-			<item value="OBSIDIAN"/>
-			<item value="STONE"/>
-			<item value="func"/>
+			<item value="inventory"/>
+			<item value="IngotizerRecipies"/>
+			<item value="TileBananaIngotizer"/>
+			<item value="INGOTIZER_GUI"/>
+			<item value="ingotizer"/>
+			<item value="ingotizerItemStacks"/>
+			<item value=""/>
+			<item value="BananaIngotizer"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
