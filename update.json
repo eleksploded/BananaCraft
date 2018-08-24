@@ -1,0 +1,7 @@
+{ 
+        "homepage": "https://minecraft.curseforge.com/projects/bananacraft", 
+        "1.7.10": {
+                "Dev23B": "Test",
+                "Dev24": "Test2"
+       }
+} 
